@@ -1,0 +1,2130 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e9ed86e6-10b5-4e6b-944b-7fb4cc71339b")
+	(paper "A4")
+	(title_block
+		(title "XT60 Hub")
+		(date "2025-04-02")
+		(rev "ver1.0")
+		(company "阿南高専ロボット研究部")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 151.765 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4ecc1e-1aea-4797-8419-77100ad34d4b")
+	)
+	(junction
+		(at 178.435 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608f9948-e2c3-4017-943b-5adf37625b35")
+	)
+	(junction
+		(at 175.895 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a76c732-2193-4866-b70c-c4abb05950c5")
+	)
+	(junction
+		(at 149.225 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b2bca39-4725-4d54-ad44-cf91c5489e2d")
+	)
+	(junction
+		(at 122.555 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f01f6c1-2c32-4c9e-9c50-c636c7b1b042")
+	)
+	(junction
+		(at 125.095 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d22183-fa74-4586-8130-8ef58b4c2a3a")
+	)
+	(junction
+		(at 138.43 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2577c75-b6f6-4973-9c05-1feca81ae901")
+	)
+	(junction
+		(at 162.56 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be6cdbe3-e51a-4c15-8f70-dc8d29d7b8c6")
+	)
+	(junction
+		(at 165.1 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0658a0-0ee9-48c3-948d-1d0c5220222d")
+	)
+	(junction
+		(at 135.89 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d063c495-02fa-4714-aa33-bbcd5b82c861")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.265) (xy 162.56 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d2931e-35a2-41b2-a6e4-6a4fc2bc4fda")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.265) (xy 135.89 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f302f8c-5b44-42f4-aac9-e41819d29e33")
+	)
+	(wire
+		(pts
+			(xy 175.895 86.995) (xy 175.895 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30954f34-9abe-4bc5-8312-b7fbe7dc84b7")
+	)
+	(wire
+		(pts
+			(xy 149.225 88.265) (xy 149.225 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a4d3af-fc30-45fe-8d34-471e1573f34f")
+	)
+	(wire
+		(pts
+			(xy 151.765 90.805) (xy 165.1 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327a61e2-d85c-4b36-9211-458386fac56c")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.995) (xy 109.22 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fcf7c8-28c2-4af6-83cc-bd771c62584f")
+	)
+	(wire
+		(pts
+			(xy 188.595 88.265) (xy 175.895 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d84d08-cf82-49d9-bcdd-7e9beaac56f8")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.265) (xy 122.555 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e26bfb-8e20-4bd6-a876-97f0bb27e01b")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.805) (xy 125.095 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43254013-22d8-41d9-b5e1-24e75aa2f068")
+	)
+	(wire
+		(pts
+			(xy 178.435 86.995) (xy 178.435 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c01a9d-a085-44f8-9bff-ac3b246514c3")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.265) (xy 149.225 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609c8fe1-281d-41ab-82f3-21439caeda13")
+	)
+	(wire
+		(pts
+			(xy 188.595 90.805) (xy 178.435 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0144c5-016e-4fb2-ae2a-d2dc5e2818f6")
+	)
+	(wire
+		(pts
+			(xy 122.555 88.265) (xy 135.89 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f98fcb8-1ad0-421a-9e86-5cbeaf7a8201")
+	)
+	(wire
+		(pts
+			(xy 149.225 88.265) (xy 162.56 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c7ff68-169b-40be-9e84-60971d0e8fa7")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.995) (xy 138.43 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b815677-d266-4fb0-9179-e73670855c27")
+	)
+	(wire
+		(pts
+			(xy 122.555 86.995) (xy 122.555 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efb4f50-6793-4e08-b52c-24a991804e1f")
+	)
+	(wire
+		(pts
+			(xy 125.095 90.805) (xy 138.43 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9186b21a-6f7b-4e04-b6fc-f02122f8d431")
+	)
+	(wire
+		(pts
+			(xy 125.095 86.995) (xy 125.095 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e29eef-db8f-4735-b36a-f4522f4cac98")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.265) (xy 175.895 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27676e3-8ca3-48d5-ba49-cf26fd924c70")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.995) (xy 165.1 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ddc39c-810f-444d-aced-dc6b3793dff1")
+	)
+	(wire
+		(pts
+			(xy 151.765 86.995) (xy 151.765 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29073b5-5459-4db3-b35e-b9136209d794")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.805) (xy 151.765 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc36351-28cd-44fd-8f16-76298892a9fa")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.995) (xy 111.76 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb52617d-ee69-483f-b963-f0cf1b544b93")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.805) (xy 178.435 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff238343-938b-4945-9c17-432dd3a745b6")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 161.925 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "050915c6-e17a-420e-bfad-c602153f72aa")
+		(property "Reference" "H3"
+			(at 164.465 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 164.465 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 161.925 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.925 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 161.925 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3607926-28d7-4aab-b550-2747902e88fe")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 111.76 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1719ea9e-4dd5-443e-bba5-6d90542886be")
+		(property "Reference" "J6"
+			(at 110.49 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT5"
+			(at 110.49 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 111.76 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572ed024-1915-426d-bec3-292b93db6974")
+		)
+		(pin "2"
+			(uuid "a89ec885-8aff-48d4-b870-3b3958982b6e")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 161.925 120.015 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1adc6763-2997-4e84-8389-c7b6904f482f")
+		(property "Reference" "#PWR08"
+			(at 161.925 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 161.925 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.925 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.925 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 161.925 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54189367-561f-4703-a539-6d29e174ec30")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 139.065 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a653fe8-1897-4db5-9a04-14f003b8ec4b")
+		(property "Reference" "H5"
+			(at 141.605 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 141.605 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 139.065 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.065 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 139.065 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad64ccf-94c4-42ed-aa47-ba283a668605")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 151.765 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "348a3a79-6331-470a-95c2-48e5007efabd")
+		(property "Reference" "J3"
+			(at 150.495 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT2"
+			(at 150.495 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 151.765 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.765 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.765 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d7112d-2be8-40e4-aaeb-c610af7131d0")
+		)
+		(pin "2"
+			(uuid "ed91d1e5-f75f-4240-b095-133dc2530551")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 139.065 120.015 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3820f8f5-498c-4f55-9da7-ec9b9d64474e")
+		(property "Reference" "#PWR07"
+			(at 139.065 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 139.065 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 139.065 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f9fa7c-261d-468d-9cd0-eee3a933b9bd")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "382fe21d-1e3f-429b-b63e-0ab4e80cd38f")
+		(property "Reference" "H1"
+			(at 118.11 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f626c8-9e53-4cc0-a82a-0924b1b3d834")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57960613-f064-41a4-a0a4-4c5512022aee")
+		(property "Reference" "H4"
+			(at 118.11 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 115.57 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c244fe67-912b-4c3c-b757-6b4a00134eef")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 178.435 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63aeec47-3f2b-41f2-9fdb-1dab956c334d")
+		(property "Reference" "J1"
+			(at 177.165 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 177.165 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 178.435 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 178.435 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 178.435 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "168294d0-3b2d-4101-b1f0-49442b872277")
+		)
+		(pin "2"
+			(uuid "c7805f23-3ba4-4d79-854d-3c3bdff22d44")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 138.43 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c825152-9442-4045-983a-4a8c80c01e70")
+		(property "Reference" "J4"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT3"
+			(at 137.16 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 138.43 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def26164-89d8-4ba8-a646-3961c3bf31fc")
+		)
+		(pin "2"
+			(uuid "bd4586f0-4efd-4767-a50b-98c052e82a68")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 165.1 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78a0813d-590e-46ce-acf5-9d92d8764d66")
+		(property "Reference" "J2"
+			(at 163.83 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT1"
+			(at 163.83 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 165.1 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c73c89-d30c-4efa-9c7f-c3026ff69033")
+		)
+		(pin "2"
+			(uuid "3e4f0cdf-d10a-4f64-810b-1509eac6587c")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f517638-31e7-48fa-b5dc-964e1178a4f8")
+		(property "Reference" "#PWR01"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d404daea-3153-4363-9fd6-1ec93357444b")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.925 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8693f3f9-08ef-48be-935e-1a6f53af07b5")
+		(property "Reference" "#PWR03"
+			(at 161.925 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.925 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.925 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.925 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.925 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f11668b2-a3b3-441a-bc43-4adebbf5a868")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 188.595 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86e037d6-9bfe-4c7a-8091-0a6c68d72eab")
+		(property "Reference" "#PWR05"
+			(at 188.595 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 188.595 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 188.595 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d789ebb7-2165-43e5-b39e-8658a0a55bcf")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 188.595 90.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf02d24d-3885-42cf-a659-414df183ffbf")
+		(property "Reference" "#PWR04"
+			(at 188.595 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.595 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 188.595 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4d9d39d-bc0e-4dd5-ac30-133bc877573a")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 139.065 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f9503d-00bc-4da6-bdb3-5383b7f38862")
+		(property "Reference" "H2"
+			(at 141.605 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 141.605 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 139.065 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.065 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 139.065 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f73d4f2-5fb5-4c11-9fc6-7acc3ec54d39")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 161.925 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7db8a9f-2c17-491f-bf06-24e7503826e7")
+		(property "Reference" "H6"
+			(at 164.465 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 164.465 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 161.925 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.925 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 161.925 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dae9a53-22d9-426e-b456-6ee5692add45")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.065 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0c0b280-c7d7-4a8f-a3e5-570095de57b3")
+		(property "Reference" "#PWR02"
+			(at 139.065 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.065 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.065 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a871430-6564-4989-976c-ce44ef0004de")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 125.095 81.915 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38b6123-cb1b-4b2c-ad42-475dff3bd3d2")
+		(property "Reference" "J5"
+			(at 123.825 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT4"
+			(at 123.825 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 125.095 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.095 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.095 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99cc0e65-20f7-4f4f-a09c-006abb3c4f3f")
+		)
+		(pin "2"
+			(uuid "6b6cac26-4607-45d6-9d97-9fd3fdb80cd0")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 115.57 120.015 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f435cfab-edcd-4070-b0e5-320f9907bb8d")
+		(property "Reference" "#PWR06"
+			(at 115.57 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 115.57 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 115.57 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f61f7db-4b02-4f1c-b204-c3b0d91df428")
+		)
+		(instances
+			(project "XT60Hub"
+				(path "/e9ed86e6-10b5-4e6b-944b-7fb4cc71339b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
