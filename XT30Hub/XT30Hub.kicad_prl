@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "XT30hub.kicad_prl",
+    "filename": "XT30Hub.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

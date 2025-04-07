@@ -2999,8 +2999,8 @@
 		(start 183 113)
 		(end 134.07 113)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "B.SilkS")
 		(uuid "3bb89047-35a9-4714-b8b8-80c5f1c6f12f")
@@ -3020,8 +3020,8 @@
 		(start 183 97.5)
 		(end 175 97.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "B.SilkS")
 		(uuid "a6e50293-10ce-41eb-949c-0af83aaf67ff")
@@ -3030,8 +3030,8 @@
 		(start 183 97.5)
 		(end 183 113)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "B.SilkS")
 		(uuid "b13f82ff-a09b-4b64-9658-419520f719c8")
@@ -3040,8 +3040,8 @@
 		(start 134.07 97.5)
 		(end 162 97.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "B.SilkS")
 		(uuid "c245ef65-5264-425e-abe3-c0d264f7a363")
@@ -3050,8 +3050,8 @@
 		(start 134.07 113)
 		(end 134.07 97.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "B.SilkS")
 		(uuid "d3a0a324-8093-4809-8210-d2e5296e64e3")
@@ -3666,7 +3666,7 @@
 			)
 		)
 	)
-	(gr_text "ver 1.0: 2025-04-01"
+	(gr_text "ver 1.0: 2025-04-07"
 		(at 128 96 180)
 		(layer "B.SilkS")
 		(uuid "b6bf2b19-9163-432e-b8aa-62a4f0615226")
@@ -3679,7 +3679,7 @@
 			)
 			(justify left mirror)
 		)
-		(render_cache "ver 1.0: 2025-04-01" 180
+		(render_cache "ver 1.0: 2025-04-07" 180
 			(polygon
 				(pts
 					(xy 128.055992 96.35009) (xy 128.258225 96.35009) (xy 128.422173 95.753039) (xy 128.586121 96.35009)
@@ -3950,9 +3950,8 @@
 			)
 			(polygon
 				(pts
-					(xy 143.323674 95.762625) (xy 143.54911 95.762625) (xy 143.54911 96.396557) (xy 143.396092 96.231205)
-					(xy 143.300409 96.330978) (xy 143.550453 96.604225) (xy 143.744443 96.604225) (xy 143.744443 95.762625)
-					(xy 143.971222 95.762625) (xy 143.971222 95.585) (xy 143.323674 95.585)
+					(xy 143.713058 96.426599) (xy 143.288136 96.426599) (xy 143.288136 96.604225) (xy 143.932998 96.604225)
+					(xy 143.932998 96.462137) (xy 143.58599 95.585) (xy 143.38101 95.585)
 				)
 			)
 		)
