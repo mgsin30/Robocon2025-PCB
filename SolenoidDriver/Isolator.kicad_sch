@@ -1,0 +1,4493 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c87fa8bd-5fef-4a47-bdce-d5826e90ee2d")
+	(paper "A4")
+	(title_block
+		(title "Solenoid Driver / Isolator")
+		(date "2025-04-10")
+		(rev "ver1.0")
+		(company "阿南高専ロボット研究部")
+	)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Isolator:TLP293-4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLP293-4"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN DC Quad Optocoupler"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*4.55x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP293-4_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TLP293-4_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLP293-4_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLP293-4_3_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLP293-4_4_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 153.67 105.41)
+		(end 247.015 127.635)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e103171-367e-4c93-99fb-bf0b6bc6f06a)
+	)
+	(rectangle
+		(start 56.515 105.41)
+		(end 149.86 127.635)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72571314-8192-4a36-b157-1eaa7b2d60dd)
+	)
+	(rectangle
+		(start 56.515 77.47)
+		(end 149.86 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8152a744-9ecc-490e-89d9-10d61cdcb89a)
+	)
+	(rectangle
+		(start 153.67 77.47)
+		(end 247.015 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9162fae3-660d-47d5-85ba-cb8666a8e720)
+	)
+	(text "SOL3"
+		(exclude_from_sim no)
+		(at 59.055 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03118e26-5a48-4566-a851-1bfd495f781f")
+	)
+	(text "SOL4"
+		(exclude_from_sim no)
+		(at 156.21 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9891bf2b-4636-41d3-bf1a-c3f1f90b4b49")
+	)
+	(text "SOL2"
+		(exclude_from_sim no)
+		(at 156.21 76.835 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ea473a8-417e-405f-9d49-844e9a6bb1db")
+	)
+	(text "SOL1"
+		(exclude_from_sim no)
+		(at 59.055 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd44eed0-ccf2-4a5e-aa66-9fb50cd23062")
+	)
+	(wire
+		(pts
+			(xy 88.9 120.015) (xy 92.71 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058fdae2-8336-4baa-813b-7c20e705af0c")
+	)
+	(wire
+		(pts
+			(xy 186.055 120.015) (xy 190.5 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0793b8e3-98c6-453c-9d18-127238354d5e")
+	)
+	(wire
+		(pts
+			(xy 186.055 86.995) (xy 190.5 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dfbbd9-96ec-4edd-8922-cebb96db6e50")
+	)
+	(wire
+		(pts
+			(xy 231.775 114.935) (xy 236.22 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae4e504-5b1e-4ec0-a94c-983cd2c23883")
+	)
+	(wire
+		(pts
+			(xy 119.38 120.015) (xy 118.11 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186af719-08d5-42a1-be04-224919efeab7")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.075) (xy 215.9 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5a0fbf-e729-4f74-9feb-fdc219f3601a")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.995) (xy 138.43 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e993968-48d7-44d8-ad44-3794ea3387b1")
+	)
+	(wire
+		(pts
+			(xy 134.62 114.935) (xy 139.065 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f18559b-79ac-444f-ba06-9c1360b3b83d")
+	)
+	(wire
+		(pts
+			(xy 186.055 114.935) (xy 190.5 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2393aff4-a4f0-4686-a9bb-2713bd2f1fdc")
+	)
+	(wire
+		(pts
+			(xy 236.22 86.995) (xy 236.22 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c10842-9d67-447e-ba5c-f6cd19007c10")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.015) (xy 118.11 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27920e43-c336-4e0b-a50f-73fcb89fc08e")
+	)
+	(wire
+		(pts
+			(xy 133.985 92.075) (xy 138.43 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313dd6cb-ce3a-4a7f-b119-5523b0841e7e")
+	)
+	(wire
+		(pts
+			(xy 169.545 120.015) (xy 169.545 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372561bb-ea3f-4658-a24e-bd0f045cb5f4")
+	)
+	(wire
+		(pts
+			(xy 186.055 92.075) (xy 190.5 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39582633-f442-4be4-8382-21bba9a8a831")
+	)
+	(wire
+		(pts
+			(xy 72.39 120.015) (xy 72.39 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3988ba0a-5a07-4c3b-bd65-0df580cdc236")
+	)
+	(wire
+		(pts
+			(xy 133.985 86.995) (xy 138.43 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d20068b-546a-443f-a44d-6ce612b81202")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.015) (xy 139.065 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4685fb-2e8d-4095-9fdc-774d153e0c3f")
+	)
+	(wire
+		(pts
+			(xy 170.815 92.075) (xy 169.545 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edf115c-5831-4c1c-a8fc-f8855c939785")
+	)
+	(wire
+		(pts
+			(xy 232.41 92.075) (xy 236.22 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f8b888-d4da-48d4-b6ba-e4c0289f6e76")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.995) (xy 92.71 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490439cc-179f-432c-99e2-774e474e5406")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.075) (xy 215.9 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c8c215-7f00-4bff-8b58-019df8c640b4")
+	)
+	(wire
+		(pts
+			(xy 118.745 92.075) (xy 117.475 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c88fac0-2157-4765-83aa-73bad5159b45")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.995) (xy 190.5 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7323b77e-20d3-4e09-8ff9-2ea9fb8e01a0")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.075) (xy 72.39 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de44ff-565a-446a-affd-1ee42ab1afa1")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.935) (xy 92.71 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4e736d-64f7-4ab7-a9dd-b6971f051817")
+	)
+	(wire
+		(pts
+			(xy 215.265 120.015) (xy 215.265 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b929953-d07c-4ab2-b4a6-8e98b0bbee90")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.075) (xy 92.71 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82408ac8-fe45-4219-bbf2-1062432fe8f1")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.935) (xy 92.71 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9022ac62-8be1-4bb6-bea5-1095e8ebd164")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.075) (xy 72.39 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94008a71-c9cd-479c-96d3-0e3cb064e8e7")
+	)
+	(wire
+		(pts
+			(xy 169.545 92.075) (xy 169.545 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a17df15-301b-480c-a390-a276716c8254")
+	)
+	(wire
+		(pts
+			(xy 236.22 114.935) (xy 236.22 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4fded5-49b3-4665-a2f9-841370e1f29e")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.995) (xy 92.71 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d84e675-88dd-49ce-93e0-2bbeb79b723c")
+	)
+	(wire
+		(pts
+			(xy 231.775 120.015) (xy 236.22 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f63864e-b6f6-495e-8650-4dcf11f18705")
+	)
+	(wire
+		(pts
+			(xy 117.475 92.075) (xy 117.475 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9edb23a-54a3-49c1-80b3-8fa4cf7d2cb7")
+	)
+	(wire
+		(pts
+			(xy 170.815 120.015) (xy 169.545 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4d03eb-64b4-4548-9560-c9e75134f8f0")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.935) (xy 190.5 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaf85f4-e8fd-45a1-8128-8cfcc40a467f")
+	)
+	(wire
+		(pts
+			(xy 216.535 120.015) (xy 215.265 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8a066c-87cf-4f83-812f-aa6b16771f37")
+	)
+	(wire
+		(pts
+			(xy 139.065 114.935) (xy 139.065 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0402f26-7e1d-474e-ab9b-288597b313b7")
+	)
+	(wire
+		(pts
+			(xy 232.41 86.995) (xy 236.22 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca401ba-bbd1-450b-a461-64d10528994f")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.015) (xy 72.39 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2608283-3f79-4d71-b778-8c9148e2d990")
+	)
+	(hierarchical_label "SOL3A"
+		(shape input)
+		(at 66.04 114.935 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d0b40ae-67fe-4128-a53c-766b8b5c7edf")
+	)
+	(hierarchical_label "SOL1AA"
+		(shape output)
+		(at 92.71 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "182b563b-a3a9-492b-99de-34ff2b12de4b")
+	)
+	(hierarchical_label "SOL4B"
+		(shape input)
+		(at 208.915 114.935 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3288d1cb-73ac-4b69-8a36-573b19524886")
+	)
+	(hierarchical_label "SOL4A"
+		(shape input)
+		(at 163.195 114.935 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "483a0669-54bd-48e6-83dd-701299932b0c")
+	)
+	(hierarchical_label "SOL1A"
+		(shape input)
+		(at 66.04 86.995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48d3d629-869f-4043-b30d-b67ba5bb965e")
+	)
+	(hierarchical_label "SOL2AA"
+		(shape output)
+		(at 190.5 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4de38aa3-d727-4d3b-8129-c8e1dd220331")
+	)
+	(hierarchical_label "SOL4BA"
+		(shape output)
+		(at 236.22 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f16ea73-6e59-4a4e-88fe-0a9a0570d5ef")
+	)
+	(hierarchical_label "SOL2B"
+		(shape input)
+		(at 209.55 86.995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bf23ad7-b762-40cb-b660-a9fa3222a035")
+	)
+	(hierarchical_label "SOL3BA"
+		(shape output)
+		(at 139.065 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8049eb72-8ea4-433c-926a-84a9e03886e7")
+	)
+	(hierarchical_label "SOL4AA"
+		(shape output)
+		(at 190.5 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8324715c-3d29-42d5-80a8-9d5aa1539bd4")
+	)
+	(hierarchical_label "SOL1BA"
+		(shape output)
+		(at 138.43 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfc9c16b-c19e-44f6-9d70-e21baf5438fc")
+	)
+	(hierarchical_label "SOL2BA"
+		(shape output)
+		(at 236.22 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2fed5ad-8593-422b-b5c6-d45a867eea1d")
+	)
+	(hierarchical_label "SOL2A"
+		(shape input)
+		(at 163.195 86.995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4a7b06c-f798-454f-9163-2c1793a94266")
+	)
+	(hierarchical_label "SOL3AA"
+		(shape output)
+		(at 92.71 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d592e832-92a3-4232-831a-d6b7adf0d2da")
+	)
+	(hierarchical_label "SOL1B"
+		(shape input)
+		(at 111.125 86.995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de17af14-57eb-4acb-ad25-006ff748d7cd")
+	)
+	(hierarchical_label "SOL3B"
+		(shape input)
+		(at 111.76 114.935 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef84c555-78bf-4f01-a4d2-a630fa0bdbf5")
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 224.155 117.475 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b851c7-4398-4966-9117-d37891200911")
+		(property "Reference" "U7"
+			(at 224.155 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 224.155 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 219.075 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 224.155 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 224.155 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 224.155 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 224.155 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 224.155 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "b81c77df-a11c-4cb1-b041-0b15fbbece68")
+		)
+		(pin "11"
+			(uuid "e65f742f-8e94-4598-a0b2-dcc6e9e9d7f0")
+		)
+		(pin "4"
+			(uuid "14cc6bcf-6b4a-490b-a8dc-574311764c73")
+		)
+		(pin "12"
+			(uuid "95b03990-97f6-451b-a4a5-90610de2168a")
+		)
+		(pin "5"
+			(uuid "77a71a9b-8b43-4e8e-8150-9a64f90314f7")
+		)
+		(pin "7"
+			(uuid "6b0224ab-4d5e-49dc-844c-da8deaa89e59")
+		)
+		(pin "9"
+			(uuid "1c66a4cc-18bc-4f3e-b21a-7a57a972fa33")
+		)
+		(pin "13"
+			(uuid "dff91f67-b13f-485d-bbdf-c4c656b4cae4")
+		)
+		(pin "3"
+			(uuid "b73baa1c-8e21-4d7f-9e9d-1f378011bd70")
+		)
+		(pin "1"
+			(uuid "88c97476-14c3-4e56-8353-9450bdb76bd3")
+		)
+		(pin "8"
+			(uuid "ac2bfeba-a1fb-409d-93cc-c5a4d1281dbe")
+		)
+		(pin "2"
+			(uuid "f0307ece-823c-4873-8620-3f5e6ab738c0")
+		)
+		(pin "10"
+			(uuid "3b06cec7-ce26-4e23-b3d5-52107c922d73")
+		)
+		(pin "15"
+			(uuid "2888b82b-635f-4230-adfd-e03574579c44")
+		)
+		(pin "6"
+			(uuid "e9142027-6567-404e-a32c-22d1c885e004")
+		)
+		(pin "16"
+			(uuid "4ef16e8e-a16a-4e43-b8bb-a93674c5fa42")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 178.435 89.535 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b1d0e99-4e27-4b00-91a4-774b8eb48376")
+		(property "Reference" "U6"
+			(at 178.435 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 178.435 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 173.355 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 178.435 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 178.435 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 178.435 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 178.435 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 178.435 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5973086b-30c8-4be2-9f4d-ce04d2be6871")
+		)
+		(pin "11"
+			(uuid "36565791-75f6-4dd7-8e35-0b6ff0d7f474")
+		)
+		(pin "7"
+			(uuid "59ba8b7d-9b1b-4b99-9f50-92eb9ea92f32")
+		)
+		(pin "15"
+			(uuid "9a84f026-f971-4daa-8d09-71c7d28fbf9d")
+		)
+		(pin "8"
+			(uuid "24388c87-4217-4c30-9680-c97df6b77bac")
+		)
+		(pin "10"
+			(uuid "a1452a2f-f962-41be-b981-b90953dfe91f")
+		)
+		(pin "9"
+			(uuid "f6edd0fd-59b2-4e08-8a8e-db4044b3a97b")
+		)
+		(pin "16"
+			(uuid "04f3face-a084-4b4e-9ca6-3e60df0e36bf")
+		)
+		(pin "13"
+			(uuid "0b942735-937c-4d86-8c6f-d68191051ba6")
+		)
+		(pin "3"
+			(uuid "4e4af905-253a-4c82-9595-51ee33b0ff4c")
+		)
+		(pin "5"
+			(uuid "287fd190-ecab-4ad9-a02a-134dcd6e4915")
+		)
+		(pin "14"
+			(uuid "fdb1917f-3b7f-485f-81cf-39fd4b698423")
+		)
+		(pin "2"
+			(uuid "0c5e3ef8-a0e2-4225-a02e-17c2e9361a3c")
+		)
+		(pin "4"
+			(uuid "3863e0ac-7669-4f08-89b2-2ea8733cb596")
+		)
+		(pin "1"
+			(uuid "72739eef-d9eb-4ec5-afb0-884991ec957d")
+		)
+		(pin "6"
+			(uuid "846c1095-33f2-4300-bbcb-1bfc0e7effbd")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 178.435 117.475 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105b2900-ddf4-41f7-a4a7-6f2f92d49f6e")
+		(property "Reference" "U7"
+			(at 178.435 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 178.435 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 173.355 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 178.435 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 178.435 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 178.435 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 178.435 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 178.435 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "b81c77df-a11c-4cb1-b041-0b15fbbece69")
+		)
+		(pin "11"
+			(uuid "e65f742f-8e94-4598-a0b2-dcc6e9e9d7f1")
+		)
+		(pin "4"
+			(uuid "14cc6bcf-6b4a-490b-a8dc-574311764c74")
+		)
+		(pin "12"
+			(uuid "95b03990-97f6-451b-a4a5-90610de2168b")
+		)
+		(pin "5"
+			(uuid "77a71a9b-8b43-4e8e-8150-9a64f90314f8")
+		)
+		(pin "7"
+			(uuid "6b0224ab-4d5e-49dc-844c-da8deaa89e5a")
+		)
+		(pin "9"
+			(uuid "1c66a4cc-18bc-4f3e-b21a-7a57a972fa34")
+		)
+		(pin "13"
+			(uuid "dff91f67-b13f-485d-bbdf-c4c656b4cae5")
+		)
+		(pin "3"
+			(uuid "b73baa1c-8e21-4d7f-9e9d-1f378011bd71")
+		)
+		(pin "1"
+			(uuid "88c97476-14c3-4e56-8353-9450bdb76bd4")
+		)
+		(pin "8"
+			(uuid "ac2bfeba-a1fb-409d-93cc-c5a4d1281dbf")
+		)
+		(pin "2"
+			(uuid "f0307ece-823c-4873-8620-3f5e6ab738c1")
+		)
+		(pin "10"
+			(uuid "3b06cec7-ce26-4e23-b3d5-52107c922d74")
+		)
+		(pin "15"
+			(uuid "2888b82b-635f-4230-adfd-e03574579c45")
+		)
+		(pin "6"
+			(uuid "e9142027-6567-404e-a32c-22d1c885e005")
+		)
+		(pin "16"
+			(uuid "4ef16e8e-a16a-4e43-b8bb-a93674c5fa43")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 236.22 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "155548f7-0186-415e-9b67-9108fd25755a")
+		(property "Reference" "#PWR043"
+			(at 236.22 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 236.22 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 236.22 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f388b4-a3ed-4dbc-b9b8-3eabb12abb73")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 236.22 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "161fd9c7-b569-4038-bf92-e78e05a85b3b")
+		(property "Reference" "#PWR055"
+			(at 236.22 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 236.22 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 236.22 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9e0df79-3229-4277-bd24-7b73ce7c0761")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 126.365 89.535 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fef2d8e-81e5-44c1-80c3-ecb97920ec73")
+		(property "Reference" "U6"
+			(at 126.365 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 126.365 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 121.285 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 126.365 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 126.365 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 126.365 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 126.365 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 126.365 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5973086b-30c8-4be2-9f4d-ce04d2be6872")
+		)
+		(pin "11"
+			(uuid "36565791-75f6-4dd7-8e35-0b6ff0d7f475")
+		)
+		(pin "7"
+			(uuid "59ba8b7d-9b1b-4b99-9f50-92eb9ea92f33")
+		)
+		(pin "15"
+			(uuid "9a84f026-f971-4daa-8d09-71c7d28fbf9e")
+		)
+		(pin "8"
+			(uuid "24388c87-4217-4c30-9680-c97df6b77bad")
+		)
+		(pin "10"
+			(uuid "a1452a2f-f962-41be-b981-b90953dfe920")
+		)
+		(pin "9"
+			(uuid "f6edd0fd-59b2-4e08-8a8e-db4044b3a97c")
+		)
+		(pin "16"
+			(uuid "04f3face-a084-4b4e-9ca6-3e60df0e36c0")
+		)
+		(pin "13"
+			(uuid "0b942735-937c-4d86-8c6f-d68191051ba7")
+		)
+		(pin "3"
+			(uuid "4e4af905-253a-4c82-9595-51ee33b0ff4d")
+		)
+		(pin "5"
+			(uuid "287fd190-ecab-4ad9-a02a-134dcd6e4916")
+		)
+		(pin "14"
+			(uuid "fdb1917f-3b7f-485f-81cf-39fd4b698424")
+		)
+		(pin "2"
+			(uuid "0c5e3ef8-a0e2-4225-a02e-17c2e9361a3d")
+		)
+		(pin "4"
+			(uuid "3863e0ac-7669-4f08-89b2-2ea8733cb597")
+		)
+		(pin "1"
+			(uuid "72739eef-d9eb-4ec5-afb0-884991ec957e")
+		)
+		(pin "6"
+			(uuid "846c1095-33f2-4300-bbcb-1bfc0e7effbe")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d8f8c0-0dc2-4ca0-9d57-57a5b184ead5")
+		(property "Reference" "R17"
+			(at 69.85 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 69.85 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.85 116.713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 69.85 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 69.85 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 69.85 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32ade5bd-b07d-46c1-ae8e-f1af62151889")
+		)
+		(pin "1"
+			(uuid "60aec5c4-34aa-4cc5-ad4f-87ef28f5ca06")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 81.28 89.535 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f12782-78c3-4cf0-8f83-c70e9037b4bd")
+		(property "Reference" "U6"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 76.2 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 81.28 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 81.28 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 81.28 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 81.28 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 81.28 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5973086b-30c8-4be2-9f4d-ce04d2be6873")
+		)
+		(pin "11"
+			(uuid "36565791-75f6-4dd7-8e35-0b6ff0d7f476")
+		)
+		(pin "7"
+			(uuid "59ba8b7d-9b1b-4b99-9f50-92eb9ea92f34")
+		)
+		(pin "15"
+			(uuid "9a84f026-f971-4daa-8d09-71c7d28fbf9f")
+		)
+		(pin "8"
+			(uuid "24388c87-4217-4c30-9680-c97df6b77bae")
+		)
+		(pin "10"
+			(uuid "a1452a2f-f962-41be-b981-b90953dfe921")
+		)
+		(pin "9"
+			(uuid "f6edd0fd-59b2-4e08-8a8e-db4044b3a97d")
+		)
+		(pin "16"
+			(uuid "04f3face-a084-4b4e-9ca6-3e60df0e36c1")
+		)
+		(pin "13"
+			(uuid "0b942735-937c-4d86-8c6f-d68191051ba8")
+		)
+		(pin "3"
+			(uuid "4e4af905-253a-4c82-9595-51ee33b0ff4e")
+		)
+		(pin "5"
+			(uuid "287fd190-ecab-4ad9-a02a-134dcd6e4917")
+		)
+		(pin "14"
+			(uuid "fdb1917f-3b7f-485f-81cf-39fd4b698425")
+		)
+		(pin "2"
+			(uuid "0c5e3ef8-a0e2-4225-a02e-17c2e9361a3e")
+		)
+		(pin "4"
+			(uuid "3863e0ac-7669-4f08-89b2-2ea8733cb598")
+		)
+		(pin "1"
+			(uuid "72739eef-d9eb-4ec5-afb0-884991ec957f")
+		)
+		(pin "6"
+			(uuid "846c1095-33f2-4300-bbcb-1bfc0e7effbf")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 190.5 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dc97047-0116-43bf-be0c-3559f1dda5d2")
+		(property "Reference" "#PWR052"
+			(at 190.5 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 190.5 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 190.5 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051a1504-4621-49d8-83c9-f557d4b5a8d4")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 169.545 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3457824f-bfb0-4513-b5df-a80d34a0abc0")
+		(property "Reference" "#PWR036"
+			(at 169.545 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 169.545 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 169.545 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b199e1-0005-4e94-aaf4-5c7ae0fd5440")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 92.71 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35aa9390-5956-44df-9360-f54a1bb7ecdd")
+		(property "Reference" "#PWR032"
+			(at 92.71 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 92.71 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 92.71 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6eabfe-5d34-46e5-8ded-01348388cdae")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 138.43 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "396e11ed-60f0-40b5-9a57-a0407d326968")
+		(property "Reference" "#PWR035"
+			(at 138.43 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 138.43 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 138.43 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76442d0-6f89-489e-8155-e55666620859")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.725 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd264e8-23a9-4c4e-883a-4f9097781094")
+		(property "Reference" "R20"
+			(at 212.725 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 212.725 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 212.725 116.713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.725 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.725 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 212.725 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 212.725 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 212.725 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba747591-a99a-4437-b3ec-5b8afead6cec")
+		)
+		(pin "1"
+			(uuid "b6f17654-11d7-40cb-821b-86d15fdcdd9e")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 81.28 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d21180-4286-40e1-bd16-5fb0036a8580")
+		(property "Reference" "U7"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 76.2 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 81.28 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 81.28 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 81.28 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 81.28 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 81.28 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "b81c77df-a11c-4cb1-b041-0b15fbbece6a")
+		)
+		(pin "11"
+			(uuid "e65f742f-8e94-4598-a0b2-dcc6e9e9d7f2")
+		)
+		(pin "4"
+			(uuid "14cc6bcf-6b4a-490b-a8dc-574311764c75")
+		)
+		(pin "12"
+			(uuid "95b03990-97f6-451b-a4a5-90610de2168c")
+		)
+		(pin "5"
+			(uuid "77a71a9b-8b43-4e8e-8150-9a64f90314f9")
+		)
+		(pin "7"
+			(uuid "6b0224ab-4d5e-49dc-844c-da8deaa89e5b")
+		)
+		(pin "9"
+			(uuid "1c66a4cc-18bc-4f3e-b21a-7a57a972fa35")
+		)
+		(pin "13"
+			(uuid "dff91f67-b13f-485d-bbdf-c4c656b4cae6")
+		)
+		(pin "3"
+			(uuid "b73baa1c-8e21-4d7f-9e9d-1f378011bd72")
+		)
+		(pin "1"
+			(uuid "88c97476-14c3-4e56-8353-9450bdb76bd5")
+		)
+		(pin "8"
+			(uuid "ac2bfeba-a1fb-409d-93cc-c5a4d1281dc0")
+		)
+		(pin "2"
+			(uuid "f0307ece-823c-4873-8620-3f5e6ab738c2")
+		)
+		(pin "10"
+			(uuid "3b06cec7-ce26-4e23-b3d5-52107c922d75")
+		)
+		(pin "15"
+			(uuid "2888b82b-635f-4230-adfd-e03574579c46")
+		)
+		(pin "6"
+			(uuid "e9142027-6567-404e-a32c-22d1c885e006")
+		)
+		(pin "16"
+			(uuid "4ef16e8e-a16a-4e43-b8bb-a93674c5fa44")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58fa9a17-e177-4c74-b9c0-a523ef3f4551")
+		(property "Reference" "R16"
+			(at 213.36 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 213.36 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 213.36 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 213.36 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 213.36 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 213.36 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36a88746-5992-4303-9640-f35257d0e0e0")
+		)
+		(pin "1"
+			(uuid "7419e868-7c6c-4b57-841f-72150947394f")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 117.475 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593b762e-ae5d-40ab-a9c1-ab27671cda3f")
+		(property "Reference" "#PWR033"
+			(at 117.475 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 117.475 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 117.475 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b09a1ba3-a78d-4f41-aaaf-a8cc927a226a")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 139.065 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "623901b4-35bd-4113-9304-2097dc8a6557")
+		(property "Reference" "#PWR049"
+			(at 139.065 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 139.065 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 139.065 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09806313-c447-44c4-b772-9edf74739552")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7344ba90-5d2b-4e5a-b69e-ff99deb75c31")
+		(property "Reference" "R13"
+			(at 69.85 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 69.85 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.85 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 69.85 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 69.85 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 69.85 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38cf12a0-6d9e-4035-8b72-3319e7649eec")
+		)
+		(pin "1"
+			(uuid "f43d5f9b-1504-45f8-bd5b-cf1b46dcd6e4")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 190.5 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85b97561-6cdf-432b-8ce4-f8a652cd027c")
+		(property "Reference" "#PWR038"
+			(at 190.5 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 190.5 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 190.5 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12902abf-6b00-4278-a7a3-8b62bd4ba403")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 127 117.475 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90412689-f287-4522-881e-6a9bc324f702")
+		(property "Reference" "U7"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 121.92 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 127 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 127 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 127 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 127 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 127 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "b81c77df-a11c-4cb1-b041-0b15fbbece6b")
+		)
+		(pin "11"
+			(uuid "e65f742f-8e94-4598-a0b2-dcc6e9e9d7f3")
+		)
+		(pin "4"
+			(uuid "14cc6bcf-6b4a-490b-a8dc-574311764c76")
+		)
+		(pin "12"
+			(uuid "95b03990-97f6-451b-a4a5-90610de2168d")
+		)
+		(pin "5"
+			(uuid "77a71a9b-8b43-4e8e-8150-9a64f90314fa")
+		)
+		(pin "7"
+			(uuid "6b0224ab-4d5e-49dc-844c-da8deaa89e5c")
+		)
+		(pin "9"
+			(uuid "1c66a4cc-18bc-4f3e-b21a-7a57a972fa36")
+		)
+		(pin "13"
+			(uuid "dff91f67-b13f-485d-bbdf-c4c656b4cae7")
+		)
+		(pin "3"
+			(uuid "b73baa1c-8e21-4d7f-9e9d-1f378011bd73")
+		)
+		(pin "1"
+			(uuid "88c97476-14c3-4e56-8353-9450bdb76bd6")
+		)
+		(pin "8"
+			(uuid "ac2bfeba-a1fb-409d-93cc-c5a4d1281dc1")
+		)
+		(pin "2"
+			(uuid "f0307ece-823c-4873-8620-3f5e6ab738c3")
+		)
+		(pin "10"
+			(uuid "3b06cec7-ce26-4e23-b3d5-52107c922d76")
+		)
+		(pin "15"
+			(uuid "2888b82b-635f-4230-adfd-e03574579c47")
+		)
+		(pin "6"
+			(uuid "e9142027-6567-404e-a32c-22d1c885e007")
+		)
+		(pin "16"
+			(uuid "4ef16e8e-a16a-4e43-b8bb-a93674c5fa45")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 72.39 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6514bfc-bbd9-486d-80dd-5efc00234563")
+		(property "Reference" "#PWR030"
+			(at 72.39 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 72.39 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 72.39 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae9bc2a3-ab7f-4fde-846a-47fca1f93662")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 215.265 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba2ce7d-7193-4d9a-884d-4f4ae727813b")
+		(property "Reference" "#PWR053"
+			(at 215.265 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 215.265 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.265 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.265 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 215.265 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55cac53a-ae8b-4142-bdc4-2765a52c08af")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 72.39 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9271c7c-03b2-4f08-af71-19ebc3f5971d")
+		(property "Reference" "#PWR044"
+			(at 72.39 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 72.39 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 72.39 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf1eab55-5b20-4b8f-a47d-0e9e0a566705")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1eab9e6-0713-42fa-ad20-28848b7d01a7")
+		(property "Reference" "R18"
+			(at 115.57 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 115.57 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 116.713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 115.57 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 115.57 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 115.57 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7959ab2-dc24-4235-89d9-5daba7ff47b3")
+		)
+		(pin "1"
+			(uuid "c8b14f1d-c73a-46b1-922a-fe023f136113")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 118.11 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3a7163d-189f-46d2-8757-9a60838e28e9")
+		(property "Reference" "#PWR047"
+			(at 118.11 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 118.11 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 118.11 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b3bcfb-f705-47cd-b523-28fcd1c282ed")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 92.71 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da7f47f2-83bd-44ad-89f0-4659a047d469")
+		(property "Reference" "#PWR046"
+			(at 92.71 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 92.71 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 92.71 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146af09f-f449-4a3b-a844-9a1d91cbe49a")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.005 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc4377ae-8b57-47d0-9acf-0eb8cad770eb")
+		(property "Reference" "R19"
+			(at 167.005 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 167.005 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.005 116.713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 167.005 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 167.005 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 167.005 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e218dbfd-bd38-4acc-bd73-219fe9e19616")
+		)
+		(pin "1"
+			(uuid "24bdee19-3746-4aaf-937b-f4adabfae1c7")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.935 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcca8680-04a5-4799-8e46-b12d3000914c")
+		(property "Reference" "R14"
+			(at 114.935 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 114.935 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.935 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.935 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.935 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 114.935 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 114.935 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 114.935 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55f93a65-da14-44a9-854d-0b7405d00c72")
+		)
+		(pin "1"
+			(uuid "0db0aa7d-d607-4c11-bf7e-497d1b277198")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 169.545 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcddebfd-6701-4656-8a88-837c012c2dc4")
+		(property "Reference" "#PWR050"
+			(at 169.545 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 169.545 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 169.545 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2175d3e3-bfa0-4982-a83c-845d71d0640e")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TLP293-4")
+		(at 224.79 89.535 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07fbf95-a85e-41dc-a983-0f8fbd81d9e6")
+		(property "Reference" "U6"
+			(at 224.79 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP293-4"
+			(at 224.79 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 219.71 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP293-4_datasheet_en_20190520.pdf?did=15287&prodName=TLP293-4"
+			(at 224.79 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 224.79 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLP293-4(LGBTPE(T"
+			(at 224.79 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://akizukidenshi.com/catalog/g/g116115/"
+			(at 224.79 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "100"
+			(at 224.79 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5973086b-30c8-4be2-9f4d-ce04d2be6874")
+		)
+		(pin "11"
+			(uuid "36565791-75f6-4dd7-8e35-0b6ff0d7f477")
+		)
+		(pin "7"
+			(uuid "59ba8b7d-9b1b-4b99-9f50-92eb9ea92f35")
+		)
+		(pin "15"
+			(uuid "9a84f026-f971-4daa-8d09-71c7d28fbfa0")
+		)
+		(pin "8"
+			(uuid "24388c87-4217-4c30-9680-c97df6b77baf")
+		)
+		(pin "10"
+			(uuid "a1452a2f-f962-41be-b981-b90953dfe922")
+		)
+		(pin "9"
+			(uuid "f6edd0fd-59b2-4e08-8a8e-db4044b3a97e")
+		)
+		(pin "16"
+			(uuid "04f3face-a084-4b4e-9ca6-3e60df0e36c2")
+		)
+		(pin "13"
+			(uuid "0b942735-937c-4d86-8c6f-d68191051ba9")
+		)
+		(pin "3"
+			(uuid "4e4af905-253a-4c82-9595-51ee33b0ff4f")
+		)
+		(pin "5"
+			(uuid "287fd190-ecab-4ad9-a02a-134dcd6e4918")
+		)
+		(pin "14"
+			(uuid "fdb1917f-3b7f-485f-81cf-39fd4b698426")
+		)
+		(pin "2"
+			(uuid "0c5e3ef8-a0e2-4225-a02e-17c2e9361a3f")
+		)
+		(pin "4"
+			(uuid "3863e0ac-7669-4f08-89b2-2ea8733cb599")
+		)
+		(pin "1"
+			(uuid "72739eef-d9eb-4ec5-afb0-884991ec9580")
+		)
+		(pin "6"
+			(uuid "846c1095-33f2-4300-bbcb-1bfc0e7effc0")
+		)
+		(instances
+			(project ""
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "U6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 215.9 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e127c055-a2ec-4653-a617-0c935ab0c95d")
+		(property "Reference" "#PWR041"
+			(at 215.9 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 215.9 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 215.9 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cec19a1f-7505-4b75-bc62-c135100d2ef1")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.005 86.995 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f67eb268-272e-44aa-aff3-3e4573f0b4ca")
+		(property "Reference" "R15"
+			(at 167.005 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205"
+			(at 167.005 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.005 88.773 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ201"
+			(at 167.005 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ201/1983462"
+			(at 167.005 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 167.005 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0c1dcd3-2581-4da0-adec-9fc159c743cf")
+		)
+		(pin "1"
+			(uuid "3f674d5a-5e00-4199-886f-82af724b23bb")
+		)
+		(instances
+			(project "SolenoidDriver"
+				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/064d2879-4ee6-477a-9482-834fc595a906"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
