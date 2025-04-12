@@ -4,21 +4,27 @@
 	(generator_version "9.0")
 	(uuid "7e15a7bf-4331-4979-994a-db54f29e3e06")
 	(paper "A4")
+	(title_block
+		(title "GPIO Board")
+		(date "2025-04-03")
+		(rev "ver1.1")
+		(company "阿南高専ロボット研究部")
+	)
 	(lib_symbols
-		(symbol "Anan-Robo_Symbol_Library:LM1117GS"
+		(symbol "Anan-Robo_Symbol_Library:LED_GRB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM1117GS"
-				(at 0 0 0)
+			(property "Value" "LED_GRB"
+				(at 0 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "L.D.O VOLTAGE REGULATOR"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,10 +58,356 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117GS_0_1"
+			(symbol "LED_GRB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_GRB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -5.08 -1.905)
-					(end 5.08 -8.89)
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -65,11 +417,83 @@
 					)
 				)
 			)
-			(symbol "LM1117GS_1_1"
-				(pin power_in line
-					(at -7.62 -3.81 0)
+			(symbol "LED_GRB_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "Vin"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -84,10 +508,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -11.43 90)
+				(pin passive line
+					(at 5.08 -5.08 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -95,24 +519,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1071,23 +1477,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D17"
+				(at -0.3174 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "CAN_R"
+				(at -2.8574 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1116,6 +1524,33 @@
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SMLD12BN1WT86"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "48"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1199,7 +1634,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 0 255 1)
 					)
 				)
 			)
@@ -1516,6 +1952,645 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D11"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "PWR"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SML-D12D8WT86"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D12D8WT86/1641796"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 238 120 0 1)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D1"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LED"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SMLD12BN1WT86"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "48"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_2_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_2_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at -0.254 -3.302 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TX"
+				(at -2.794 -3.302 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SML-D14MWT86A"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "53"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_3_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 191 0 1)
+					)
+				)
+			)
+			(symbol "LED_3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1613,6 +2688,146 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TLV1117-33"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV1117-33"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV1117-33_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV1117-33_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1810,7 +3025,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1826,7 +3041,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_DPDT_x2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1844,15 +3059,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1861,7 +3067,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1870,10 +3076,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1882,9 +3106,33 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1896,18 +3144,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1917,18 +3154,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1976,6 +3202,62 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2349,7 +3631,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vcc = 3.3V\nVf = 2.2V, If = 20mA\n\n(3.3-2.2) / 0.02 = 55Ω"
+	(text "Vcc = 3.3V\nVf = 2.1V, If = 12.5mA\n\n(3.3-2.1) / 0.0125 = 96Ω"
 		(exclude_from_sim no)
 		(at 71.12 144.526 0)
 		(effects
@@ -2360,7 +3642,7 @@
 		)
 		(uuid "1914c909-62b1-4a4d-bfae-418055175455")
 	)
-	(text "Vcc = 5.0V\nVf = 2.0V, If = 20mA\n\n(5.0-2.0) / 0.02 = 150Ω"
+	(text "Vcc = 5.0V\nVf = 2.2V, If = 6.5mA\n\n(5.0-2.2) / 0.0065 = 430Ω"
 		(exclude_from_sim no)
 		(at 68.072 188.214 0)
 		(effects
@@ -2404,6 +3686,17 @@
 		)
 		(uuid "f7c8795e-0c21-44c6-bf2c-654dbba151ec")
 	)
+	(text "Vcc = 5V\nVf = 2.9V, If = 5mA\n(5 - 2.9) / 0.005 = 420Ω"
+		(exclude_from_sim no)
+		(at 17.145 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f968638e-af4b-478c-b4ba-9c10c72988e9")
+	)
 	(junction
 		(at 229.87 66.04)
 		(diameter 0)
@@ -2427,6 +3720,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10ae1a52-7d3a-4f8f-8efa-67c5db2d56b6")
+	)
+	(junction
+		(at 92.71 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ae51b88-32c7-45bb-9296-241db2eccb3d")
 	)
 	(junction
 		(at 185.42 116.84)
@@ -2481,6 +3780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59fc198c-02fa-45f7-8350-c36c7da36f10")
+	)
+	(junction
+		(at 92.71 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d78c1c6-3b61-4524-967a-43243f901ea8")
 	)
 	(junction
 		(at 242.57 129.54)
@@ -2594,6 +3899,10 @@
 		(at 68.58 64.77)
 		(uuid "9578ae4e-4053-4538-8f07-19cae8f71bf4")
 	)
+	(no_connect
+		(at 22.86 60.96)
+		(uuid "9f90fe72-f7c8-46ce-9a50-81c831c73d38")
+	)
 	(wire
 		(pts
 			(xy 240.03 93.98) (xy 240.03 104.14)
@@ -2696,6 +4005,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 160.02) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152294ac-9517-4ba0-bad3-63c5c0a10b97")
+	)
+	(wire
+		(pts
 			(xy 242.57 88.9) (xy 242.57 99.06)
 		)
 		(stroke
@@ -2753,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "1eb8db4a-aa74-48b1-b419-4388552e1309")
+	)
+	(wire
+		(pts
+			(xy 92.71 170.18) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216bf374-c70e-427d-ba71-c69a272b2108")
 	)
 	(wire
 		(pts
@@ -2906,6 +4235,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 165.1) (xy 93.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4492cf0b-1122-4ae3-8d9c-7b66c9ca85f5")
+	)
+	(wire
+		(pts
 			(xy 167.64 137.16) (xy 167.64 140.97)
 		)
 		(stroke
@@ -3003,6 +4342,16 @@
 			(type default)
 		)
 		(uuid "5a1f7aee-1707-4814-b530-8ceaa7c659a3")
+	)
+	(wire
+		(pts
+			(xy 21.59 66.04) (xy 21.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6de199-5bb3-4771-8152-682c4fb60eae")
 	)
 	(wire
 		(pts
@@ -3126,6 +4475,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 170.18) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d01699-c5f4-44fe-a2a7-924caa188d38")
+	)
+	(wire
+		(pts
 			(xy 246.38 124.46) (xy 240.03 124.46)
 		)
 		(stroke
@@ -3236,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 63.5) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86025b31-d941-4d28-a158-024588f783dd")
+	)
+	(wire
+		(pts
 			(xy 50.8 181.61) (xy 50.8 182.88)
 		)
 		(stroke
@@ -3336,6 +4705,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 66.04) (xy 21.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fd640c-96a8-48ea-b038-dd5998345811")
+	)
+	(wire
+		(pts
 			(xy 105.41 127) (xy 105.41 129.54)
 		)
 		(stroke
@@ -3356,6 +4735,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 63.5) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98461152-3817-497a-993a-c90b0cfdf6a6")
+	)
+	(wire
+		(pts
 			(xy 203.2 96.52) (xy 203.2 140.97)
 		)
 		(stroke
@@ -3363,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "9b7148da-8384-4c9b-8de2-f22a8fa74e81")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 105.41 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c794f7a-0b89-42bd-9bc8-4e1829cb8dcf")
 	)
 	(wire
 		(pts
@@ -3393,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "a15f10fc-99d5-4320-8c90-d3838530fc39")
+	)
+	(wire
+		(pts
+			(xy 92.71 170.18) (xy 92.71 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1715043-0429-4d2e-ad19-ef54275041f1")
 	)
 	(wire
 		(pts
@@ -3636,6 +5045,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 165.1) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0cf074-b660-4235-9761-01e88ea8e538")
+	)
+	(wire
+		(pts
 			(xy 167.64 137.16) (xy 246.38 137.16)
 		)
 		(stroke
@@ -3796,6 +5215,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 160.02) (xy 92.71 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb30970a-9f70-4989-a86d-f1ec6423c68b")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd82f2-c979-4891-b7ac-72efff84e42d")
+	)
+	(wire
+		(pts
 			(xy 240.03 124.46) (xy 240.03 134.62)
 		)
 		(stroke
@@ -3836,6 +5275,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 165.1) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a4e7b4-9919-46e5-b97d-5a6b46acd3a5")
+	)
+	(wire
+		(pts
+			(xy 104.14 160.02) (xy 105.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87c9f9b-edcd-4d14-b448-432bf0f929ba")
+	)
+	(wire
+		(pts
 			(xy 176.53 127) (xy 246.38 127)
 		)
 		(stroke
@@ -3853,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "fb45526f-94c4-4337-930b-6fa7b65b52bf")
+	)
+	(wire
+		(pts
+			(xy 113.03 170.18) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddbae25-447c-4bf1-99e1-7e4a6abe0d85")
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -3922,33 +5391,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 106.68 270)
+		(lib_id "power:+5V")
+		(at 36.83 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0699bf62-9b46-4670-a717-f030eac325b4")
-		(property "Reference" "R13"
-			(at 160.02 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 160.02 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 104.902 90)
+		(uuid "04bcda1c-6ece-4da6-af14-e0a6d79a649f")
+		(property "Reference" "#PWR02"
+			(at 36.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,8 +5409,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 160.02 106.68 0)
+		(property "Value" "+5V"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +5426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 160.02 106.68 0)
+		(property "Datasheet" ""
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,43 +5435,22 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 160.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "913c93b0-646b-4133-9d14-b18405d4b82d")
 		)
 		(pin "1"
-			(uuid "f82ee63a-d599-43ca-9946-6bebbe202cd1")
+			(uuid "491f7fb6-9293-41eb-b146-aa4c7cbde6f0")
 		)
 		(instances
-			(project "GPIOBoard"
+			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R13")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4080,7 +5520,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 66.04 0)
 			(effects
 				(font
@@ -4180,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 127 0)
 			(effects
 				(font
@@ -4245,7 +5685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -4290,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "RB160M-30TR"
+		(property "Name" "PMEG3010ER,115"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -4299,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://akizukidenshi.com/catalog/g/g101398/"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/nexperia-usa-inc/PMEG3010ER-115/2119868"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -4308,7 +5748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "15"
+		(property "Price" "30"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -4327,207 +5767,6 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 194.31 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "128844e3-78aa-498d-b61d-e6961993c0a9")
-		(property "Reference" "D5"
-			(at 198.12 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 198.12 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "92"
-			(at 194.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27826951-b9ca-4813-9539-2779323dbc82")
-		)
-		(pin "2"
-			(uuid "4b224e55-88fd-43f6-818d-e8b9b35acdbc")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12cf341b-c343-4f95-98d1-2ee9fd6bd246")
-		(property "Reference" "R16"
-			(at 160.02 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 160.02 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8eda727-ea43-44e3-a25c-9c382622cd65")
-		)
-		(pin "1"
-			(uuid "b1339265-85a5-4194-8b8a-d7e05d242e12")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4597,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 116.84 0)
 			(effects
 				(font
@@ -4652,7 +5891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 53.34 180.3462 0)
 			(effects
 				(font
@@ -4688,7 +5927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10A226MP8NUNE"
+		(property "Name" "GRM188R60G106ME47D"
 			(at 50.8 179.07 0)
 			(effects
 				(font
@@ -4697,7 +5936,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R60G106ME47D/702562"
 			(at 50.8 179.07 0)
 			(effects
 				(font
@@ -4706,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "16"
+		(property "Price" "19"
 			(at 50.8 179.07 0)
 			(effects
 				(font
@@ -4731,33 +5970,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 73.66 62.23 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 176.53 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c44bccb-96aa-4e44-8535-fed5c57b1752")
-		(property "Reference" "SW3"
-			(at 73.66 68.072 0)
+		(fields_autoplaced yes)
+		(uuid "17d807a3-dd4b-4040-b011-ce01b3a2cb8e")
+		(property "Reference" "R7"
+			(at 179.07 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "CAN_R"
-			(at 73.66 70.612 0)
+		(property "Value" "80"
+			(at 179.07 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Anan-Robo_Footprint_Library:SSSS213202"
-			(at 73.66 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.752 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 69.85 0)
+			(at 176.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,8 +6015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 73.66 62.23 0)
+		(property "Description" "Resistor"
+			(at 176.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,8 +6024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SSSS213202"
-			(at 73.66 62.23 0)
+		(property "Name" "ESR03EZPJ820"
+			(at 176.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,8 +6033,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://akizukidenshi.com/catalog/g/g105043/"
-			(at 73.66 62.23 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 176.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,8 +6042,115 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "33"
-			(at 73.66 62.23 0)
+		(property "Price" "22"
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f0bb42c-ecff-4cb0-80ec-b7c2ee931819")
+		)
+		(pin "1"
+			(uuid "9e13c85d-e6a8-407d-b610-f65aaf77215b")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 212.09 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6e7dd5-2f5b-49a8-8dfc-b0939706ce04")
+		(property "Reference" "D3"
+			(at 215.9 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 215.9 147.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SMLD12BN1WT86"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "48"
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,18 +6159,122 @@
 			)
 		)
 		(pin "1"
-			(uuid "c59b978a-8cfb-4116-a9fa-f60613010295")
+			(uuid "cce8c2d0-d767-40d5-8c4e-d78712ec6c93")
 		)
 		(pin "2"
-			(uuid "7479a49f-e211-431b-9844-2a288ec47f02")
-		)
-		(pin "3"
-			(uuid "659e37a8-cd84-40e6-ab5f-7528bf1aab52")
+			(uuid "0dc04c0c-32b9-435f-96a0-bbd192c04bb2")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "SW3")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 176.53 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d584195-4a68-4c8c-9cfc-ddbb3262c950")
+		(property "Reference" "D7"
+			(at 180.34 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 180.34 147.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SMLD12BN1WT86"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "48"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a30e8c6-843a-42ab-b5ef-ee037b86941b")
+		)
+		(pin "2"
+			(uuid "becfb1d5-93eb-4f0a-b64f-5208a0316df4")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4889,6 +6341,306 @@
 			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eed04b9-7496-445c-b880-1d15ab5abe25")
+		(property "Reference" "R27"
+			(at 39.37 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "420"
+			(at 39.37 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.052 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ431"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ431/4051257?s=N4IgjCBcoCwGxVAYygMwIYBsDOBTANCAPZQDaIA7ABwAMATCALqEAOALlCAMpsBOAlgDsA5iAC%2BhMAE4qUxCBSQMOAsTIgaTCSDo0qAVnmLleQiUjkYAZhoACAPIALALbYmrDpBABVQfzb2qACyuOjYAK68uOKEALRy0ApQfOGq5uQQjNqxDImKKWnqhllxEHloWKZqFiBU8FpxMEYVKmbqVnUUCFnaueSAgwyAwwyA6wyArUaA6UZaQA"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "170eafa8-0e9e-478c-b3b6-03541824b83e")
+		)
+		(pin "1"
+			(uuid "d7bbbdba-5639-4f13-8bef-7679c070ffb8")
+		)
+		(instances
+			(project ""
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 36.83 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21baac0b-e497-4d77-999a-9ac812bd4612")
+		(property "Reference" "D17"
+			(at 40.64 51.1174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAN_R"
+			(at 40.64 53.6574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SMLD12BN1WT86"
+			(at 36.83 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 36.83 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "48"
+			(at 36.83 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76810afb-d089-45b8-b8e4-da7a99d06ded")
+		)
+		(pin "2"
+			(uuid "3d275377-d053-4df9-82ec-e2de30e42e6f")
+		)
+		(instances
+			(project ""
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22521c08-dd71-4041-baf6-585340831f65")
+		(property "Reference" "R3"
+			(at 214.63 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 214.63 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.312 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "352e59e8-7142-4afe-9ab3-2777ef5c487a")
+		)
+		(pin "1"
+			(uuid "2c85e5b7-0304-499a-a91e-bec62da58f01")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4962,114 +6714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 167.64 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24e7270a-f015-4b8e-8898-966cd285352b")
-		(property "Reference" "D8"
-			(at 171.45 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 171.45 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "92"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17fcf67b-2a4c-47c7-9b1d-1b8f472c9f17")
-		)
-		(pin "2"
-			(uuid "5d6154b2-808c-41ee-b11b-00447697742f")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 135.89 166.37 0)
+		(at 53.975 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5078,7 +6724,7 @@
 		(fields_autoplaced yes)
 		(uuid "283413ca-291d-4179-8230-f50c2b32403d")
 		(property "Reference" "#PWR0119"
-			(at 135.89 172.72 0)
+			(at 53.975 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +6733,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 135.89 170.18 0)
+			(at 53.975 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +6741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 166.37 0)
+			(at 53.975 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +6750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 166.37 0)
+			(at 53.975 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +6759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 135.89 166.37 0)
+			(at 53.975 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +6797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 27.686 180.34 0)
 			(effects
 				(font
@@ -5187,7 +6833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "GRM188R60J476ME01D"
+		(property "Name" "GRM188R60J226MEA0D"
 			(at 30.48 179.07 0)
 			(effects
 				(font
@@ -5196,7 +6842,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R60J476ME01D/13996874"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R60J226MEA0D/4280542"
 			(at 30.48 179.07 0)
 			(effects
 				(font
@@ -5205,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "56"
+		(property "Price" "30"
 			(at 30.48 179.07 0)
 			(effects
 				(font
@@ -5230,112 +6876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 220.98 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a4a4f37-f143-403e-a387-74e2002fcc34")
-		(property "Reference" "D2"
-			(at 224.79 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 224.79 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "92"
-			(at 220.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7800953-752f-4ce3-8565-2e1165466355")
-		)
-		(pin "2"
-			(uuid "2b7d657b-2e52-416c-b8c8-4dac11b60959")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "LED_2")
 		(lib_id "Device:LED")
 		(at 229.87 144.78 90)
 		(unit 1)
@@ -5399,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SMLEN3BC8TT86"
+		(property "Name" "SMLD12BN1WT86"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -5408,7 +6949,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -5417,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "92"
+		(property "Price" "48"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -5442,35 +6983,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 167.64 154.94 0)
+		(lib_id "Anan-Robo_Symbol_Library:LED_GRB")
+		(at 99.06 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "319a0c27-7fa9-468f-b1a5-2626d78d7474")
-		(property "Reference" "R8"
-			(at 170.18 153.6699 0)
+		(uuid "31cd1992-3820-4f3e-8168-f92de5c53faf")
+		(property "Reference" "U5"
+			(at 99.06 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "80"
-			(at 170.18 156.2099 0)
+		(property "Value" "LED_GRB"
+			(at 99.06 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.862 154.94 90)
+		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,8 +7017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 167.64 154.94 0)
+		(property "Datasheet" ""
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,8 +7026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 167.64 154.94 0)
+		(property "Description" ""
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,8 +7035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 167.64 154.94 0)
+		(property "Name" "SMLVN6RGB1W1"
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,8 +7044,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 167.64 154.94 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLVN6RGB1W1/5053781"
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,122 +7053,37 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
-			(at 167.64 154.94 0)
+		(property "Price" "244"
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "dc4b49d0-a18c-429c-a669-13810aab6ec1")
+		)
+		(pin "4"
+			(uuid "df78cafb-3c75-4917-8e68-a7bd231bc636")
 		)
 		(pin "2"
-			(uuid "30bfce70-5831-4dd0-b521-73bbd08f6762")
+			(uuid "647bb5e4-3d49-4f70-b281-740734e426da")
 		)
 		(pin "1"
-			(uuid "1f110617-53ec-4771-9b3a-114b7e19948c")
+			(uuid "9d189480-7c6e-49cd-bdda-7ee6839db164")
+		)
+		(pin "6"
+			(uuid "43652a0b-e641-4b77-9d37-b4596b0d029d")
+		)
+		(pin "5"
+			(uuid "1c2a75c7-6dab-44c0-abd7-a40da707d955")
 		)
 		(instances
-			(project "GPIOBoard"
+			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 185.42 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "336f8fd3-1187-4131-8586-bc59f7ecebb1")
-		(property "Reference" "R6"
-			(at 187.96 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "80"
-			(at 187.96 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 183.642 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28428309-0bc2-4b7a-b085-98d62e81020a")
-		)
-		(pin "1"
-			(uuid "f9f26ac3-9795-4412-a811-3326eb44f2c3")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5702,33 +7156,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 127 270)
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 203.2 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b4feced-54ce-442d-a1d7-092f2c647412")
-		(property "Reference" "R15"
-			(at 160.02 120.65 90)
+		(uuid "36e85c44-abe5-448e-947a-08e08b99400c")
+		(property "Reference" "D4"
+			(at 207.01 145.0974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "330"
-			(at 160.02 123.19 90)
+		(property "Value" "LED"
+			(at 207.01 147.6374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 125.222 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +7194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 127 0)
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,8 +7202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 160.02 127 0)
+		(property "Description" "Light emitting diode"
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,8 +7211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 127 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,8 +7220,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 127 0)
+		(property "Name" "SMLD12BN1WT86"
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,8 +7229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
-			(at 160.02 127 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,16 +7238,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e00a0688-22c4-4712-b183-7b7897a5f9a5")
+		(property "Price" "48"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "360ad741-ec1e-4873-9561-a85d366c7553")
+			(uuid "69670d22-4f61-4efe-82d2-28c279a3e194")
+		)
+		(pin "2"
+			(uuid "1381200d-2b19-4d97-88ff-fd01340e4c0b")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R15")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5815,7 +7281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55"
+		(property "Value" "96"
 			(at 107.95 142.2399 0)
 			(effects
 				(font
@@ -5851,7 +7317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF60R4"
+		(property "Name" "ESR03EZPJ101"
 			(at 105.41 140.97 0)
 			(effects
 				(font
@@ -5860,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF60R4/20486478"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
 			(at 105.41 140.97 0)
 			(effects
 				(font
@@ -5869,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 105.41 140.97 0)
 			(effects
 				(font
@@ -5954,6 +7420,101 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a0fd08-0da3-46fd-b033-31cefe817ca0")
+		(property "Reference" "R13"
+			(at 160.02 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99ebab70-be2b-478a-93e0-cac599dff746")
+		)
+		(pin "1"
+			(uuid "f660b503-cb00-4f20-a501-20817e4d9fd9")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6159,6 +7720,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.975 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "466c2a46-7726-4c61-83c5-eba819cdd147")
+		(property "Reference" "H2"
+			(at 56.515 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 56.515 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "-"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "-"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 53.975 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0e6a28-c2d8-4fee-8de2-56db4ab1f31e")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 54.61 43.18 90)
 		(mirror x)
@@ -6268,6 +7923,292 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 185.42 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "477996f7-72b5-4ccf-a15e-95b344de8fa0")
+		(property "Reference" "R6"
+			(at 187.96 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 187.96 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 183.642 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bdddb69-9d43-4d83-8394-501c4c069899")
+		)
+		(pin "1"
+			(uuid "638ad359-4572-4e8e-906b-75a52e5a65e9")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.975 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49603490-9729-4a92-9999-b5dafa466fa1")
+		(property "Reference" "H4"
+			(at 56.515 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 56.515 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "-"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "-"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 53.975 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b88b719f-ac1e-4f32-99f2-7fba22033607")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f5b596-f5c8-4972-a9ab-953153ef6e86")
+		(property "Reference" "R28"
+			(at 109.22 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 109.22 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ101"
+			(at 109.22 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
+			(at 109.22 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 109.22 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6770ea03-87cd-4c0b-8eab-f20a788eca5d")
+		)
+		(pin "2"
+			(uuid "665d47b9-e469-4b84-b4a5-a7610100015a")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Coded")
 		(at 96.52 101.6 0)
 		(unit 1)
@@ -6367,6 +8308,113 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 194.31 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db720e7-6c27-4cd3-9897-06235e939c38")
+		(property "Reference" "D5"
+			(at 198.12 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 198.12 147.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SMLD12BN1WT86"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "48"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81df51d1-8863-42ea-9206-a10a06d35b03")
+		)
+		(pin "2"
+			(uuid "d04c8088-ac94-4de9-a6aa-f6db8a42bd5e")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6502,7 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -6606,6 +8654,103 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 203.2 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f195f5-1892-4ebe-b1d2-a35fa985cabd")
+		(property "Reference" "R4"
+			(at 205.74 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 205.74 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.422 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d389edf-f7b7-4108-86d2-b8f7baad1467")
+		)
+		(pin "1"
+			(uuid "232a3048-befd-4363-8129-7ece26e92ef0")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 63.5 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6623,7 +8768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "430"
 			(at 66.04 181.6099 0)
 			(effects
 				(font
@@ -6659,7 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF1500"
+		(property "Name" "ESR03EZPJ431"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -6668,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF1500/4007164"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ431/4051257?s=N4IgjCBcoCwGxVAYygMwIYBsDOBTANCAPZQDaIA7ABwAMATCALqEAOALlCAMpsBOAlgDsA5iAC%2BhMAE4qUxCBSQMOAsTIgaTCSDo0qAVnmLleQiUjkYAZhoACAPIALALbYmrDpBABVQfzb2qACyuOjYAK68uOKEALRy0ApQfOGq5uQQjNqxDImKKWnqhllxEHloWKZqFiBU8FpxMEYVKmbqVnUUCFnaueSAgwyAwwyA6wyArUaA6UZaQA"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -6677,7 +8822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -6702,6 +8847,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_3")
 		(lib_id "Device:LED")
 		(at 100.33 133.35 270)
 		(mirror x)
@@ -6765,7 +8911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SML-E12P8WT86"
+		(property "Name" "SML-D14MWT86A"
 			(at 100.33 133.35 90)
 			(effects
 				(font
@@ -6774,7 +8920,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12P8WT86/1641804"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
 			(at 100.33 133.35 90)
 			(effects
 				(font
@@ -6783,7 +8929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "39"
+		(property "Price" "53"
 			(at 100.33 133.35 90)
 			(effects
 				(font
@@ -6809,7 +8955,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 135.89 179.07 0)
+		(at 53.975 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6818,7 +8964,7 @@
 		(fields_autoplaced yes)
 		(uuid "70f3dc7b-f76f-434b-892f-dd2b48aba007")
 		(property "Reference" "#PWR0120"
-			(at 135.89 185.42 0)
+			(at 53.975 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +8973,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 135.89 182.88 0)
+			(at 53.975 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +8981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 179.07 0)
+			(at 53.975 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +8990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 179.07 0)
+			(at 53.975 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +8999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 135.89 179.07 0)
+			(at 53.975 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,112 +9014,6 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 105.41 133.35 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "710922b9-2279-4d13-b77f-d48290bfc3f2")
-		(property "Reference" "D10"
-			(at 107.95 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RX"
-			(at 107.95 136.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SML-E12P8WT86"
-			(at 105.41 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12P8WT86/1641804"
-			(at 105.41 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "39"
-			(at 105.41 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc81300c-3831-4730-94b7-fdd350823d6f")
-		)
-		(pin "2"
-			(uuid "6bfec5d1-4605-41ac-82f8-c537381d3d99")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7077,73 +9117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 176.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74f1f32a-a631-4cc8-b9df-5ef9db25d720")
-		(property "Reference" "H4"
-			(at 138.43 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 138.43 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 135.89 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 135.89 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c0ea1f6-be95-492e-ae19-1966ccbb5e06")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 203.2 158.75 0)
 		(unit 1)
@@ -7204,6 +9177,387 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78de0a1b-1f13-4775-a48e-94c6dd2ecf04")
+		(property "Reference" "R14"
+			(at 160.02 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "550dbb2b-b61b-4868-a195-8535182494fc")
+		)
+		(pin "1"
+			(uuid "eface9a7-89fa-4704-ae01-d0ef4004df27")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799f942b-70e6-41ba-80e3-37e0ba4075f4")
+		(property "Reference" "R8"
+			(at 170.18 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 170.18 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 165.862 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d41d4975-4821-4cb7-a405-996757f83599")
+		)
+		(pin "1"
+			(uuid "3499d099-f54c-4831-9e36-5d760122cc48")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.845 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce444cb-c76e-4220-ac0b-19620ce7722b")
+		(property "Reference" "H3"
+			(at 32.385 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 32.385 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "-"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "-"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 29.845 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8fe0b7c-05ea-4027-9859-d2e95040b0a9")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "805bb1e5-2052-4ee5-81b0-ad9439c13f4d")
+		(property "Reference" "R30"
+			(at 109.22 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 109.22 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 109.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa420a9-c78a-412d-ac85-9a710c4a1ff7")
+		)
+		(pin "2"
+			(uuid "4e2a2599-ce2e-40b6-bd7a-6596d5fbb033")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7277,17 +9631,18 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_2")
 		(lib_id "Device:LED")
-		(at 203.2 144.78 90)
+		(at 185.42 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8562e1c1-3911-40c1-9ac8-1c90ffd4ed2b")
-		(property "Reference" "D4"
-			(at 207.01 145.0974 90)
+		(uuid "91a88729-f799-48da-8359-b78c1371878b")
+		(property "Reference" "D6"
+			(at 189.23 145.0974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +9651,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 207.01 147.6374 90)
+			(at 189.23 147.6374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +9660,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 203.2 144.78 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +9669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 144.78 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +9678,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 203.2 144.78 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +9687,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 144.78 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,8 +9695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 203.2 144.78 0)
+		(property "Name" "SMLD12BN1WT86"
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,8 +9704,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 203.2 144.78 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,8 +9713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "92"
-			(at 203.2 144.78 0)
+		(property "Price" "48"
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,305 +9723,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bd86eb4-9966-414c-af45-16321996e8c7")
+			(uuid "9d83b333-1d5c-4220-b35b-97358fdd9d6b")
 		)
 		(pin "2"
-			(uuid "851634bf-d257-42cd-892b-43d5199c7b2d")
+			(uuid "19f08b6e-f96d-462a-93df-6225fc8cf665")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8aa242b4-2ced-41c1-80e6-4976122865a8")
-		(property "Reference" "R11"
-			(at 160.02 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 160.02 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 84.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bcde7e2-ccba-40e5-9aca-0302e016d3fe")
-		)
-		(pin "1"
-			(uuid "c0785f25-2f01-40ca-a5d5-ccf9dc90929e")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 220.98 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bbd3029-296e-4910-b82f-1652996f9bcc")
-		(property "Reference" "R2"
-			(at 223.52 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "80"
-			(at 223.52 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.202 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 220.98 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "489cae50-c27e-4c66-9532-75f95368d3dd")
-		)
-		(pin "1"
-			(uuid "e21141a5-5721-4ffc-bf87-ca2fe1e0a793")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Anan-Robo_Symbol_Library:LM1117GS")
-		(at 40.64 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "919122a4-ad41-4658-b37f-26f3df889c33")
-		(property "Reference" "U2"
-			(at 40.64 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117GS"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "L.D.O VOLTAGE REGULATOR"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "LM1117GS-3.3"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://akizukidenshi.com/catalog/g/g116989/"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "25"
-			(at 40.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc38e125-550f-4eff-adb0-8248b9dfa221")
-		)
-		(pin "2"
-			(uuid "1713d0f4-01df-4a1b-bccb-2906b4324ab5")
-		)
-		(pin "1"
-			(uuid "534609ae-1c89-448b-8e37-418879fd3410")
-		)
-		(instances
-			(project ""
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "U2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7690,7 +9755,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "55"
+		(property "Value" "96"
 			(at 98.298 142.24 0)
 			(effects
 				(font
@@ -7726,7 +9791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF60R4"
+		(property "Name" "ESR03EZPJ101"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -7735,7 +9800,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF60R4/20486478"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -7744,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -7769,17 +9834,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 194.31 154.94 0)
+		(lib_name "LED_3")
+		(lib_id "Device:LED")
+		(at 105.41 133.35 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96e50acc-091c-443c-b632-20f2da35d3b9")
-		(property "Reference" "R5"
-			(at 196.85 153.6699 0)
+		(uuid "990afa57-2dea-40f5-b902-d4e6f3109702")
+		(property "Reference" "D10"
+			(at 107.95 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,8 +9853,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80"
-			(at 196.85 156.2099 0)
+		(property "Value" "RX"
+			(at 107.95 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,8 +9862,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.532 154.94 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 105.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +9872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 154.94 0)
+			(at 105.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,8 +9880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 194.31 154.94 0)
+		(property "Description" "Light emitting diode"
+			(at 105.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,8 +9889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 194.31 154.94 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,8 +9898,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 194.31 154.94 0)
+		(property "Name" "SML-D14MWT86A"
+			(at 105.41 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,8 +9907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
-			(at 194.31 154.94 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+			(at 105.41 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,16 +9916,123 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "17a93cb2-c706-45ad-9f3e-c882242da7e5")
+		(property "Price" "53"
+			(at 105.41 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "5800ea15-21db-486b-bf2f-ee7f605a51e7")
+			(uuid "50d25d85-0cf9-4483-8662-168f47eeca34")
+		)
+		(pin "2"
+			(uuid "5a976140-807d-4f65-a0ec-6b1bfdefe078")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R5")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV1117-33")
+		(at 40.64 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2571fb-f8cc-42a4-aa5b-821a6ae0db3d")
+		(property "Reference" "U2"
+			(at 40.64 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-33"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TLV1117-33CDCYR"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/texas-instruments/TLV1117-33CDCYR/1216718"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "63"
+			(at 40.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f6ac41-d87a-4dd3-9123-5195fe6ac6d0")
+		)
+		(pin "3"
+			(uuid "0d4d4eb4-8b24-46ea-9166-712c48cbbd8a")
+		)
+		(pin "2"
+			(uuid "a5fa65b6-98aa-46c5-b446-be1cb4ee49df")
+		)
+		(instances
+			(project ""
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7933,34 +10106,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 154.94 0)
+		(at 160.02 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a307757f-c454-441c-84ba-203914268016")
-		(property "Reference" "R7"
-			(at 179.07 153.6699 0)
+		(uuid "a32a4f8b-8635-423a-bec0-6da9f5dd401f")
+		(property "Reference" "R16"
+			(at 160.02 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "80"
-			(at 179.07 156.2099 0)
+		(property "Value" "330"
+			(at 160.02 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 174.752 154.94 90)
+			(at 160.02 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +10140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 154.94 0)
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +10149,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 154.94 0)
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,8 +10157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 176.53 154.94 0)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,8 +10166,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 176.53 154.94 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,8 +10175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
-			(at 176.53 154.94 0)
+		(property "Price" "22"
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,121 +10185,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "582dce2c-150f-4e19-83ca-347cf700b6e3")
+			(uuid "a7b6290c-5a0f-4471-92df-e700c64d5f2c")
 		)
 		(pin "1"
-			(uuid "c0c301af-5c32-4a97-8707-259caa9b164b")
+			(uuid "66587ae9-bd8c-47fc-b505-2d2730c837d7")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 185.42 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7ea7a94-5486-44a0-a786-de009becf91c")
-		(property "Reference" "D6"
-			(at 189.23 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 189.23 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "92"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce7619e1-627f-472f-822d-c587fc94d89c")
-		)
-		(pin "2"
-			(uuid "b900cd67-7a15-4bc0-83d1-6676d1075038")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8187,7 +10252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF3300"
+		(property "Name" "ESR03EZPJ301"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -8196,7 +10261,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -8205,7 +10270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -8224,103 +10289,6 @@
 			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ace77cb2-c523-40fe-b8ff-16259d933beb")
-		(property "Reference" "R4"
-			(at 205.74 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "80"
-			(at 205.74 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.422 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d134a51e-901b-4c9c-bcf5-a3fc15c6beb4")
-		)
-		(pin "1"
-			(uuid "3c3867db-764d-4dd7-9a31-6c1cb18e4ed3")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8629,35 +10597,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 212.09 144.78 90)
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 73.66 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be804a9f-5f7e-4955-a43a-48580cd053e0")
-		(property "Reference" "D3"
-			(at 215.9 145.0974 90)
+		(uuid "babb6085-5547-4d0f-a0c2-353899c00049")
+		(property "Reference" "SW3"
+			(at 73.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 215.9 147.6374 90)
+		(property "Value" "CAN_R"
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 212.09 144.78 0)
+		(property "Footprint" "Anan-Robo_Footprint_Library:SLW"
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +10632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 144.78 0)
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,8 +10640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 212.09 144.78 0)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,8 +10649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 144.78 0)
+		(property "Name" "SLW-913535-2A-SMT"
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,8 +10658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 212.09 144.78 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/same-sky-formerly-cui-devices/SLW-913535-2A-SMT/21259974?_gl=1*2eq727*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwqIm_BhDnARIsAKBYcmtr85GvWvmuwiIiB0lEAl5wBh9HzS525Q1VXsHXNad484Q9yd81RwYaAhDCEALw_wcB&gclsrc=aw.ds"
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,8 +10667,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 212.09 144.78 0)
+		(property "Price" "87"
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,92 +10676,28 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "92"
-			(at 212.09 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "d364a8c4-2f1d-42cf-80ea-d52ec4092b64")
 		)
-		(pin "1"
-			(uuid "cd69487d-7865-43e4-a177-02fa6e519421")
+		(pin "5"
+			(uuid "26137b21-93ae-435d-ae95-181678a9ba5f")
 		)
 		(pin "2"
-			(uuid "ce1c0a34-c0ee-406a-b34e-10110b8249ed")
+			(uuid "4fdeb0e8-2b5b-45ae-bf71-e1f3225383c2")
 		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 111.76 176.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c12d46d3-d122-43bf-b234-5b79fa5ed868")
-		(property "Reference" "H3"
-			(at 114.3 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 114.3 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 111.76 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 111.76 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "a0bceba7-4774-42ae-a856-b643b6b93756")
 		)
 		(pin "1"
-			(uuid "d69936e0-ae36-472c-9715-ded6d3bfa08f")
+			(uuid "e309996e-8446-42b1-a28c-b66cba69b934")
+		)
+		(pin "4"
+			(uuid "aa056c8e-9164-44d1-ac01-9dbb2b7f7ea8")
 		)
 		(instances
-			(project "GPIOBoard"
+			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "H3")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8810,7 +10712,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2078793-1e4d-4845-a162-8fca4762f890")
+		(uuid "bcca0a61-3d5d-4557-abbb-681774adcdb6")
 		(property "Reference" "R10"
 			(at 160.02 69.85 90)
 			(effects
@@ -8854,7 +10756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF3300"
+		(property "Name" "ESR03EZPJ301"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -8863,7 +10765,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -8872,7 +10774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -8882,15 +10784,81 @@
 			)
 		)
 		(pin "2"
-			(uuid "71b33bcc-b3b4-43dd-ae6b-27e1464c20f3")
+			(uuid "fc4743d6-5453-4e81-b119-07ee0eacb30d")
 		)
 		(pin "1"
-			(uuid "e8d1221f-94dc-495e-81c9-61fbfa67a2cf")
+			(uuid "290120ad-cfac-4b06-b21e-b837283d59c1")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 21.59 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ba2c6f-a55d-42b9-8fcf-150bdd14d259")
+		(property "Reference" "#PWR01"
+			(at 21.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 21.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 21.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3e7651d-eb41-46fc-a2ca-3ef30b44acfd")
+		)
+		(instances
+			(project ""
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8960,7 +10928,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 137.16 0)
 			(effects
 				(font
@@ -8991,6 +10959,113 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 167.64 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e7ffe6-2e98-4637-b7e3-e0c9f724566f")
+		(property "Reference" "D8"
+			(at 171.45 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 147.6374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SMLD12BN1WT86"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "48"
+			(at 167.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "415ed053-fe88-40c2-afa6-33b2673f996a")
+		)
+		(pin "2"
+			(uuid "3a6a5a32-37c6-455b-8b04-14206f9fd94d")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -9060,7 +11135,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 106.68 0)
 			(effects
 				(font
@@ -9091,112 +11166,6 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 176.53 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ced0868c-c728-40a1-a564-b4c75af2ace8")
-		(property "Reference" "D7"
-			(at 180.34 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 180.34 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SMLEN3BC8TT86"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLEN3BC8TT86/15762415"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "92"
-			(at 176.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a99e2f38-0ba7-4aba-b3ec-0b0b3f615812")
-		)
-		(pin "2"
-			(uuid "b5651b0b-06fa-4e6f-9383-be4984954ff2")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9269,35 +11238,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 163.83 0)
+		(lib_id "power:GNDD")
+		(at 92.71 171.45 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2b54ce1-c628-4bae-bb3f-a8147a07e5b9")
-		(property "Reference" "H2"
-			(at 138.43 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 138.43 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 135.89 163.83 0)
+		(uuid "d455014c-fc16-4937-8c02-c8d740ce5c57")
+		(property "Reference" "#PWR03"
+			(at 92.71 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,8 +11256,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 135.89 163.83 0)
+		(property "Value" "GNDD"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,8 +11273,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 135.89 163.83 0)
+		(property "Datasheet" ""
+			(at 92.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 92.71 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,12 +11292,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "82645149-1b9a-4263-b618-4f87b4182359")
+			(uuid "a8237d32-cef3-44ba-a257-bc90871c20a0")
 		)
 		(instances
-			(project "GPIOBoard"
+			(project ""
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "H2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9402,6 +11370,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 27.94 63.5 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da55106d-6288-43f5-bbaf-80875c09145c")
+		(property "Reference" "SW3"
+			(at 27.94 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN_R"
+			(at 27.94 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:SLW"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SLW-913535-2A-SMT"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/same-sky-formerly-cui-devices/SLW-913535-2A-SMT/21259974?_gl=1*2eq727*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwqIm_BhDnARIsAKBYcmtr85GvWvmuwiIiB0lEAl5wBh9HzS525Q1VXsHXNad484Q9yd81RwYaAhDCEALw_wcB&gclsrc=aw.ds"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "87"
+			(at 27.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d364a8c4-2f1d-42cf-80ea-d52ec4092b65")
+		)
+		(pin "5"
+			(uuid "26137b21-93ae-435d-ae95-181678a9ba60")
+		)
+		(pin "2"
+			(uuid "4fdeb0e8-2b5b-45ae-bf71-e1f3225383c3")
+		)
+		(pin "6"
+			(uuid "a0bceba7-4774-42ae-a856-b643b6b93757")
+		)
+		(pin "1"
+			(uuid "e309996e-8446-42b1-a28c-b66cba69b935")
+		)
+		(pin "4"
+			(uuid "aa056c8e-9164-44d1-ac01-9dbb2b7f7ea9")
+		)
+		(instances
+			(project ""
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "SW3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 229.87 158.75 0)
 		(unit 1)
@@ -9469,6 +11543,196 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 109.22 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1f297f-3541-4999-887d-b95ac3de5692")
+		(property "Reference" "R29"
+			(at 109.22 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 109.22 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPF5900"
+			(at 109.22 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF5900/20506305?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4BdAgBwBcoQBlVgJwEsAdgHMQAXwJhKADkoIQySOmz4ipEAAYQDcSGrqpAVjkKluAsUhkDldQAIA8gAsAtli0t2kEAFUBfVvYoALI4aFgArjw4YgQAtBDQ8qiYZqqWIFL0WjqxtMbJyuZq5JkA7Iw5sokKvOEqFmQQ2nHU%2BZC19WpG2jqt6YCDDIDDDIDrDICtRoDpRtlAA"
+			(at 109.22 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 109.22 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534628c4-9bda-43d7-9824-014aaa0b6dcc")
+		)
+		(pin "2"
+			(uuid "fc0ecc3e-dd16-4ab0-bd4e-ed99117bf34a")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc582167-f576-484c-915e-60c56cd9be4f")
+		(property "Reference" "R11"
+			(at 160.02 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f1d6364-800f-49a6-9002-c0c38f7d3aef")
+		)
+		(pin "1"
+			(uuid "4c9a40e3-f30a-4ec9-865f-a2598b226ff8")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 229.87 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9522,7 +11786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF82R0"
+		(property "Name" "ESR03EZPJ820"
 			(at 229.87 154.94 0)
 			(effects
 				(font
@@ -9531,7 +11795,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
 			(at 229.87 154.94 0)
 			(effects
 				(font
@@ -9540,7 +11804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 229.87 154.94 0)
 			(effects
 				(font
@@ -9565,6 +11829,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 220.98 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4b24b2-cf0d-42cb-a56f-638a370a2118")
+		(property "Reference" "R2"
+			(at 223.52 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 223.52 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.202 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3c7f64a-eff5-44b8-85c3-798d05d8ae55")
+		)
+		(pin "1"
+			(uuid "9d35eb9d-a181-4fb1-a6de-c3acea094bb2")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 63.5 170.18 90)
 		(unit 1)
@@ -9619,25 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SML-E12DWT86"
-			(at 63.5 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12DWT86/2337250"
-			(at 63.5 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "58"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -9646,7 +11990,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Name" "SML-D12D8WT86"
+			(at 63.5 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D12D8WT86/1641796"
+			(at 63.5 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -9866,7 +12228,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -9897,6 +12259,103 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8194bb3-74b8-4367-837a-79577582f247")
+		(property "Reference" "R5"
+			(at 196.85 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80"
+			(at 196.85 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 192.532 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ820"
+			(at 194.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ820/4051294"
+			(at 194.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 194.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5053f82-72aa-4cdd-b907-6cf97c20f10f")
+		)
+		(pin "1"
+			(uuid "a8734d6e-e654-48f3-86d9-c46cf37ea138")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10000,8 +12459,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 160.02 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee117dbd-47e3-44ce-9a64-a7f1bf22c927")
+		(property "Reference" "R15"
+			(at 160.02 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38c9bbc0-26d6-49d2-b9ba-0a58b72e28bb")
+		)
+		(pin "1"
+			(uuid "df527abb-3bd7-4a92-80ed-d227d5297ff7")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
-		(at 111.76 179.07 0)
+		(at 29.845 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10010,7 +12564,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee9a937e-b74b-4cb2-82df-32cb2ea017b4")
 		(property "Reference" "#PWR0121"
-			(at 111.76 185.42 0)
+			(at 29.845 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +12573,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 111.76 182.88 0)
+			(at 29.845 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +12581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 179.07 0)
+			(at 29.845 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +12590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 179.07 0)
+			(at 29.845 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +12599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 111.76 179.07 0)
+			(at 29.845 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,6 +12614,101 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec658d3-3f57-4823-9a0d-a40867768f62")
+		(property "Reference" "R12"
+			(at 160.02 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 160.02 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ301"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ301/1762729"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfb15b2c-4f2f-4daf-b273-88174ea6c8ee")
+		)
+		(pin "1"
+			(uuid "5bdb69ea-6810-4543-9574-412e9f92477e")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10195,7 +12844,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "URL" "https://www.digikey.jp/ja/products/detail/jst-sales-america-inc/S03B-PASK-2/926754"
 			(at 251.46 96.52 0)
 			(effects
 				(font
@@ -10233,7 +12882,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 111.76 166.37 0)
+		(at 29.845 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10242,7 +12891,7 @@
 		(fields_autoplaced yes)
 		(uuid "f82f96e4-893e-4d6b-9a95-fccb4f6452fa")
 		(property "Reference" "#PWR0122"
-			(at 111.76 172.72 0)
+			(at 29.845 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +12900,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 111.76 170.18 0)
+			(at 29.845 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +12908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 166.37 0)
+			(at 29.845 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +12917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 166.37 0)
+			(at 29.845 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +12926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 111.76 166.37 0)
+			(at 29.845 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,16 +12948,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 111.76 163.83 0)
+		(at 29.845 109.22 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8917434-39a3-4048-9504-2ca7a96bfa53")
 		(property "Reference" "H1"
-			(at 114.3 161.2899 0)
+			(at 32.385 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +12966,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 114.3 163.8299 0)
+			(at 32.385 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +12975,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 111.76 163.83 0)
+			(at 29.845 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +12984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 163.83 0)
+			(at 29.845 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +12993,34 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 111.76 163.83 0)
+			(at 29.845 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "-"
+			(at 29.845 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "-"
+			(at 29.845 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 29.845 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,33 +13041,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 96.52 270)
+		(lib_name "LED_2")
+		(lib_id "Device:LED")
+		(at 220.98 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9072beb-2b27-4797-8689-e814e8b86088")
-		(property "Reference" "R12"
-			(at 160.02 90.17 90)
+		(uuid "fee7fa90-e14d-45e5-96f9-285ab163ecb2")
+		(property "Reference" "D2"
+			(at 224.79 145.0974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "330"
-			(at 160.02 92.71 90)
+		(property "Value" "LED"
+			(at 224.79 147.6374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 94.742 90)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +13079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 96.52 0)
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,8 +13087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 160.02 96.52 0)
+		(property "Description" "Light emitting diode"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,8 +13096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 96.52 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,8 +13105,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 96.52 0)
+		(property "Name" "SMLD12BN1WT86"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,8 +13114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
-			(at 160.02 96.52 0)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SMLD12BN1WT86/9826162"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,208 +13123,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8add77aa-9a90-416c-a82b-536865701e3d")
+		(property "Price" "48"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ba0dd3eb-2ab0-4e9c-a4d7-31fcb2ce67f7")
+			(uuid "b00d017b-c84e-4639-9a23-b5117ce0f774")
+		)
+		(pin "2"
+			(uuid "eccd206e-c528-423d-bf99-29f9c7d7a6aa")
 		)
 		(instances
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 212.09 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f909a205-bd6b-4e9b-9517-e507aa4c670c")
-		(property "Reference" "R3"
-			(at 214.63 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "80"
-			(at 214.63 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.312 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 212.09 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF82R0"
-			(at 212.09 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF82R0/4007286"
-			(at 212.09 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 212.09 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1c10b59-7913-423a-beb4-764b8d833833")
-		)
-		(pin "1"
-			(uuid "4009ba6a-e29c-4754-b64e-7bc3f9f9530c")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9268665-db23-43d1-a76d-c3db35abb8f6")
-		(property "Reference" "R14"
-			(at 160.02 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 160.02 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 115.062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPF3300"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF3300/4007217"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "23"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77e5d101-ef60-496c-b8d6-98b7d3ab0ce8")
-		)
-		(pin "1"
-			(uuid "f03637c2-d6c1-4aaa-9b60-78bbd3140343")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06"
-					(reference "R14")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10715,7 +13211,7 @@
 	)
 	(sheet
 		(at 114.3 33.02)
-		(size 39.37 110.49)
+		(size 39.37 144.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10739,7 +13235,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 114.3 144.0946 0)
+			(at 114.3 177.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,6 +13416,36 @@
 		(pin "UART1_TX" output
 			(at 114.3 124.46 180)
 			(uuid "30c4c215-3809-4964-9b39-0d21879324ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_B" output
+			(at 114.3 170.18 180)
+			(uuid "4fe168ee-226d-4bae-9d3b-9fc8ee4cbad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_G" output
+			(at 114.3 165.1 180)
+			(uuid "e34a461d-105b-427b-af9a-1f80c1aa4676")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_R" output
+			(at 114.3 160.02 180)
+			(uuid "06c00e51-aa75-4882-bdae-b14c7eb2d51d")
 			(effects
 				(font
 					(size 1.27 1.27)

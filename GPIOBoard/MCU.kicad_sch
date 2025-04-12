@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "9294b5c7-4b73-4fca-bd86-5fc4fe95b05b")
 	(paper "A4")
+	(title_block
+		(title "GPIO Board / MCU")
+		(date "2025-04-03")
+		(rev "ver1.1")
+		(company "阿南高専ロボット研究部")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -2304,16 +2310,22 @@
 		(uuid "ac1eadfb-aa18-4274-a052-f287f2c12715")
 	)
 	(junction
-		(at 171.45 74.93)
+		(at 85.09 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04263f43-535d-4b07-9e14-dd8f062db2b5")
+		(uuid "0552ee5c-f871-4ea1-aed2-b840fd921e1a")
 	)
 	(junction
 		(at 161.29 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1181496c-8407-4864-96f5-484b87fb9064")
+	)
+	(junction
+		(at 130.81 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fadaa91-3707-4faa-a57a-3b1f8595e1de")
 	)
 	(junction
 		(at 140.97 77.47)
@@ -2326,12 +2338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "863fcb77-0be4-440c-b7ba-34ba145d6b2e")
-	)
-	(junction
-		(at 130.81 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8906b90e-b1db-496b-aa38-1804c447d43b")
 	)
 	(junction
 		(at 140.97 67.31)
@@ -2352,6 +2358,12 @@
 		(uuid "c59aa2b9-4673-4d79-8aed-4c6c1a743625")
 	)
 	(junction
+		(at 130.81 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbdb50e3-fdf4-4f1d-90cc-0f45a80f9957")
+	)
+	(junction
 		(at 99.06 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2370,10 +2382,10 @@
 		(uuid "e0a21195-5144-4821-9a2b-8f9b0d0768bb")
 	)
 	(junction
-		(at 130.81 67.31)
+		(at 171.45 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5429d3e-aa7e-47b2-99fb-6d103c460780")
+		(uuid "eba42b5f-d294-4f1f-bf71-5a54a23505e0")
 	)
 	(junction
 		(at 135.89 67.31)
@@ -2507,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 135.89 67.31)
+			(xy 125.73 67.31) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2537,23 +2549,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 135.89 74.93)
+			(xy 125.73 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56fed6d8-9bd4-44a9-a2cf-2b824594b9b7")
-	)
-	(wire
-		(pts
-			(xy 130.81 67.31) (xy 125.73 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dce1e22-1b2f-42c5-a959-f34f53d9e4e5")
 	)
 	(wire
 		(pts
@@ -2574,6 +2576,16 @@
 			(type default)
 		)
 		(uuid "609e6dc8-d627-48b9-94e7-a55ec2b6cbf8")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a83a50-4d15-46ee-be79-49377b17ea2f")
 	)
 	(wire
 		(pts
@@ -2687,6 +2699,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 66.04) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3302b42-5648-4262-ab9d-eb3cc864c9e3")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d26bb1-b331-492c-a2b3-a288f19d190f")
+	)
+	(wire
+		(pts
 			(xy 109.22 105.41) (xy 109.22 106.68)
 		)
 		(stroke
@@ -2717,6 +2749,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 67.31) (xy 135.89 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf4918c-f7a0-4045-9cee-926252bbd494")
+	)
+	(wire
+		(pts
 			(xy 146.05 72.39) (xy 146.05 73.66)
 		)
 		(stroke
@@ -2744,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "e94cada2-b2f9-4d7f-ac1b-7930bf4007ab")
-	)
-	(wire
-		(pts
-			(xy 125.73 74.93) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed58fe24-0758-413b-ac47-d2c2a30b8360")
 	)
 	(wire
 		(pts
@@ -2877,6 +2909,17 @@
 		)
 		(uuid "104345e4-8596-4a63-af0a-56d51fb6039e")
 	)
+	(hierarchical_label "LED_G"
+		(shape output)
+		(at 158.75 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14c9ddb5-c464-4e9d-a18b-7b4d2c87b735")
+	)
 	(hierarchical_label "ID3"
 		(shape input)
 		(at 128.27 118.11 180)
@@ -2942,6 +2985,17 @@
 			(justify left)
 		)
 		(uuid "50870129-a03f-419f-bd6d-66661187d60d")
+	)
+	(hierarchical_label "LED_B"
+		(shape output)
+		(at 158.75 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "612d7f7f-630a-4e02-b95d-03aa77abc6e5")
 	)
 	(hierarchical_label "ID2"
 		(shape input)
@@ -3031,6 +3085,17 @@
 		)
 		(uuid "c48e6d3a-96b7-4f1c-b7c3-8fd2c174b186")
 	)
+	(hierarchical_label "LED_R"
+		(shape output)
+		(at 158.75 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc9095ec-b9df-43ec-a945-13b5132e52a7")
+	)
 	(hierarchical_label "UART2_RX"
 		(shape input)
 		(at 158.75 123.19 0)
@@ -3107,7 +3172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10B104KA8NNNC"
+		(property "Name" "GCJ188R91H124KA01D"
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -3116,7 +3181,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -3125,7 +3190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "12"
+		(property "Price" "36"
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -3282,6 +3347,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 171.45 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20969924-48b4-4474-9314-4fdddce7572e")
+		(property "Reference" "C6"
+			(at 167.386 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 171.704 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.4152 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "GCJ188R91H124KA01D"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "36"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2be0877-714a-4f0c-bc9b-ffb793d019ff")
+		)
+		(pin "2"
+			(uuid "3ebfa21f-fb41-4e13-af70-16ebfb9631b8")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24fcf3cd-1353-41e9-970c-2e6467842c6f")
+		(property "Reference" "C4"
+			(at 126.746 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 131.064 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 131.7752 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "GCJ188R91H124KA01D"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "36"
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a4ff9c7-5942-4fbb-a8e6-c5afc041444f")
+		)
+		(pin "2"
+			(uuid "64948699-e944-4fe6-b6df-4056002f859a")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 99.06 111.76 0)
 		(unit 1)
@@ -3402,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF1002"
+		(property "Name" "ESR03EZPJ103"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -3411,7 +3668,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF1002/1983429"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ103/1762722"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -3420,7 +3677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -3499,7 +3756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "C0603C150K4GACTU"
+		(property "Name" "GCM1885C2A150JA16D"
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -3508,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/kemet/C0603C150K4GACTU/2199932"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A150JA16D/1765189"
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -3595,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "C0603C150K4GACTU"
+		(property "Name" "GCM1885C2A150JA16D"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -3604,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/kemet/C0603C150K4GACTU/2199932"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A150JA16D/1765189"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -4318,7 +4575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10A106KQ8NNNC"
+		(property "Name" "GRM188R60G106ME47D"
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -4327,7 +4584,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10A106KQ8NNNC/3886696"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188R60G106ME47D/702562"
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -4336,7 +4593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "12"
+		(property "Price" "19"
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -4415,7 +4672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10B104KA8NNNC"
+		(property "Name" "GCJ188R91H124KA01D"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -4424,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -4433,7 +4690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "12"
+		(property "Price" "36"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -4452,6 +4709,72 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b068d157-1bb0-4451-92ce-1b79ba8aa269")
+		(property "Reference" "#PWR0152"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e04b455d-8fb1-415f-818e-aa06510e9653")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -4764,7 +5087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10B105KA8NNNC"
+		(property "Name" "GRM188D71H105ME01W"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -4773,7 +5096,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM188D71H105ME01W/22528412"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -4782,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "9"
+		(property "Price" "47"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -4867,198 +5190,6 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd86119f-c1b3-4f2c-9fa6-b90fcba14251")
-		(property "Reference" "C6"
-			(at 167.386 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 171.704 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 172.4152 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "CL10B104KA8NNNC"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "12"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66bcad4d-f502-48dc-849a-6a5837160f49")
-		)
-		(pin "2"
-			(uuid "a1db927f-3ad9-45ca-94ae-c454f1ab429a")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 130.81 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e98e6e76-985b-463a-8fd8-c3901fbe4ab2")
-		(property "Reference" "C4"
-			(at 126.746 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 131.064 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 131.7752 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "CL10B104KA8NNNC"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "12"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a2d9da4-0cf4-4f4b-8c14-80711a5e642a")
-		)
-		(pin "2"
-			(uuid "c919103e-522c-4d2a-9ddb-c973a4d13050")
-		)
-		(instances
-			(project "GPIOBoard"
-				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5223,6 +5354,103 @@
 			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "feb25111-b1c5-4cda-bf6e-5a5454fbae40")
+		(property "Reference" "R31"
+			(at 87.63 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 87.63 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.312 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ103"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ103/1762722"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "751c0481-c5fb-4329-8eb9-7983436dc316")
+		)
+		(pin "1"
+			(uuid "268534e7-dca1-496c-9dda-f742eacd6e11")
+		)
+		(instances
+			(project "GPIOBoard"
+				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
+					(reference "R31")
 					(unit 1)
 				)
 			)

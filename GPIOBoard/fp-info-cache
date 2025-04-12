@@ -1,4 +1,4 @@
-24830903690105484
+24843207082204207
 Anan-Robo_Footprint_Library
 3.3V出力昇圧DCDCコンバーター
 
@@ -20,6 +20,13 @@ Anan-Robo_Footprint_Library
 0
 20
 20
+Anan-Robo_Footprint_Library
+A31CxPxxVDC2
+Relay
+
+0
+11
+5
 Anan-Robo_Footprint_Library
 Aho_new_L
 Tsukuru Aho, x=25mm
@@ -84,6 +91,13 @@ IM920sL
 21
 20
 Anan-Robo_Footprint_Library
+Info_M
+5mm
+
+0
+0
+0
+Anan-Robo_Footprint_Library
 Info_S
 3.5mm
 
@@ -98,12 +112,26 @@ M5Stack_Basic
 30
 30
 Anan-Robo_Footprint_Library
-M78AR05
+M78A
 
 
 0
 3
 3
+Anan-Robo_Footprint_Library
+MAU1xx
+
+
+0
+4
+4
+Anan-Robo_Footprint_Library
+MCWI03
+
+
+0
+7
+7
 Anan-Robo_Footprint_Library
 MF-FSMF
 PTC Resettable Fuses
@@ -203,12 +231,26 @@ RDS-1055-SMT
 6
 5
 Anan-Robo_Footprint_Library
+REC10K-AW
+
+
+0
+6
+6
+Anan-Robo_Footprint_Library
 SBDBT
 
 
 0
 10
 10
+Anan-Robo_Footprint_Library
+SLW
+Slide Switch, CUI devices
+
+0
+6
+6
 Anan-Robo_Footprint_Library
 SOP14
 
@@ -218,7 +260,7 @@ SOP14
 14
 Anan-Robo_Footprint_Library
 SS-12D00G3
-
+Slide Switch, SPDT
 
 0
 3
@@ -259,6 +301,13 @@ TVAF06-A020B-R
 2
 2
 Anan-Robo_Footprint_Library
+Title
+
+
+0
+0
+0
+Anan-Robo_Footprint_Library
 USB Type-C コネクタDIP化キット
 
 
@@ -273,26 +322,26 @@ USB_A
 6
 5
 Anan-Robo_Footprint_Library
+VO615A_Option9
+
+
+0
+4
+4
+Anan-Robo_Footprint_Library
+WT
+Buzzer
+
+0
+2
+2
+Anan-Robo_Footprint_Library
 XRCGB
 Crystal Unit
 
 0
 4
 3
-Anan-Robo_Footprint_Library
-XT30U-F
-
-
-0
-2
-2
-Anan-Robo_Footprint_Library
-XT30U-M
-
-
-0
-2
-2
 Anan-Robo_Footprint_Library
 XT30_horizontal
 

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "21db2a35-3da1-4c61-b4bd-a0d01b6200bb")
 	(paper "A4")
+	(title_block
+		(title "GPIO Board / USB-UART")
+		(date "2025-04-03")
+		(rev "ver1.1")
+		(company "阿南高専ロボット研究部")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -1020,23 +1026,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D12"
+				(at -0.3174 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "Data"
+				(at -2.8574 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1064,6 +1072,33 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SML-D14MWT86A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "53"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1148,7 +1183,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 191 0 1)
 					)
 				)
 			)
@@ -2093,7 +2129,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vcc = 3.3V\nVf = 2.2V, If = 20mA\n\n(3.3-2.2) / 0.02 = 55Ω"
+	(text "Vcc = 3.3V\nVf = 2.1V, If = 12.5mA\n\n(3.3-2.1) / 0.0125 = 96Ω"
 		(exclude_from_sim no)
 		(at 184.15 124.46 0)
 		(effects
@@ -2960,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10B104KA8NNNC"
+		(property "Name" "GCJ188R91H124KA01D"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -2969,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -2978,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "12"
+		(property "Price" "36"
 			(at 167.64 76.2 0)
 			(effects
 				(font
@@ -3030,7 +3066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -3075,7 +3111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "RB160M-30TR"
+		(property "Name" "PMEG3010ER,115"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -3084,7 +3120,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://akizukidenshi.com/catalog/g/g101398/"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/nexperia-usa-inc/PMEG3010ER-115/2119868"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -3093,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "15"
+		(property "Price" "30"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -3136,7 +3172,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "data"
+		(property "Value" "Data"
 			(at 181.61 113.3474 90)
 			(effects
 				(font
@@ -3181,7 +3217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SML-E12P8WT86"
+		(property "Name" "SML-D14MWT86A"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -3190,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12P8WT86/1641804"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -3199,7 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "39"
+		(property "Price" "53"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -3343,7 +3379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF5101"
+		(property "Name" "ESR03EZPJ512"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -3352,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF5101/4007250"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ512/1762735"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -3361,7 +3397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -3669,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF5101"
+		(property "Name" "ESR03EZPJ512"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -3678,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF5101/4007250"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ512/1762735"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -3687,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -3730,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55"
+		(property "Value" "96"
 			(at 180.34 120.6499 0)
 			(effects
 				(font
@@ -3766,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF60R4"
+		(property "Name" "ESR03EZPJ101"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -3775,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF60R4/20486478"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -3784,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 177.8 119.38 0)
 			(effects
 				(font

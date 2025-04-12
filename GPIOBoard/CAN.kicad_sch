@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3ec4102e-b802-4c76-8d7c-3cd2a30d9ff9")
 	(paper "A4")
+	(title_block
+		(title "GPIO Board / CAN")
+		(date "2025-04-03")
+		(rev "ver1.1")
+		(company "阿南高専ロボット研究部")
+	)
 	(lib_symbols
 		(symbol "Anan-Robo_Symbol_Library:MCP2561/2FD"
 			(exclude_from_sim no)
@@ -362,23 +368,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D14"
+				(at -0.254 -3.302 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "CAN_RX"
+				(at -2.794 -3.302 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -406,6 +414,33 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SML-D14MWT86A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "53"
 				(at 0 0 0)
 				(effects
 					(font
@@ -490,7 +525,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 191 0 1)
 					)
 				)
 			)
@@ -844,6 +880,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D13"
+				(at -0.254 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CAN_TX"
+				(at -2.794 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "SML-D14MWT86A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "53"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 191 0 1)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1093,7 +1342,7 @@
 		)
 		(uuid "69670b53-3be1-4973-9e6f-3a0f71636c69")
 	)
-	(text "Vcc = 3.3V\nVf = 2.2V, If = 20mA\n\n(3.3-2.2) / 0.02 = 55Ω"
+	(text "Vcc = 3.3V\nVf = 2.1V, If = 12.5mA\n\n(3.3-2.1) / 0.0125 = 96Ω"
 		(exclude_from_sim no)
 		(at 135.636 103.632 0)
 		(effects
@@ -1777,7 +2026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SML-E12P8WT86"
+		(property "Name" "SML-D14MWT86A"
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -1786,7 +2035,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12P8WT86/1641804"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -1795,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "39"
+		(property "Price" "53"
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -1987,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CL10B104KA8NNNC"
+		(property "Name" "GCJ188R91H124KA01D"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -1996,7 +2245,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/samsung-electro-mechanics/CL10B104KA8NNNC/3886664"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -2005,7 +2254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "12"
+		(property "Price" "36"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -2096,6 +2345,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 124.46 86.36 90)
 		(unit 1)
@@ -2158,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "SML-E12P8WT86"
+		(property "Name" "SML-D14MWT86A"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -2167,7 +2417,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-E12P8WT86/1641804"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -2176,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "39"
+		(property "Price" "53"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -2284,7 +2534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "55"
+		(property "Value" "96"
 			(at 122.174 96.52 0)
 			(effects
 				(font
@@ -2320,7 +2570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF60R4"
+		(property "Name" "ESR03EZPJ101"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -2329,7 +2579,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF60R4/20486478"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -2338,7 +2588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -2381,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "55"
+		(property "Value" "96"
 			(at 133.35 96.5199 0)
 			(effects
 				(font
@@ -2417,7 +2667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ESR03EZPF60R4"
+		(property "Name" "ESR03EZPJ101"
 			(at 130.81 95.25 0)
 			(effects
 				(font
@@ -2426,7 +2676,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPF60R4/20486478"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
 			(at 130.81 95.25 0)
 			(effects
 				(font
@@ -2435,7 +2685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "23"
+		(property "Price" "22"
 			(at 130.81 95.25 0)
 			(effects
 				(font
