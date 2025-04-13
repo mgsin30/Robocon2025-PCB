@@ -1,0 +1,11 @@
+# PWM Board
+
+PWM を出力し、サーボモーターや ESC、LEDテープを接続するための基板
+
+![表面](./img/PWMBoard_ver1.0_表.png)
+![表面](./img/PWMBoard_ver1.0_裏.png)
+
+## 変更履歴
+
+### ver1.0 (発注日：2025/04/12)
+- 初回完成
