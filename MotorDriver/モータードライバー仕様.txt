@@ -1,0 +1,45 @@
+モータードライバー 仕様
+
+・電源電圧 20V
+・連続耐電流 30A
+・PWM周波数 20kHz
+
+MOSFET
+・MTB7D0N6RJ3
+　https://akizukidenshi.com/catalog/g/g117191/
+
+ショットキーバリアダイオード
+・RB160M-30TR
+　https://akizukidenshi.com/catalog/g/g101398/
+
+ゲートドライバ
+・IR2302
+　https://akizukidenshi.com/catalog/g/g115656/
+
+フォトカプラ
+・TLP2745
+　https://akizukidenshi.com/catalog/g/g118360/
+
+三端子レギュレーター
+・NJM78L12SU3
+　https://akizukidenshi.com/catalog/g/g111322/
+
+逆起電力吸収用コンデンサ
+・EEEFT1H331AP
+　https://www.digikey.jp/ja/products/detail/panasonic-electronic-components/EEE-FT1H331AP/2652057
+
+
+ゲート抵抗
+・90Ω
+　Vgs=12V, Qg=44.4nC, Rg=2Ω, t=300ns
+　I = Qg/t = 44.4/300 = 0.148A
+　R = Vgs/I - Rg = 12/0.148 - 2 = 79.08 = 80Ω
+
+フォトカプラの電流制限抵抗
+・360Ω
+　フォトカプラ入力順電圧=1.55V, 入力順電流=10mA, マイコンロジック電圧=3.3V
+　R = (3.3-1.55)/0.01 = 175
+
+ブートストラップコンデンサ
+・10uF
+　IR2302を使っている人がよく10uFを使っていたので
