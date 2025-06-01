@@ -1,0 +1,11 @@
+# CAN Bus Hub
+
+各基板と CANバス を接続する基板
+
+![表面](./img/CANBusHub_ver1.0_表.png)
+![裏面](./img/CANBusHub_ver1.0_裏.png)
+
+## 変更履歴
+
+### ver1.0 (完成日：2025/05/30)
+- 初回完成
