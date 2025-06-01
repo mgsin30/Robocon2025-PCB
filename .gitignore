@@ -1,2 +1,4 @@
 */*-backups
 */production/backups
+*/*/*-backups
+*/*/production/backups
