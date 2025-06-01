@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0805,1,10u,
+"D1, D2",0603,2,LED,
+J1,PAコネクタ(2ピントップ型),1,BATT,
+"J2, J3",PAコネクタ(2ピントップ型),2,EMG,
+"R1, R2, R4, R5",0603,4,1k,
+R3,0603,1,120,
+SW1,SS-12D00G3,1,PWR,
+SW2,CS1213AG,1,SW1,
+SW3,CS1213AG,1,SW3,
+U1,RTM-1B,1,RTM-1B,
