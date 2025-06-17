@@ -1,4 +1,4 @@
-24865952722185497
+24887029947425346
 Anan-Robo_Footprint_Library
 3.3V出力昇圧DCDCコンバーター
 
@@ -49,6 +49,13 @@ Tsukuru Aho, x=15mm
 0
 0
 Anan-Robo_Footprint_Library
+Aho_new_S
+
+
+0
+0
+0
+Anan-Robo_Footprint_Library
 Aho_old_L
 Tsukuru Aho, x=25mm
 
@@ -63,12 +70,26 @@ Tsukuru Aho, x=15mm
 0
 0
 Anan-Robo_Footprint_Library
+Aho_old_S
+
+
+0
+0
+0
+Anan-Robo_Footprint_Library
 CS1213AG
 
 
 0
 2
 2
+Anan-Robo_Footprint_Library
+CZ3A
+
+
+0
+10
+10
 Anan-Robo_Footprint_Library
 CxxxxxL---x
 Rocker Switch
@@ -266,6 +287,13 @@ Pro Micro
 24
 24
 Anan-Robo_Footprint_Library
+QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_Handsoldering
+
+
+0
+42
+33
+Anan-Robo_Footprint_Library
 RDS-1055-SMT
 4-bit rotary coded switch
 
@@ -308,19 +336,54 @@ Slide Switch, CUI devices
 6
 6
 Anan-Robo_Footprint_Library
-SM03B-PASS-TB
+SM02B-PASS-1-TBx
+
+
+0
+4
+2
+Anan-Robo_Footprint_Library
+SM02B-PASS-TBx
+
+
+0
+4
+2
+Anan-Robo_Footprint_Library
+SM03B-PASS-1-TBx
 
 
 0
 5
 3
 Anan-Robo_Footprint_Library
-SM05B-PASS-TB
+SM03B-PASS-TBx
+
+
+0
+5
+3
+Anan-Robo_Footprint_Library
+SM05B-PASS-1-TBx
 
 
 0
 7
 5
+Anan-Robo_Footprint_Library
+SM05B-PASS-TBx
+
+
+0
+7
+5
+Anan-Robo_Footprint_Library
+SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_Handsoldering
+
+
+0
+13
+9
 Anan-Robo_Footprint_Library
 SOP14
 
@@ -392,6 +455,13 @@ Title
 0
 0
 Anan-Robo_Footprint_Library
+Toshiba_11-6B1A
+
+
+0
+8
+8
+Anan-Robo_Footprint_Library
 USB Type-C コネクタDIP化キット
 
 
@@ -406,7 +476,7 @@ USB_A
 6
 5
 Anan-Robo_Footprint_Library
-VO615A_Option9
+VO615A_Option7
 
 
 0
@@ -517,6 +587,20 @@ Anan-Robo_Footprint_Library
 0
 4
 2
+Anan-Robo_Footprint_Library
+名称未設定
+
+
+0
+0
+0
+Anan-Robo_Footprint_Library
+名称未設定_1
+
+
+0
+0
+0
 Anan-Robo_Footprint_Library
 電池ボックス(単4×1)
 

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Converter Board")
-		(date "2025-05-31")
-		(rev "ver1.0")
+		(date "2025-06-17")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -1742,7 +1742,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "20kgサーボモーター用"
+	(text "20kgサーボモーター用など"
 		(exclude_from_sim no)
 		(at 207.01 102.87 0)
 		(effects
@@ -3772,7 +3772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -4864,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+		(property "Footprint" "Anan-Robo_Footprint_Library:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_Handsoldering"
 			(at 129.54 88.9 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+		(property "Footprint" "Anan-Robo_Footprint_Library:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_Handsoldering"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -5385,7 +5385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 147.32 146.05 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -10351,7 +10351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+		(property "Footprint" "Anan-Robo_Footprint_Library:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_Handsoldering"
 			(at 129.54 52.07 0)
 			(effects
 				(font
