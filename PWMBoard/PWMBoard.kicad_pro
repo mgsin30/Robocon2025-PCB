@@ -92,22 +92,6 @@
           ""
         ],
         [
-          "hole_clearance|124380000|90230000|ecd52ac8-e7c9-41c7-909e-a2c20dec7731|0ec924ae-4771-4dc5-8081-3f42de830ae1",
-          ""
-        ],
-        [
-          "hole_clearance|124380000|90230000|ecd52ac8-e7c9-41c7-909e-a2c20dec7731|47089875-cb46-4522-b967-0f1749bb94bc",
-          ""
-        ],
-        [
-          "hole_clearance|130480000|90230000|e67619ad-345c-4ecf-b98e-87780aee841a|5c3a0cd1-8aa9-42cb-a6f2-1d914e6e044d",
-          ""
-        ],
-        [
-          "hole_clearance|130480000|90230000|e67619ad-345c-4ecf-b98e-87780aee841a|cdafa021-5fc3-4546-b65f-6b4190980e28",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|117200000|124850000|ee87a649-b45f-49e2-9a3c-4bc4adf8ccd4|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -570,7 +554,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/PWMBoard.step",
       "svg": "",
       "vrml": ""
     },
@@ -703,12 +687,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -787,6 +765,12 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
           "show": false
@@ -794,7 +778,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

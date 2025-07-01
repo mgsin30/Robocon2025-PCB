@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PWM Board")
-		(date "2025-04-02")
-		(rev "ver1.0")
+		(date "2025-06-18")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -4325,7 +4325,7 @@
 		(uuid "4c4893d7-479d-460f-9e8e-40c0a8c6fcb9")
 	)
 	(junction
-		(at 280.67 17.78)
+		(at 276.225 20.955)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4feaf755-e262-4dfe-825e-3b1b49098b44")
@@ -4397,7 +4397,7 @@
 		(uuid "8fc4ed48-89af-4be9-bfd7-bcfe42e37122")
 	)
 	(junction
-		(at 271.78 35.56)
+		(at 267.335 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "976ceca5-9cd7-494f-83eb-20c4a096839f")
@@ -4433,7 +4433,7 @@
 		(uuid "aeb10581-f7ae-466b-abea-b5a24e0e59d0")
 	)
 	(junction
-		(at 280.67 27.94)
+		(at 276.225 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b83974-74d7-4980-b7da-f64e364ec86f")
@@ -4469,7 +4469,7 @@
 		(uuid "f9edb442-f8fb-4d98-b17e-60f4c3029cba")
 	)
 	(junction
-		(at 261.62 27.94)
+		(at 257.175 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc039a71-1ec9-4382-8d8a-e32f98c22554")
@@ -4514,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 27.94) (xy 280.67 30.48)
+			(xy 276.225 31.115) (xy 276.225 33.655)
 		)
 		(stroke
 			(width 0)
@@ -4534,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 17.78) (xy 261.62 17.78)
+			(xy 263.525 20.955) (xy 257.175 20.955)
 		)
 		(stroke
 			(width 0)
@@ -4614,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 27.94) (xy 264.16 27.94)
+			(xy 257.175 31.115) (xy 259.715 31.115)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 27.94) (xy 280.67 27.94)
+			(xy 274.955 31.115) (xy 276.225 31.115)
 		)
 		(stroke
 			(width 0)
@@ -4744,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 17.78) (xy 261.62 27.94)
+			(xy 257.175 20.955) (xy 257.175 31.115)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 17.78) (xy 280.67 17.78)
+			(xy 271.145 20.955) (xy 276.225 20.955)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 17.78) (xy 280.67 16.51)
+			(xy 276.225 20.955) (xy 276.225 19.685)
 		)
 		(stroke
 			(width 0)
@@ -5434,7 +5434,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 241.3 27.94)
+			(xy 234.315 31.115) (xy 236.855 31.115)
 		)
 		(stroke
 			(width 0)
@@ -5524,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 35.56) (xy 280.67 35.56)
+			(xy 267.335 38.735) (xy 276.225 38.735)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5574,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 24.13) (xy 238.76 27.94)
+			(xy 234.315 27.305) (xy 234.315 31.115)
 		)
 		(stroke
 			(width 0)
@@ -5614,7 +5614,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 35.56) (xy 271.78 35.56)
+			(xy 257.175 38.735) (xy 267.335 38.735)
 		)
 		(stroke
 			(width 0)
@@ -5714,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 27.94) (xy 280.67 17.78)
+			(xy 276.225 31.115) (xy 276.225 20.955)
 		)
 		(stroke
 			(width 0)
@@ -5734,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 27.94) (xy 261.62 30.48)
+			(xy 257.175 31.115) (xy 257.175 33.655)
 		)
 		(stroke
 			(width 0)
@@ -5744,7 +5744,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 27.94) (xy 261.62 27.94)
+			(xy 247.015 31.115) (xy 257.175 31.115)
 		)
 		(stroke
 			(width 0)
@@ -6000,7 +6000,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03fa5256-7c8d-4b73-8352-16db120142d9")
 		(property "Reference" "#PWR045"
 			(at 49.53 25.4 0)
@@ -6012,7 +6011,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 16.51 0)
+			(at 49.53 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,16 +6234,16 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 246.38 27.94 0)
+		(at 241.935 31.115 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0becca9c-e8d5-468d-9790-0d17f2e880cd")
 		(property "Reference" "JP2"
-			(at 246.38 31.75 0)
+			(at 237.49 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6251,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 246.38 34.29 0)
+			(at 237.49 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6277,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6286,7 @@
 			)
 		)
 		(property "Name" "-"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6295,7 @@
 			)
 		)
 		(property "URL" "-"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6304,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,16 +6730,15 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 238.76 24.13 0)
+		(at 234.315 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19f74ba2-d6da-425a-9745-6dcb7a720817")
 		(property "Reference" "#PWR066"
-			(at 238.76 27.94 0)
+			(at 234.315 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6747,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 238.76 19.05 0)
+			(at 234.315 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 24.13 0)
+			(at 234.315 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 24.13 0)
+			(at 234.315 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 238.76 24.13 0)
+			(at 234.315 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6902,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 280.67 33.02 0)
+		(at 276.225 36.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6913,7 +6911,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ddaf421-770d-40bd-83bd-e1e847d7ecb2")
 		(property "Reference" "C13"
-			(at 283.21 31.7562 0)
+			(at 278.765 34.9312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6920,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 283.21 34.2962 0)
+			(at 278.765 37.4712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6929,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6956,7 @@
 			)
 		)
 		(property "Name" "GCJ188R91H124KA01D"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +6965,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6974,7 @@
 			)
 		)
 		(property "Price" "36"
-			(at 280.67 33.02 0)
+			(at 276.225 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +6999,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 271.78 17.78 0)
+		(at 267.335 20.955 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7010,7 +7008,7 @@
 		(fields_autoplaced yes)
 		(uuid "217d47bb-b168-4aeb-9e9d-6ab27fda7239")
 		(property "Reference" "D16"
-			(at 271.78 11.43 0)
+			(at 267.335 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7016,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 271.78 13.97 0)
+			(at 267.335 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7024,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7042,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7051,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7060,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7069,7 @@
 			)
 		)
 		(property "Name" "PMEG3010ER,115"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7078,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/nexperia-usa-inc/PMEG3010ER-115/2119868"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7087,7 @@
 			)
 		)
 		(property "Price" "30"
-			(at 271.78 17.78 0)
+			(at 267.335 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7218,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2bd4a447-3441-46f5-b8a4-1cbf4ad2bc00")
 		(property "Reference" "#PWR056"
 			(at 170.18 147.32 0)
@@ -7571,16 +7568,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 246.38 24.13 0)
+		(at 241.935 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "376bf9bc-5f08-4130-8250-1a1c43d8896b")
 		(property "Reference" "#PWR065"
-			(at 246.38 27.94 0)
+			(at 241.935 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7585,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 246.38 19.05 0)
+			(at 241.935 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 24.13 0)
+			(at 241.935 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 24.13 0)
+			(at 241.935 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 246.38 24.13 0)
+			(at 241.935 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7746,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c348a32-8481-4f50-a17b-0a3add3b6059")
 		(property "Reference" "#PWR057"
 			(at 175.26 147.32 0)
@@ -7816,7 +7811,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4130caa1-be79-44e3-b061-284ea4882951")
 		(property "Reference" "#PWR050"
 			(at 195.58 147.32 0)
@@ -8413,7 +8407,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5179befc-e214-4de1-bae4-b931ebc2e7ea")
 		(property "Reference" "#PWR04"
 			(at 67.31 171.45 0)
@@ -8425,7 +8418,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 67.31 162.56 0)
+			(at 67.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8945,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d2ca9df-24e0-45db-98b2-f84ceebc5843")
 		(property "Reference" "#PWR051"
 			(at 190.5 147.32 0)
@@ -9701,7 +9693,7 @@
 	)
 	(symbol
 		(lib_id "Anan-Robo_Symbol_Library:TLV760")
-		(at 271.78 27.94 0)
+		(at 267.335 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9710,7 +9702,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b68c7b3-aaef-4c76-bc62-4b7cae10ccb5")
 		(property "Reference" "U8"
-			(at 271.78 21.59 0)
+			(at 267.335 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9710,7 @@
 			)
 		)
 		(property "Value" "TLV760"
-			(at 271.78 24.13 0)
+			(at 267.335 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9718,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9736,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9745,7 @@
 			)
 		)
 		(property "Name" "TLV76050DBZR"
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9754,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/texas-instruments/TLV76050DBZR/7402852"
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9763,7 @@
 			)
 		)
 		(property "Price" "30"
-			(at 271.78 27.94 0)
+			(at 267.335 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,16 +9898,15 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 280.67 16.51 0)
+		(at 276.225 19.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76ba5626-796b-4289-9c32-542e786b2c1b")
 		(property "Reference" "#PWR067"
-			(at 280.67 20.32 0)
+			(at 276.225 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9915,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 280.67 11.43 0)
+			(at 276.225 15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 16.51 0)
+			(at 276.225 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9941,7 +9932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 16.51 0)
+			(at 276.225 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +9941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 280.67 16.51 0)
+			(at 276.225 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,7 +10657,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f85f752-b16e-446a-82c1-b04c359e5ba8")
 		(property "Reference" "#PWR054"
 			(at 160.02 147.32 0)
@@ -10833,16 +10823,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 250.19 139.7 0)
+		(at 250.19 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94de0308-7ef4-4469-a7bf-1fef93fe4fa8")
 		(property "Reference" "J12"
-			(at 252.73 139.6999 0)
+			(at 252.73 142.2401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10841,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 252.73 142.2399 0)
+			(at 252.73 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +10850,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10869,7 +10859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10868,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10877,7 @@
 			)
 		)
 		(property "Name" "XT30PW-M"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +10886,7 @@
 			)
 		)
 		(property "Price" "70"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +10895,7 @@
 			)
 		)
 		(property "URL" "https://akizukidenshi.com/catalog/g/g117949/"
-			(at 250.19 139.7 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,7 +10910,7 @@
 			(uuid "1522def7-dd53-49c7-8a1a-2a684034a00d")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f"
 					(reference "J12")
 					(unit 1)
@@ -11137,16 +11127,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 271.78 35.56 0)
+		(at 267.335 38.735 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bdb60aa-76f0-45cd-b2ca-4fa46b07cdeb")
 		(property "Reference" "#PWR068"
-			(at 271.78 41.91 0)
+			(at 267.335 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11144,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 271.78 40.64 0)
+			(at 267.335 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 35.56 0)
+			(at 267.335 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 35.56 0)
+			(at 267.335 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 271.78 35.56 0)
+			(at 267.335 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +11723,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae77c9ad-da2e-4333-8e6a-d4df4725a89f")
 		(property "Reference" "#PWR055"
 			(at 165.1 147.32 0)
@@ -11891,7 +11879,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 261.62 33.02 0)
+		(at 257.175 36.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11899,7 +11887,7 @@
 		(dnp no)
 		(uuid "b580a043-7040-4d2d-8571-877a0eb8ffa7")
 		(property "Reference" "C14"
-			(at 259.334 31.75 0)
+			(at 254.889 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11896,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 259.334 34.29 0)
+			(at 254.889 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +11905,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +11923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +11932,7 @@
 			)
 		)
 		(property "Name" "GCJ188R91H124KA01D"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,7 +11941,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11950,7 @@
 			)
 		)
 		(property "Price" "36"
-			(at 261.62 33.02 0)
+			(at 257.175 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +12089,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 243.84 147.574 0)
+			(at 243.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12143,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b70262c3-1563-4881-ac0b-d346a298d7b8")
 		(property "Reference" "#PWR052"
 			(at 185.42 147.32 0)
@@ -12232,7 +12219,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 264.16 159.004 0)
+			(at 264.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12721,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb06380d-8f9d-452f-be5d-944accf3763a")
 		(property "Reference" "#PWR02"
 			(at 55.88 173.99 0)
@@ -12746,7 +12732,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 55.88 165.1 0)
+			(at 55.88 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12786,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f18f292a-435b-418d-8507-1e186c4ad284")
 		(property "Reference" "#PWR01"
 			(at 35.56 173.99 0)
@@ -12812,7 +12797,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 35.56 165.1 0)
+			(at 35.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,7 +13306,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd621587-ce6c-48f7-afe0-3fd5ba13ba6d")
 		(property "Reference" "#PWR053"
 			(at 180.34 147.32 0)
@@ -13625,7 +13609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Isolator.kicad_sch"
+		(property "Sheetfile" "PWMBoard_Isolator.kicad_sch"
 			(at 205.74 130.1246 0)
 			(effects
 				(font
@@ -13634,9 +13618,9 @@
 				(justify left top)
 			)
 		)
-		(pin "LED1" input
+		(pin "PWM1" input
 			(at 205.74 50.8 180)
-			(uuid "eb412c5f-36dc-45a4-b2d7-8c736e7d939c")
+			(uuid "3bf8c99f-0586-45a6-b566-adb07e0daaef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13644,9 +13628,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED1A" output
+		(pin "PWM1A" output
 			(at 228.6 50.8 0)
-			(uuid "fedd8cb6-c40d-4976-8a08-453892524624")
+			(uuid "564f3e07-afd3-457a-80e9-09b2af363644")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,9 +13638,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED2" input
+		(pin "PWM2" input
 			(at 205.74 60.96 180)
-			(uuid "22d439a8-3aa3-432a-bfba-7f4f6cd11141")
+			(uuid "9c3964ed-a6aa-4457-94c8-bf74bc8bae42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,9 +13648,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED2A" output
+		(pin "PWM2A" output
 			(at 228.6 60.96 0)
-			(uuid "91eb9145-d4ea-4991-b8a8-c74ef54847cf")
+			(uuid "ff7600c3-2382-4c51-a38b-18fdf0b43a22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,9 +13658,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED3" input
+		(pin "PWM3" input
 			(at 205.74 71.12 180)
-			(uuid "ef204399-6a18-49a4-ba3f-152d9ab90710")
+			(uuid "aac14c78-b4e6-400b-bb24-8f357b7780d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13684,9 +13668,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED3A" output
+		(pin "PWM3A" output
 			(at 228.6 71.12 0)
-			(uuid "8fcae273-9b6d-41b3-981e-f8ee93a49e7f")
+			(uuid "c6f057a9-24cb-4789-97d4-9113b86eccde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13694,9 +13678,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED4" input
+		(pin "PWM4" input
 			(at 205.74 81.28 180)
-			(uuid "5af4eaed-36ae-436b-a84f-cd27b9fa9484")
+			(uuid "c09252bb-de6f-4fd6-8f68-625a7d0994a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,9 +13688,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED4A" output
+		(pin "PWM4A" output
 			(at 228.6 81.28 0)
-			(uuid "7b58173b-ac70-49de-99e3-6690de029c31")
+			(uuid "3328f865-5fda-4eb0-b866-2c08d4894e98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,9 +13698,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED5" input
+		(pin "PWM5" input
 			(at 205.74 91.44 180)
-			(uuid "226321e3-cb27-41e5-9f55-9c46b3ba1c2f")
+			(uuid "3ce07f1d-bc86-4f39-b256-4969e5e8e2f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,9 +13708,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED5A" output
+		(pin "PWM5A" output
 			(at 228.6 91.44 0)
-			(uuid "6376f15c-44e0-49dd-b82b-98d71f9ef12e")
+			(uuid "4f601cd5-c53b-4ec6-8f67-b09bcc20a5b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,9 +13718,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED6" input
+		(pin "PWM6" input
 			(at 205.74 101.6 180)
-			(uuid "1bd6394a-2ab1-4a00-b411-d8114e5b0c4d")
+			(uuid "ad886bdd-40ff-46f7-b629-ad49097ab8f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13744,9 +13728,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED6A" output
+		(pin "PWM6A" output
 			(at 228.6 101.6 0)
-			(uuid "0b86be48-f5bd-449e-b3e5-3844a183b3ef")
+			(uuid "d1f6b3a4-d77a-45c8-955e-0162702a5790")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,9 +13738,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED7" input
+		(pin "PWM7" input
 			(at 205.74 111.76 180)
-			(uuid "84910ee5-5a67-4736-9114-2771924db81b")
+			(uuid "0fcc02e5-db04-436e-82b1-3ade56389ec8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13764,9 +13748,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED7A" output
+		(pin "PWM7A" output
 			(at 228.6 111.76 0)
-			(uuid "56f88407-f248-4f02-8c8a-142f62e63505")
+			(uuid "dbd182fa-8091-4efa-be49-47e53905bd32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13774,9 +13758,9 @@
 				(justify right)
 			)
 		)
-		(pin "LED8" input
+		(pin "PWM8" input
 			(at 205.74 121.92 180)
-			(uuid "5d1ca109-66bd-4489-ab0a-50a913d034fd")
+			(uuid "911b94f8-b1b6-4565-abd7-63a0466f56ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13784,9 +13768,9 @@
 				(justify left)
 			)
 		)
-		(pin "LED8A" output
+		(pin "PWM8A" output
 			(at 228.6 121.92 0)
-			(uuid "f96c2ab7-30f7-4ee3-aaa0-c0e60b722733")
+			(uuid "0e1fee30-6e3f-4ee0-9146-88d75ca1db2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13827,7 +13811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN.kicad_sch"
+		(property "Sheetfile" "PWMBoard_CAN.kicad_sch"
 			(at 81.28 64.0846 0)
 			(effects
 				(font
@@ -13909,21 +13893,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "PWMBoard_MCU.kicad_sch"
 			(at 118.11 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 118.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "CAN_RX" input
@@ -13986,86 +13962,6 @@
 				(justify left)
 			)
 		)
-		(pin "LED1" output
-			(at 152.4 50.8 0)
-			(uuid "226fe44a-026a-4226-9900-2cd67d784318")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED2" output
-			(at 152.4 60.96 0)
-			(uuid "d1df5a95-d9e1-451d-bda1-1e799f1e251d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED3" output
-			(at 152.4 71.12 0)
-			(uuid "289b75a2-8bf9-4a24-a8b4-daa591eb3854")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED4" output
-			(at 152.4 81.28 0)
-			(uuid "b3367dd2-b91c-4554-86ea-7e049a4e80c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED5" output
-			(at 152.4 91.44 0)
-			(uuid "5842499b-9399-4750-96ed-ee05b75c7309")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED6" output
-			(at 152.4 101.6 0)
-			(uuid "18f886cd-fdad-4e0f-b0e1-ba499490e130")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED7" output
-			(at 152.4 111.76 0)
-			(uuid "b4314313-d9fd-4cc4-9709-7fef2c582f30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED8" output
-			(at 152.4 121.92 0)
-			(uuid "5d24dd0a-7798-4705-a205-9789d3fe36d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "LED_B" output
 			(at 118.11 153.67 180)
 			(uuid "035259f0-9148-4c28-a019-dbd7de0abbf4")
@@ -14116,6 +14012,86 @@
 				(justify left)
 			)
 		)
+		(pin "PWM1" output
+			(at 152.4 50.8 0)
+			(uuid "c0d1908b-1eae-4120-a384-58cbfca1235c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM2" output
+			(at 152.4 60.96 0)
+			(uuid "b8012546-0037-4673-a999-7f73e8ab89b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3" output
+			(at 152.4 71.12 0)
+			(uuid "b01efe53-bb81-4291-8dc2-9dd822dcae67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM4" output
+			(at 152.4 81.28 0)
+			(uuid "5e4932d5-f4b5-4fe3-aeb6-e76fca0c3707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM5" output
+			(at 152.4 91.44 0)
+			(uuid "ca3749f6-0d78-4f13-9b11-0f3135586a71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM6" output
+			(at 152.4 101.6 0)
+			(uuid "8663c457-8bec-45ba-a29d-26e55c2ba91e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM7" output
+			(at 152.4 111.76 0)
+			(uuid "199c17c1-aab5-4ed7-84c1-9e049128b60a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM8" output
+			(at 152.4 121.92 0)
+			(uuid "93722701-9d73-40fe-9976-3213df403058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f"
@@ -14149,7 +14125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB-UART.kicad_sch"
+		(property "Sheetfile" "PWMBoard_USB-UART.kicad_sch"
 			(at 81.28 104.7246 0)
 			(effects
 				(font

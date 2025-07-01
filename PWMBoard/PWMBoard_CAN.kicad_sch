@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PWM Board / CAN")
-		(date "2025-04-02")
-		(rev "ver1.0")
+		(date "2025-06-18")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -1599,7 +1599,7 @@
 			(uuid "97f86a98-3f73-4ed9-94ca-a441f8ae0820")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "D3")
 					(unit 1)
@@ -1665,7 +1665,7 @@
 			(uuid "f022ba66-29e6-4d0c-ba04-5370e83a212a")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR031")
 					(unit 1)
@@ -1731,7 +1731,7 @@
 			(uuid "f62d7ac4-42f7-429f-9f38-d5ad8fc3f1e4")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR033")
 					(unit 1)
@@ -1797,7 +1797,7 @@
 			(uuid "b63fde15-3942-4c35-b3d8-e17ce7bde23c")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR032")
 					(unit 1)
@@ -1894,7 +1894,7 @@
 			(uuid "fb94b9dc-2568-4a5a-92a8-99eed2d410d4")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "R4")
 					(unit 1)
@@ -1960,7 +1960,7 @@
 			(uuid "4af8d5ae-3705-4bac-924c-76218fadec42")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR030")
 					(unit 1)
@@ -2074,7 +2074,7 @@
 			(uuid "8f3071aa-7f59-40f4-869e-07d9edfa0183")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "U3")
 					(unit 1)
@@ -2170,7 +2170,7 @@
 			(uuid "1160ffc9-f260-41f1-bb1b-9af183a0e48d")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "C11")
 					(unit 1)
@@ -2236,7 +2236,7 @@
 			(uuid "d4f2fde1-2a4b-4784-953f-8410a393fe69")
 		)
 		(instances
-			(project "LEDBoard"
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR034")
 					(unit 1)
@@ -2333,7 +2333,7 @@
 			(uuid "11a51af6-dd9a-4dfe-8ff4-b4a522d0c8bc")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "JP1")
 					(unit 1)
@@ -2439,7 +2439,7 @@
 			(uuid "b707b275-035c-44b9-96ae-08c6b54a7f88")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "D2")
 					(unit 1)
@@ -2535,7 +2535,7 @@
 			(uuid "c42b907d-368f-4463-9d98-c534f12a4539")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "R3")
 					(unit 1)
@@ -2551,7 +2551,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5bc00f5-e924-4f5c-8d0f-19da09ac32e2")
 		(property "Reference" "#PWR029"
 			(at 144.78 83.82 0)
@@ -2563,7 +2562,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 144.78 74.93 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2600,7 @@
 			(uuid "c4cce047-d633-4bfc-824a-f307fba97e5f")
 		)
 		(instances
-			(project ""
+			(project "PWMBoard"
 				(path "/24f5d1e0-9c81-4e18-bc7d-164d95be4e6f/0e3a1a86-e68f-41bc-b070-112b914674a4"
 					(reference "#PWR029")
 					(unit 1)
