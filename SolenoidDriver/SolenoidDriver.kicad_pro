@@ -60,35 +60,51 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|134837500|99837500|f686f639-b539-4277-8101-4b3d7ef8b8cd|844e4b99-e138-491f-a8ba-7316528b3fe4",
+          "clearance|195207500|136662500|f686f639-b539-4277-8101-4b3d7ef8b8cd|844e4b99-e138-491f-a8ba-7316528b3fe4",
           ""
         ],
         [
-          "clearance|135162500|95612500|50ee3c6f-b6c4-4731-87e9-d0591ea25ad4|6cea7db3-098a-4159-8977-6af3906f8423",
+          "clearance|195532500|132437500|50ee3c6f-b6c4-4731-87e9-d0591ea25ad4|6cea7db3-098a-4159-8977-6af3906f8423",
           ""
         ],
         [
-          "clearance|135337500|99837500|844e4b99-e138-491f-a8ba-7316528b3fe4|3f857867-2a1f-4b79-b148-d6b97aab9fa3",
+          "clearance|195707500|136662500|844e4b99-e138-491f-a8ba-7316528b3fe4|3f857867-2a1f-4b79-b148-d6b97aab9fa3",
           ""
         ],
         [
-          "clearance|135662500|95612500|36764ffb-1825-496c-888f-c4207a479b26|50ee3c6f-b6c4-4731-87e9-d0591ea25ad4",
+          "clearance|196032500|132437500|36764ffb-1825-496c-888f-c4207a479b26|50ee3c6f-b6c4-4731-87e9-d0591ea25ad4",
           ""
         ],
         [
-          "clearance|135837500|99837500|3f857867-2a1f-4b79-b148-d6b97aab9fa3|20772984-edb7-4671-b22e-92acae14c987",
+          "clearance|196207500|136662500|3f857867-2a1f-4b79-b148-d6b97aab9fa3|20772984-edb7-4671-b22e-92acae14c987",
           ""
         ],
         [
-          "clearance|136162500|95612500|a18fbc86-0b5f-4676-a42b-ef30ed56e1f8|36764ffb-1825-496c-888f-c4207a479b26",
+          "clearance|196532500|132437500|a18fbc86-0b5f-4676-a42b-ef30ed56e1f8|36764ffb-1825-496c-888f-c4207a479b26",
           ""
         ],
         [
-          "clearance|136337500|99837500|20772984-edb7-4671-b22e-92acae14c987|22347aaa-4f73-4dab-9675-4393be59dc4e",
+          "clearance|196707500|136662500|20772984-edb7-4671-b22e-92acae14c987|22347aaa-4f73-4dab-9675-4393be59dc4e",
           ""
         ],
         [
-          "clearance|136662500|95612500|0c434124-d011-4da7-9407-c3ca684e7494|a18fbc86-0b5f-4676-a42b-ef30ed56e1f8",
+          "clearance|197032500|132437500|0c434124-d011-4da7-9407-c3ca684e7494|a18fbc86-0b5f-4676-a42b-ef30ed56e1f8",
+          ""
+        ],
+        [
+          "hole_clearance|189550000|118555000|1bd1425f-932f-46d8-a37d-f9829645659b|50b3f81d-1697-49ab-8366-d938bc405df1",
+          ""
+        ],
+        [
+          "hole_clearance|189550000|118555000|1bd1425f-932f-46d8-a37d-f9829645659b|f17ed181-bd4d-482f-a208-47a099caca61",
+          ""
+        ],
+        [
+          "hole_clearance|195650000|118555000|6a766ab6-dd49-4111-beb3-642c107ece19|3d927cc4-ffc2-430f-993d-6f8763eafe96",
+          ""
+        ],
+        [
+          "hole_clearance|195650000|118555000|6a766ab6-dd49-4111-beb3-642c107ece19|fb7ec64a-280e-4342-944b-64be1e15e7f9",
           ""
         ]
       ],
@@ -567,12 +583,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -639,6 +649,12 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "説明",
           "name": "Description",
           "show": false
@@ -652,10 +668,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Sim.Device"
+      "sort_field": "Sim.Pins"
     },
     "connection_grid_size": 50.0,
     "drawing": {

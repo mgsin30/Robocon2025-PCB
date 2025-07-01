@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Driver")
-		(date "2025-04-08")
-		(rev "ver1.0")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -6327,8 +6327,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 237.49 120.65 0)
-		(mirror y)
+		(at 237.49 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6336,7 +6335,7 @@
 		(dnp no)
 		(uuid "25389a2f-3505-4a94-b1bd-f590dead43b6")
 		(property "Reference" "J12"
-			(at 234.315 120.6499 0)
+			(at 234.315 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6344,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 234.315 123.1899 0)
+			(at 234.315 120.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6353,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6371,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6380,7 @@
 			)
 		)
 		(property "Name" "XT30PW-M"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6389,7 @@
 			)
 		)
 		(property "URL" "https://akizukidenshi.com/catalog/g/g117949/"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6398,7 @@
 			)
 		)
 		(property "Price" "70"
-			(at 237.49 120.65 0)
+			(at 237.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6413,7 @@
 			(uuid "ac8b2fd3-71e7-412a-a55a-33db9d0d7c0d")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc"
 					(reference "J12")
 					(unit 1)
@@ -11866,7 +11865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Isolator.kicad_sch"
+		(property "Sheetfile" "SolenoidDriver_Isolator.kicad_sch"
 			(at 208.28 99.6446 0)
 			(effects
 				(font
@@ -12068,7 +12067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN.kicad_sch"
+		(property "Sheetfile" "SolenoidDriver_CAN.kicad_sch"
 			(at 74.93 57.7346 0)
 			(effects
 				(font
@@ -12150,7 +12149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB-UART.kicad_sch"
+		(property "Sheetfile" "SolenoidDriver_USB-UART.kicad_sch"
 			(at 74.93 90.7546 0)
 			(effects
 				(font
@@ -12212,7 +12211,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MOSFET.kicad_sch"
+		(property "Sheetfile" "SolenoidDriver_MOSFET.kicad_sch"
 			(at 241.3 99.6446 0)
 			(effects
 				(font
@@ -12494,7 +12493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "SolenoidDriver_MCU.kicad_sch"
 			(at 107.95 145.3646 0)
 			(effects
 				(font

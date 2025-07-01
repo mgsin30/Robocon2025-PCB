@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Driver / USB-UART")
-		(date "2025-04-10")
-		(rev "ver1.0")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -2427,7 +2427,7 @@
 			(uuid "b67b7c16-45ff-4737-bedf-bc74f7d52049")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR016")
 					(unit 1)
@@ -2533,7 +2533,7 @@
 			(uuid "99b499d6-c438-4dfc-93c8-c66c1ded86d3")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "D5")
 					(unit 1)
@@ -2599,7 +2599,7 @@
 			(uuid "b2ce265c-c1a8-48ba-b8b5-8ad88739a19d")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR021")
 					(unit 1)
@@ -2695,7 +2695,7 @@
 			(uuid "a5b4f558-23d0-4856-b9d1-6ae666e5a1b8")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "R6")
 					(unit 1)
@@ -2761,7 +2761,7 @@
 			(uuid "496ad34a-17d8-4a9f-bd10-e7986fafd80a")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR019")
 					(unit 1)
@@ -2859,7 +2859,7 @@
 			(uuid "79da3bfa-ea58-4319-b7ac-204d27c38c4a")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "F1")
 					(unit 1)
@@ -3040,7 +3040,7 @@
 			(uuid "d7be0cdd-daa7-48c1-9bcc-df6a88d08eef")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "D4")
 					(unit 1)
@@ -3106,7 +3106,7 @@
 			(uuid "0ac3e7e2-19c1-4917-ae2f-f7a8a6546d30")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR017")
 					(unit 1)
@@ -3227,7 +3227,7 @@
 			(uuid "36dbf0e1-50dd-4e95-84a1-cd4a930e4ec5")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "U4")
 					(unit 1)
@@ -3293,7 +3293,7 @@
 			(uuid "aaf159a7-f1e4-4ada-a99b-ca07412afc62")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR014")
 					(unit 1)
@@ -3389,7 +3389,7 @@
 			(uuid "9dbea96b-4b26-41b9-9d3d-426c166e24b7")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "R5")
 					(unit 1)
@@ -3455,7 +3455,7 @@
 			(uuid "5efacaff-254d-43be-82f1-407e5db552df")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR020")
 					(unit 1)
@@ -3521,7 +3521,7 @@
 			(uuid "94131a4a-246b-4f9b-a89e-1264865a6974")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "#PWR018")
 					(unit 1)
@@ -3661,7 +3661,7 @@
 			(uuid "033c179d-6430-4c4d-84bc-1d8976b36c37")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "J2")
 					(unit 1)
@@ -3758,7 +3758,7 @@
 			(uuid "5259daa2-ea15-4676-baed-722a954a6aef")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "R12")
 					(unit 1)
@@ -3855,7 +3855,7 @@
 			(uuid "333a3a94-cba2-40da-aacb-ecd004f579a2")
 		)
 		(instances
-			(project ""
+			(project "SolenoidDriver"
 				(path "/3bf18fb8-b9ed-4738-a3ef-04c20715e6dc/3f3c7a46-c15f-49ee-8e58-7266457a0d9d"
 					(reference "C12")
 					(unit 1)
