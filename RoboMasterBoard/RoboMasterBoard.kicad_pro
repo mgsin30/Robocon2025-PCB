@@ -74,6 +74,10 @@
         [
           "hole_clearance|139730000|88730000|3a53ba8f-88fa-4c88-97aa-377cd0d50b7e|7cffa471-6d72-409b-85fa-a86fab7fabfc",
           ""
+        ],
+        [
+          "unconnected_items|155400000|112635000|8e7ac538-34cb-4951-b11b-e0b976f80536|5b07a06d-f1b3-47b6-932b-579fff38de99",
+          ""
         ]
       ],
       "meta": {
@@ -562,19 +566,19 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
@@ -636,7 +640,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

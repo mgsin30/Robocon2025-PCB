@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RoboMaster Board")
-		(date "2025-04-03")
-		(rev "ver1.0")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -10877,7 +10877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN2.kicad_sch"
+		(property "Sheetfile" "RoboMasterBoard_CAN2.kicad_sch"
 			(at 142.24 57.7346 0)
 			(effects
 				(font
@@ -10959,7 +10959,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN1.kicad_sch"
+		(property "Sheetfile" "RoboMasterBoard_CAN1.kicad_sch"
 			(at 80.01 57.7346 0)
 			(effects
 				(font
@@ -11041,7 +11041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB.kicad_sch"
+		(property "Sheetfile" "RoboMasterBoard_USB.kicad_sch"
 			(at 80.01 86.9446 0)
 			(effects
 				(font
@@ -11103,7 +11103,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "RoboMasterBoard_MCU.kicad_sch"
 			(at 106.68 145.3646 0)
 			(effects
 				(font

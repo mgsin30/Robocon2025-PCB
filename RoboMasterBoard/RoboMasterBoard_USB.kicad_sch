@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RoboMaster Board / USB")
-		(date "2025-04-03")
-		(rev "ver1.0")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -1611,7 +1611,7 @@
 			(uuid "077c2fd6-a67d-48bf-a9f1-395c4da10f86")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "#PWR037")
 					(unit 1)
@@ -1742,7 +1742,7 @@
 			(uuid "69c32902-8584-4638-a333-188fc1d1ab2e")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "#PWR036")
 					(unit 1)
@@ -1948,7 +1948,7 @@
 			(uuid "f8d2c21b-fed8-4c33-87fd-b1abb0379a3d")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "J3")
 					(unit 1)
@@ -2063,7 +2063,7 @@
 			(uuid "47b2919b-8234-4196-9b5f-ff3afeecec7a")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "D15")
 					(unit 1)
@@ -2161,7 +2161,7 @@
 			(uuid "bfc60970-ce90-433e-8b29-5bb2f21f7268")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "F2")
 					(unit 1)
@@ -2353,7 +2353,7 @@
 			(uuid "dcbde28c-d3a9-4b7e-94ab-0c10ebefb91c")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/98b2c26e-5ab8-40f0-ba90-b83052c99b54"
 					(reference "R16")
 					(unit 1)

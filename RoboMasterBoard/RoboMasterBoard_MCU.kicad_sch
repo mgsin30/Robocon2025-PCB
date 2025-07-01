@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RoboMaster Board / MCU")
-		(date "2025-04-03")
-		(rev "ver1.0")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -4170,7 +4170,7 @@
 			(uuid "a407cc3e-1975-4026-9059-d16a927e23d6")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "R10")
 					(unit 1)
@@ -4302,7 +4302,7 @@
 			(uuid "bb1cbc16-c1da-48ef-ba85-2cbab7b0be3a")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR06")
 					(unit 1)
@@ -4368,7 +4368,7 @@
 			(uuid "a69b712b-6237-4981-8907-a662228b3f06")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR011")
 					(unit 1)
@@ -4634,7 +4634,7 @@
 			(uuid "6e09a152-fdc9-4dff-8186-529c54c3c490")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "J1")
 					(unit 1)
@@ -4700,7 +4700,7 @@
 			(uuid "bc204b84-1211-4db8-843f-456e065a5188")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR012")
 					(unit 1)
@@ -5350,7 +5350,7 @@
 			(uuid "ccf8d429-9696-4e0d-909d-b71000d6149c")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR09")
 					(unit 1)
@@ -5416,7 +5416,7 @@
 			(uuid "6a803f33-255c-4cd7-b8d5-ed07432a5d83")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR08")
 					(unit 1)
@@ -5702,7 +5702,7 @@
 			(uuid "5f783318-4d74-4df4-86ee-40050eba21e5")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "FB1")
 					(unit 1)
@@ -5768,7 +5768,7 @@
 			(uuid "47cd0411-abfb-43ee-8a92-0ad7894c7fb9")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR07")
 					(unit 1)
@@ -5834,7 +5834,7 @@
 			(uuid "80d1af30-9334-4906-81ad-cbf9d0a65870")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR010")
 					(unit 1)
@@ -5900,7 +5900,7 @@
 			(uuid "fdab3b18-7c39-4978-a65a-54062b0b3485")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "#PWR013")
 					(unit 1)
@@ -6184,7 +6184,7 @@
 			(uuid "dbae4c49-2554-4762-8522-f31d635ef41f")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "U2")
 					(unit 1)
@@ -6280,7 +6280,7 @@
 			(uuid "e340b2db-48b9-4a65-af27-cdefd34b6a76")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "C3")
 					(unit 1)
@@ -6377,7 +6377,7 @@
 			(uuid "cd8fd847-771c-4a69-b97b-91794892354a")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "R23")
 					(unit 1)
@@ -6474,7 +6474,7 @@
 			(uuid "6c05338c-5300-4706-b767-f71624166008")
 		)
 		(instances
-			(project ""
+			(project "RoboMasterBoard"
 				(path "/536c055c-dac1-48c2-8773-453985c28c73/d37e277e-f189-4ce6-8495-a58925f22be0"
 					(reference "C13")
 					(unit 1)
@@ -6631,7 +6631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "XRCGB32M000F1SADR0"
+		(property "Name" "XRCGB26M000F1SADR0"
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/XRCGB32M000F1SADR0/21662918?s=N4IgTCBcDaIBoCUDCBxAQgZjAWQAz4DEBGAZQEEARBXEAXQF8g"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/XRCGB26M000F1SADR0/21662900?s=N4IgTCBcDaIBoCUDCBxAQmAbAWQAz4DEBGAZQEEARBXEAXQF8g"
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -6649,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "52"
+		(property "Price" "50"
 			(at 90.17 77.47 0)
 			(effects
 				(font

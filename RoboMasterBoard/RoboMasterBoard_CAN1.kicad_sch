@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "06a9de1d-e9b3-4c16-91ab-cfb858f57b2d")
+	(uuid "871fb2d6-6917-44a0-8b30-542a5f967353")
 	(paper "A4")
 	(title_block
-		(title "RoboMaster Board / CAN2")
-		(date "2025-04-03")
-		(rev "ver1.0")
+		(title "RoboMaster Board / CAN1")
+		(date "2025-07-01")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -1278,249 +1278,249 @@
 		)
 	)
 	(junction
-		(at 154.94 83.82)
+		(at 121.92 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bad17aa-f423-455a-8e9a-9ed7746bac80")
+		(uuid "c8c363a2-d105-4bdf-8f73-2981aa071797")
 	)
 	(junction
-		(at 127 101.6)
+		(at 115.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "985c753b-e7d0-47ac-ac54-e9bf922ee489")
+		(uuid "d0224fa7-8a39-457b-96d6-5ef6ed7b7090")
 	)
 	(junction
-		(at 120.65 99.06)
+		(at 149.86 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a480711a-dcda-41dd-9f79-421d6348edb8")
+		(uuid "fd15bdd9-e9b7-4f09-8eee-f6c97f750b77")
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 179.07 100.33)
+			(xy 149.86 76.2) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03ecf49d-44a2-4a44-b1d4-d77beb6d8766")
+		(uuid "0e797895-1219-4994-a2bf-e2ad9694f912")
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 120.65 102.87)
+			(xy 137.16 106.68) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33f20126-5631-49f7-96cf-9955bf012a31")
+		(uuid "2dfb978a-55d0-4f64-9100-68375e6153b1")
 	)
 	(wire
 		(pts
-			(xy 167.64 105.41) (xy 179.07 105.41)
+			(xy 162.56 93.98) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3db8a67f-a42e-4b32-bf48-4b4848b082bf")
+		(uuid "4f1b6fcf-0457-4dfb-9642-b93ab13c2de7")
 	)
 	(wire
 		(pts
-			(xy 154.94 82.55) (xy 154.94 83.82)
+			(xy 137.16 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43c3f3bf-c888-4362-8279-a08fc91f7480")
+		(uuid "64ab0309-1580-4954-9110-aeab1704e99e")
 	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 142.24 107.95)
+			(xy 115.57 104.14) (xy 115.57 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4837d54e-83b0-40e1-afea-5b9009beecb5")
+		(uuid "6a6590d4-5e90-4f7b-9a7e-236acb090259")
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 154.94 83.82)
+			(xy 104.14 95.25) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48f10550-79b5-440d-b9fc-f3cc8a7a0006")
+		(uuid "6b28e098-b292-403f-b980-009433a70dc3")
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 127 101.6)
+			(xy 121.92 96.52) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d50e3e8-79a9-4f4f-84b4-414578ab2ada")
+		(uuid "6e05f779-aa8e-409a-a04b-a4cfdb931045")
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 120.65 99.06)
+			(xy 115.57 92.71) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55af929a-5e20-46e2-8666-c46c52d1aa13")
+		(uuid "70038a4f-f0ba-4255-a820-b197ca5218ea")
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 157.48 83.82)
+			(xy 115.57 92.71) (xy 115.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "598c7f79-10db-4e79-8a6c-3b645afe2aa1")
+		(uuid "8bd3949a-216d-443d-9c34-889cd064f4c3")
 	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 120.65 111.76)
+			(xy 104.14 92.71) (xy 115.57 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84c491a9-11e1-45f8-a1e4-ec01cfa9426b")
+		(uuid "94938f1e-d748-4dbc-88bb-e0f9f8bb8a0d")
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 144.78 101.6)
+			(xy 121.92 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8888bde5-2b73-45c8-9da4-fcc0cdcfa4bb")
+		(uuid "a74060f3-17fd-436e-b72d-80f1906a08c6")
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 92.71)
+			(xy 121.92 104.14) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb9f7a42-5854-4615-a411-89094798f960")
+		(uuid "aa2afe57-89d2-4184-b5cc-90b0fefce275")
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 127 101.6)
+			(xy 149.86 77.47) (xy 152.4 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3d5c0e6-aefa-49b6-a19f-f3c5d81e0b72")
+		(uuid "b1017fc3-f367-459b-9af2-eddeff6eb084")
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 144.78 99.06)
+			(xy 143.51 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6a8d53a-22c5-416b-b3e6-11b09e0a2bf4")
+		(uuid "d282dd39-998c-4804-a521-9da8f9fa6494")
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 144.78 107.95)
+			(xy 149.86 77.47) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da577b5d-a71f-4bed-b62a-496c81c5fc6c")
+		(uuid "e6c4dc92-1224-4e97-b02e-b6fa7f5b51aa")
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 127 111.76)
+			(xy 162.56 99.06) (xy 173.99 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec110057-2a01-4cbb-91f7-a714bfc23e40")
+		(uuid "ee3318c3-31ab-45fd-9ab4-8d258da95cfd")
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 157.48 85.09)
+			(xy 152.4 77.47) (xy 152.4 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff1ea09f-bd1b-42e5-973d-b6d7089873ba")
-	)
-	(hierarchical_label "CAN_RX"
-		(shape output)
-		(at 109.22 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31d7a5c9-19fd-4ebd-ac8e-87accb3dbc48")
+		(uuid "f4845ec2-ce39-4307-9476-98d867e46dce")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 109.22 99.06 180)
+		(at 104.14 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c4a58bda-9b60-4e4f-b7d4-f7c364e0f860")
-	)
-	(hierarchical_label "CAN_H"
-		(shape output)
-		(at 179.07 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d05a56b9-3b5b-4679-bd4c-8f9411b0600e")
+		(uuid "00ffb358-b508-42eb-a281-71cc9c61adc9")
 	)
 	(hierarchical_label "CAN_L"
 		(shape output)
-		(at 179.07 105.41 0)
+		(at 173.99 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "dddd56b7-e85e-4e3e-b302-347b4ee82964")
+		(uuid "39cbb3c5-0841-4bea-a2ca-e6e935152abe")
+	)
+	(hierarchical_label "CAN_H"
+		(shape output)
+		(at 173.99 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9ce3590-2016-424b-aae0-841fd2ea9a68")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 104.14 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e801c755-231e-4fa5-90cd-e37d09495bad")
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 120.65 119.38 0)
+		(at 121.92 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00efe1fa-a2c6-4e12-9122-d45378e1601c")
-		(property "Reference" "#PWR028"
-			(at 120.65 125.73 0)
+		(uuid "1177465a-ba51-40ea-98a4-b9984730be41")
+		(property "Reference" "#PWR026"
+			(at 121.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 120.65 123.19 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 119.38 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 119.38 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 120.65 119.38 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,850 +1564,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b245a67-b4ba-4ec5-9dc9-a11dd4674be0")
+			(uuid "2b680ea5-7d37-4e30-9f90-84c52c994355")
 		)
 		(instances
 			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 142.24 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ed9959d-ee57-41b6-bc57-8bc455da3277")
-		(property "Reference" "#PWR030"
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 142.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "726e26fe-8353-4cbf-942f-2c54316a226e")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14f9aeaf-c155-4ce3-a661-791c8407598c")
-		(property "Reference" "R14"
-			(at 129.54 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "96"
-			(at 129.54 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 125.222 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPJ101"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "22"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41bae585-1480-4f2e-bd43-09ffab20bef8")
-		)
-		(pin "2"
-			(uuid "472d819a-3679-4c92-90a8-d9d716797578")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 156.21 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dc5f87f-9df1-4d17-984e-c4ed12379bec")
-		(property "Reference" "#PWR033"
-			(at 156.21 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 156.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1070fc0-e443-49c2-ab75-deb12a9c555f")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 148.59 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e4cc5d3-dedb-4854-a2f6-eeeef0e6f4f3")
-		(property "Reference" "#PWR031"
-			(at 148.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 148.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 148.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "713ce51b-369b-42ed-a58e-d7e71122bc0c")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 127 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73d0f493-a43e-4377-aea8-3627815fb168")
-		(property "Reference" "#PWR029"
-			(at 127 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 127 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba8087f6-ac11-46f1-ae3b-9804b8561ef0")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 120.65 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88711bf5-9c2e-43c9-9c33-01e01a6cd0e3")
-		(property "Reference" "D12"
-			(at 118.364 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN_TX"
-			(at 118.364 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SML-D14MWT86A"
-			(at 120.65 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
-			(at 120.65 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "53"
-			(at 120.65 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81995cb0-74e3-433a-80ce-55d992b74e38")
-		)
-		(pin "2"
-			(uuid "e7adc256-778d-477b-bb5e-3e805ad6449b")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "926c4d2e-5fed-4c65-ab94-833a69f6ebc7")
-		(property "Reference" "#PWR032"
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "372ee3e2-715c-447f-8ab6-3dcd3b179538")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Anan-Robo_Symbol_Library:MCP2561/2FD")
-		(at 156.21 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c39a2d9c-f50a-48ed-82f4-27fbe99e29b8")
-		(property "Reference" "U4"
-			(at 161.29 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP2561/2FD"
-			(at 161.29 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 156.21 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "MCP2562FDT-E/SN"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/microchip-technology/MCP2562FDT-E-SN/4860105"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "202"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "6089925a-43c1-4aad-802c-7e239679a8af")
-		)
-		(pin "2"
-			(uuid "738489a7-764e-4a46-9653-8da302495631")
-		)
-		(pin "5"
-			(uuid "41213935-1dd1-4bc8-901b-963e23d43f60")
-		)
-		(pin "8"
-			(uuid "f00d5948-304a-48cf-b85b-3a9d14cf261c")
-		)
-		(pin "1"
-			(uuid "9eb60d07-42af-4be7-af06-de4e64709c71")
-		)
-		(pin "6"
-			(uuid "3edb2a0c-d00f-4ec9-a425-0c877efce5f7")
-		)
-		(pin "3"
-			(uuid "a6f88bbf-d2ad-4235-b49d-a29497d4689e")
-		)
-		(pin "4"
-			(uuid "1ee194bd-30b8-44ca-ac0a-c19432201fc4")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 157.48 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78c14f2-b944-4cfd-b36a-9a1e573e939b")
-		(property "Reference" "JP2"
-			(at 160.02 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 160.02 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "-"
-			(at 157.48 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "-"
-			(at 157.48 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "-"
-			(at 157.48 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc629be4-7783-4204-b280-e61a7f4e9fbf")
-		)
-		(pin "2"
-			(uuid "45622997-1348-4e54-8041-34539148d5c4")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d101b0e8-d039-4388-89b4-6e5ae09681d9")
-		(property "Reference" "R13"
-			(at 118.364 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "96"
-			(at 118.364 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.872 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "ESR03EZPJ101"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "22"
-			(at 120.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cb3b1f5-102c-4c72-93fc-7c6b841dbf41")
-		)
-		(pin "2"
-			(uuid "6bc0ddde-de8e-4d77-8b18-421c03fcdc76")
-		)
-		(instances
-			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "R13")
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2415,15 +1577,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 148.59 86.36 0)
+		(at 143.51 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8b1434e-07a4-41db-8c82-cfa60a0a1a02")
-		(property "Reference" "C15"
-			(at 146.304 85.09 0)
+		(uuid "1ecb75e5-9e0e-40c7-b384-c966b6d52e2e")
+		(property "Reference" "C14"
+			(at 141.224 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +1594,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 146.304 87.63 0)
+			(at 141.224 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +1612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +1621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +1630,7 @@
 			)
 		)
 		(property "Name" "GCJ188R91H124KA01D"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +1639,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCJ188R91H124KA01D/13401917"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +1648,7 @@
 			)
 		)
 		(property "Price" "36"
-			(at 148.59 86.36 0)
+			(at 143.51 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,15 +1657,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "13f0f674-f228-4ed1-afda-ade2b7791040")
+			(uuid "d0157ff6-7540-4aec-adc4-14ef2b28302c")
 		)
 		(pin "2"
-			(uuid "a4bceb90-2695-404d-8c36-9b3357a96dee")
+			(uuid "aec2dbff-e964-481c-abf3-dc1f64d2c2ff")
 		)
 		(instances
 			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "C15")
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2512,16 +1674,16 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 127 106.68 90)
+		(at 121.92 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df51b6e8-0d6e-45cf-b5aa-35585ae36c30")
-		(property "Reference" "D13"
-			(at 130.81 106.9974 90)
+		(uuid "2f73dc09-7315-48a2-b883-f2b7addc6dc5")
+		(property "Reference" "D11"
+			(at 125.73 100.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +1692,7 @@
 			)
 		)
 		(property "Value" "CAN_RX"
-			(at 130.81 109.5374 90)
+			(at 125.73 103.1874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +1701,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 127 106.68 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 106.68 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +1719,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 106.68 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +1728,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 106.68 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +1737,7 @@
 			)
 		)
 		(property "Name" "SML-D14MWT86A"
-			(at 127 106.68 90)
+			(at 121.92 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +1746,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
-			(at 127 106.68 90)
+			(at 121.92 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +1755,7 @@
 			)
 		)
 		(property "Price" "53"
-			(at 127 106.68 90)
+			(at 121.92 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,15 +1764,853 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c74d405-f1c1-45c0-ba08-7a1e89506592")
+			(uuid "647d727f-f9f9-4c4e-a565-4255d203aef9")
 		)
 		(pin "2"
-			(uuid "c45cbbf5-8e79-41c9-88dd-3fa843776a59")
+			(uuid "9658bf9e-c2c4-46a3-a621-adda224e3e3f")
 		)
 		(instances
 			(project "RoboMasterBoard"
-				(path "/536c055c-dac1-48c2-8773-453985c28c73/1db09c97-0cbe-4ca6-8712-dbf11e648f66"
-					(reference "D13")
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 151.13 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57af0f6b-7edf-4ab1-9a1d-cf55d8b48640")
+		(property "Reference" "#PWR024"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cfff45c-5238-42de-a1de-217dad89c721")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 137.16 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d950590-1198-46b6-926f-3de4fe988526")
+		(property "Reference" "#PWR025"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cd24b5c-262c-457c-8f6d-bbbfad63cc09")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e8de9e0-a1b2-430a-89af-a824afdf9c61")
+		(property "Reference" "R11"
+			(at 113.284 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "96"
+			(at 113.284 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.792 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ101"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc78eec-e58e-4471-95f9-ecda86c8e180")
+		)
+		(pin "2"
+			(uuid "47f012c0-ecf8-4a7f-b5ab-2ab666ba9456")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 143.51 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8101d2ad-275a-41f4-8671-6924c34adef8")
+		(property "Reference" "#PWR023"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0600ed01-47cb-4e98-8fe4-cfb958d115a2")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896e89cc-2de9-421e-8130-6aa91ce1828c")
+		(property "Reference" "#PWR022"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a42a87-5f8d-4bd2-a238-acdcbb37e79f")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Anan-Robo_Symbol_Library:MCP2561/2FD")
+		(at 151.13 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3223192-ee08-4137-a94c-86587c2b5621")
+		(property "Reference" "U3"
+			(at 156.21 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP2561/2FD"
+			(at 156.21 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 151.13 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "MCP2562FDT-E/SN"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/microchip-technology/MCP2562FDT-E-SN/4860105"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "202"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "4be027ff-939e-433d-bcf4-f1153c69a038")
+		)
+		(pin "2"
+			(uuid "d57191d4-712b-4d2d-82c6-2aa3bd7af807")
+		)
+		(pin "5"
+			(uuid "6dddd3be-062a-4c1f-96d5-4f1caa19c539")
+		)
+		(pin "8"
+			(uuid "a46e0caf-1919-45ce-8b44-4a864cb6891d")
+		)
+		(pin "1"
+			(uuid "cf913387-2c07-4c91-a91c-068f689f7216")
+		)
+		(pin "6"
+			(uuid "39c07879-ab2c-4387-9abc-b069e280bd35")
+		)
+		(pin "3"
+			(uuid "fbe17d38-820c-4711-a9a0-3e72526ecf7d")
+		)
+		(pin "4"
+			(uuid "9e351378-66d9-4e2a-a0cd-97b4b1bd928d")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c61cd841-a4d3-4184-acfd-c73381a3bbba")
+		(property "Reference" "R12"
+			(at 124.46 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "96"
+			(at 124.46 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.142 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESR03EZPJ101"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/ESR03EZPJ101/1983452"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "22"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a8c437e-901c-4988-96b1-cddfc01651f4")
+		)
+		(pin "2"
+			(uuid "79e4154e-0ee3-4362-9207-ab3481eddc1c")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 152.4 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d154bf9d-e886-4ed5-852c-f9332a65a351")
+		(property "Reference" "JP1"
+			(at 154.94 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 154.94 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "-"
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "-"
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6c759f-311d-43b2-b612-cf6f41a28a5c")
+		)
+		(pin "2"
+			(uuid "058db18a-a93d-41f3-9a1b-27a54c84d55e")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2546bff-2892-4fa6-a692-a48675130454")
+		(property "Reference" "#PWR027"
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbc3f887-8bdc-4910-bf7b-07b90f9b70f9")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe272a72-a0c2-4fa1-9a1f-f69974bac7ed")
+		(property "Reference" "D10"
+			(at 113.284 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN_TX"
+			(at 113.284 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SML-D14MWT86A"
+			(at 115.57 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.jp/ja/products/detail/rohm-semiconductor/SML-D14MWT86A/9448204"
+			(at 115.57 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "53"
+			(at 115.57 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc91b10-3f1e-4334-8c73-b3b84b960fb4")
+		)
+		(pin "2"
+			(uuid "b29b7c74-26e2-45a5-94e0-42c4045e372f")
+		)
+		(instances
+			(project "RoboMasterBoard"
+				(path "/536c055c-dac1-48c2-8773-453985c28c73/55df47b4-514e-4d5c-8f70-efb5d02be6c8"
+					(reference "D10")
 					(unit 1)
 				)
 			)
