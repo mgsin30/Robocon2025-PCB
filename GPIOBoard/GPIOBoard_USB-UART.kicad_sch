@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GPIO Board / USB-UART")
-		(date "2025-04-03")
-		(rev "ver1.1")
+		(date "2025-07-01")
+		(rev "ver1.2")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -2548,7 +2548,7 @@
 			(uuid "aa973ef3-ed2f-4e21-8420-c0bce3de3234")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/6a3566e5-c7be-41fa-b54b-2fa23a304abd"
 					(reference "J10")
 					(unit 1)

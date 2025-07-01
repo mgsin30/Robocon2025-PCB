@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GPIO Board / CAN")
-		(date "2025-04-03")
-		(rev "ver1.1")
+		(date "2025-07-01")
+		(rev "ver1.2")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -1609,7 +1609,7 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 160.02 67.31 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2174,7 +2174,7 @@
 			(uuid "79a139a8-8dc0-415e-932b-4f4d1e8c3c4f")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/91c0bcbe-c743-48cd-a6de-53333c6c6b6f"
 					(reference "U4")
 					(unit 1)
@@ -2604,7 +2604,7 @@
 			(uuid "56882047-9519-415b-9b9e-9f99bdf045b8")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/91c0bcbe-c743-48cd-a6de-53333c6c6b6f"
 					(reference "R23")
 					(unit 1)

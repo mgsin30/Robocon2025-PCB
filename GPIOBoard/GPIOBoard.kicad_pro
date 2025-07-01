@@ -90,22 +90,6 @@
         [
           "clearance|132225000|83162500|fd04ce7b-c0cf-41f3-9050-643b2376aac9|08fff4dc-eedf-47c7-9ea2-1d23ad89e028",
           ""
-        ],
-        [
-          "hole_clearance|117430000|78270000|043b4069-4c13-4344-b9a6-357009a6b0e5|42accea9-9ce9-422c-b977-e7ad0881ced6",
-          ""
-        ],
-        [
-          "hole_clearance|117430000|78270000|043b4069-4c13-4344-b9a6-357009a6b0e5|7f823b3b-4b43-4123-a1c6-523b7c4b2fbc",
-          ""
-        ],
-        [
-          "hole_clearance|117430000|84370000|ee519ea1-4fbd-4f38-a377-2e3609211299|c905e8fb-3d8a-4633-93e3-acba4d164909",
-          ""
-        ],
-        [
-          "hole_clearance|117430000|84370000|ee519ea1-4fbd-4f38-a377-2e3609211299|e496dbb1-d05a-4e13-b660-44571cacc7d9",
-          ""
         ]
       ],
       "meta": {
@@ -553,7 +537,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../board_fixer/GPIOBoard.stl",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -584,30 +568,24 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
@@ -665,11 +643,17 @@
           "label": "Price",
           "name": "Price",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

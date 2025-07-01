@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GPIO Board / MCU")
-		(date "2025-04-03")
-		(rev "ver1.1")
+		(date "2025-07-01")
+		(rev "ver1.2")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -3790,7 +3790,7 @@
 			(uuid "316a259a-8af7-491b-ad00-4abb7ee8e297")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "C10")
 					(unit 1)
@@ -3886,7 +3886,7 @@
 			(uuid "3ef5ff98-3262-4d48-ad3d-57e95183126a")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "C9")
 					(unit 1)
@@ -5285,7 +5285,7 @@
 			(uuid "8bee652b-fa33-44a9-a5e1-3a3e4451bfa1")
 		)
 		(instances
-			(project ""
+			(project "GPIOBoard"
 				(path "/7e15a7bf-4331-4979-994a-db54f29e3e06/7b7feb6c-8dcd-484b-a372-56a6899c84fb"
 					(reference "Y1")
 					(unit 1)
