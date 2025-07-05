@@ -2,3 +2,4 @@
 */production/backups
 */*/*-backups
 */*/production/backups
+*.kicad_prl
