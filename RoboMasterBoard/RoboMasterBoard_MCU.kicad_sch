@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "12p"
 			(at 97.79 82.5562 0)
 			(effects
 				(font
@@ -4497,7 +4497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "GCM1885C2A150JA16D"
+		(property "Name" "GCM1885C2A120JA16D"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A150JA16D/1765189"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A120JA16D/2591683"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "16"
+		(property "Price" "15"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND2"
+		(property "Value" "26MHz"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -6694,7 +6694,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "12p"
 			(at 82.804 82.55 0)
 			(effects
 				(font
@@ -6730,7 +6730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "GCM1885C2A150JA16D"
+		(property "Name" "GCM1885C2A120JA16D"
 			(at 85.09 81.28 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A150JA16D/1765189"
+		(property "URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GCM1885C2A120JA16D/2591683"
 			(at 85.09 81.28 0)
 			(effects
 				(font
@@ -6748,7 +6748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "16"
+		(property "Price" "15"
 			(at 85.09 81.28 0)
 			(effects
 				(font
