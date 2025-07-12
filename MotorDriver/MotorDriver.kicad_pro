@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|130412500|92122500|00741401-9726-4693-86dd-b3b57a0f4939|46e1c280-9efc-4057-9a88-488256581801",
+          ""
+        ],
+        [
+          "clearance|130412500|92622500|46e1c280-9efc-4057-9a88-488256581801|656db57f-f172-4680-8f26-68df458d4578",
+          ""
+        ],
+        [
+          "clearance|130412500|93122500|656db57f-f172-4680-8f26-68df458d4578|dd5ec115-b70a-4a50-bead-532c96157ee6",
+          ""
+        ],
+        [
+          "clearance|130412500|93622500|dd5ec115-b70a-4a50-bead-532c96157ee6|f1b100a0-a88f-4105-8d13-d93c60573fe9",
+          ""
+        ],
+        [
+          "clearance|134637500|92447500|c493e1c2-902b-43fe-8a44-9623f6a83f3d|4ed438c2-eae2-4fb5-8459-33137bf519d4",
+          ""
+        ],
+        [
+          "clearance|134637500|92947500|23dd7e99-ae26-4486-9f92-c9ccf666f9cd|c493e1c2-902b-43fe-8a44-9623f6a83f3d",
+          ""
+        ],
+        [
+          "clearance|134637500|93447500|fd5a6011-f732-4537-99a7-6d3e016864fc|23dd7e99-ae26-4486-9f92-c9ccf666f9cd",
+          ""
+        ],
+        [
+          "clearance|134637500|93947500|6296dacc-02f0-4dd1-85b7-a516369e1df0|fd5a6011-f732-4537-99a7-6d3e016864fc",
+          ""
+        ],
+        [
+          "hole_clearance|125430000|90755000|166fc468-9aa1-461b-82c2-a65cbaab13ad|a20a2ebb-18a3-415a-88f7-d7da51c1b4da",
+          ""
+        ],
+        [
+          "hole_clearance|125430000|90755000|166fc468-9aa1-461b-82c2-a65cbaab13ad|a958ee40-8d36-48f7-8e8f-7e71bdc6b962",
+          ""
+        ],
+        [
+          "hole_clearance|125430000|96855000|d5f6e41c-0dfb-495b-ad11-8cd289366f58|92460c7d-b624-4064-b826-d851e0610f72",
+          ""
+        ],
+        [
+          "hole_clearance|125430000|96855000|d5f6e41c-0dfb-495b-ad11-8cd289366f58|f1cd1377-3f6a-469d-b4c6-220ae9f0e09c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +117,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -108,6 +157,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -123,32 +173,32 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.33,
-        "min_hole_to_hole": 0.4,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
-          "td_ontrackend": false,
-          "td_onvia": true
+          "td_onsmdpad": false,
+          "td_ontrackend": true,
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
@@ -188,6 +238,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.5,
         1.0
       ],
@@ -534,13 +585,13 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -555,13 +606,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -588,7 +633,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Name",
           "name": "Name",
           "show": true
@@ -598,6 +643,24 @@
           "label": "Price",
           "name": "Price",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -651,6 +714,26 @@
     [
       "8f65f59a-18af-4fc6-a0c4-92f1c7e5b258",
       "Root"
+    ],
+    [
+      "26bf8b32-dcd7-4617-ada2-1cd2563bd6ce",
+      "Driver"
+    ],
+    [
+      "aad5d2f0-8cde-4086-aa3a-fc4d443aeaf8",
+      "MCU"
+    ],
+    [
+      "3ea97b9a-2f8c-4145-ad31-49d6840e376b",
+      "CAN"
+    ],
+    [
+      "e45160b2-3712-4da7-993a-9a9a9d5d25a6",
+      "USB-UART"
+    ],
+    [
+      "4af301f1-ae74-44bc-94d8-da4d9e0e062e",
+      "Isolator"
     ]
   ],
   "text_variables": {}
