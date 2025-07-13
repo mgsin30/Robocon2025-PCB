@@ -64,19 +64,35 @@
           ""
         ],
         [
-          "copper_edge_clearance|107219000|87490000|39092dc8-402a-467b-8eb0-31e04967cc1c|4ef732b0-7086-4386-8de3-f6433c91dfe7",
+          "copper_edge_clearance|107344000|87490000|b61334e3-d927-4fce-b1c7-6226992f83d4|4ef732b0-7086-4386-8de3-f6433c91dfe7",
           ""
         ],
         [
-          "copper_edge_clearance|151908999|84040000|478fe994-553a-41bb-b751-8a3a8358ecbd|9b40a555-f141-474e-97b0-2db975040306",
+          "copper_edge_clearance|124088458|90622212|8ecd1ead-1897-42ce-978c-a686d1f73d99|0fb8bfca-0290-41e8-849e-98bedca6db79",
           ""
         ],
         [
-          "copper_edge_clearance|203769500|105465001|0b8de77b-4ea1-4685-a2ba-badae264dadb|5e80efae-72e8-4f2d-b4ce-2430e8107834",
+          "copper_edge_clearance|134588458|90622212|f98e8afa-8056-4e70-b7f3-e62dee411272|4543a3cd-bf40-4899-9795-0cbb977405af",
+          ""
+        ],
+        [
+          "copper_edge_clearance|155359000|87490001|65c82060-5d55-43a7-b981-f6f6894d1116|9b40a555-f141-474e-97b0-2db975040306",
+          ""
+        ],
+        [
+          "copper_edge_clearance|203867788|100379458|70e90152-3ca5-4b10-a2ae-e5738496cf09|5ef82e50-994d-4c8e-8a35-3dfbd169e6fe",
+          ""
+        ],
+        [
+          "copper_edge_clearance|203867788|110879458|10790380-c226-4e3f-892b-91add87301da|b8f9594f-fdfe-4f70-86b4-28b33deb1fe5",
           ""
         ],
         [
           "copper_edge_clearance|207219000|137630000|53040b5b-ac90-4797-a8df-f4abf76d9502|c8010a7b-838d-4f4c-aad5-cf169b1cfdb8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|207219500|87490035|53040b5b-ac90-4797-a8df-f4abf76d9502|5e80efae-72e8-4f2d-b4ce-2430e8107834",
           ""
         ]
       ],
@@ -128,6 +144,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -164,11 +181,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
-          "td_ontrackend": false,
-          "td_onvia": true
+          "td_onsmdpad": false,
+          "td_ontrackend": true,
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
@@ -209,7 +226,9 @@
       "track_widths": [
         0.0,
         0.5,
-        1.0
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -524,7 +543,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/CanBusHub.step",
+      "step": "../3D/BoardFixer/parts/CanBusHub_ver1.1.step",
       "svg": "",
       "vrml": ""
     },
