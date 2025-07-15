@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GPIO Board / CAN")
-		(date "2025-07-01")
-		(rev "ver1.2")
+		(date "2025-07-16")
+		(rev "ver1.3")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
