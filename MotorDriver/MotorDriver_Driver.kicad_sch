@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MotorDriver / Driver")
-		(date "2025-07-11")
-		(rev "ver2.0")
+		(date "2025-08-19")
+		(rev "ver2.1")
 	)
 	(lib_symbols
 		(symbol "Anan-Robo_Symbol_Library:+3.3VD"

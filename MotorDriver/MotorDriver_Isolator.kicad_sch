@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MotorDriver / Isolator")
-		(date "2025-07-11")
-		(rev "ver2.0")
+		(date "2025-08-19")
+		(rev "ver2.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols

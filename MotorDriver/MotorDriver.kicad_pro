@@ -561,7 +561,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../3D/Board/MotorDriver_ver2.0.step",
       "svg": "",
       "vrml": ""
     },

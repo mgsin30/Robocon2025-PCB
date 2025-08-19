@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MotorDriver / MCU")
-		(date "2025-07-11")
-		(rev "ver2.0")
+		(date "2025-08-19")
+		(rev "ver2.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
@@ -2298,7 +2298,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PWM1: PB0: TIM3_CH3\nPWM2: PB1: TIM3_CH4\n\nENC_A: PA6: TIM3_CH1\nENC_B: PA7: TIM3_CH2\n\nVOUT: PA4: ADC2_IN1\n\nLED_R: PA0: TIM2_CH1\nLED_G: PA1: TIM2_CH2\nLED_B: PA2: TIM2_CH3\n\nUART2_TX: PB3\nUART2_RX: PA15"
+	(text "PWM1: PB0: TIM3_CH3\nPWM2: PB1: TIM3_CH4\n\nENC_A: PA8: TIM1_CH1\nENC_B: PA9: TIM1_CH2\n\nVOUT: PA4: ADC2_IN1\n\nLED_R: PA0: TIM2_CH1\nLED_G: PA1: TIM2_CH2\nLED_B: PA2: TIM2_CH3\n\nUART2_TX: PB3\nUART2_RX: PA15"
 		(exclude_from_sim no)
 		(at 200.025 92.71 0)
 		(effects
@@ -2900,14 +2900,25 @@
 	)
 	(hierarchical_label "ENC_A{slash}MISO"
 		(shape input)
-		(at 161.29 97.155 0)
+		(at 161.29 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "082c111c-d5bc-48ee-be1f-f96e9370b5b8")
+		(uuid "1561a2d2-958a-453b-b92f-db8059f98c62")
+	)
+	(hierarchical_label "SW2"
+		(shape input)
+		(at 161.29 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "162af9e7-1fca-4d3b-b92a-1849422263be")
 	)
 	(hierarchical_label "VOUT"
 		(shape input)
@@ -3019,17 +3030,6 @@
 		)
 		(uuid "9ee8b1ad-e34c-4e4c-b580-884af72e8c26")
 	)
-	(hierarchical_label "ENC_B{slash}DATA"
-		(shape input)
-		(at 161.29 99.695 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2d8eb58-bbbd-4d47-9ff9-a33d8b74ef35")
-	)
 	(hierarchical_label "UART2_RX"
 		(shape input)
 		(at 161.29 120.015 0)
@@ -3063,16 +3063,16 @@
 		)
 		(uuid "c5078647-f870-409d-9640-5c79801b9767")
 	)
-	(hierarchical_label "SW2"
+	(hierarchical_label "SW1"
 		(shape input)
-		(at 161.29 102.235 0)
+		(at 161.29 97.155 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d4d73d29-20d9-4dfd-848d-7fc256f44753")
+		(uuid "e3c9fd42-7de2-4672-85f2-c4858d1bd29f")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
@@ -3085,7 +3085,7 @@
 		)
 		(uuid "eab58fb2-63ca-4f0f-9473-d105e58e0339")
 	)
-	(hierarchical_label "SW1"
+	(hierarchical_label "ENC_B{slash}DATA"
 		(shape input)
 		(at 161.29 104.775 0)
 		(effects
@@ -3094,7 +3094,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fee3a170-392e-41e2-9a01-886d642a956e")
+		(uuid "ee234538-11b5-4168-9a3e-c9fca169b0e3")
 	)
 	(symbol
 		(lib_id "power:GNDD")
