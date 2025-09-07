@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PAコネクタ(4ピンサイド型),1,Vin / CAN IN,
+J2,PAコネクタ(2ピンサイド型),1,Vin,
+J3,PAコネクタ(4ピンサイド型),1,CAN OUT,
+J4,PAコネクタ(2ピンサイド型),1,OUT1,
+J5,PAコネクタ(2ピンサイド型),1,OUT2,
+J6,PAコネクタ(2ピンサイド型),1,OUT3,
+SW1,SS-12D00G3,1,PWR,

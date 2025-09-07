@@ -1,0 +1,2223 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "02971bde-8457-4a9d-9a15-5554fd1d0e87")
+	(paper "A4")
+	(title_block
+		(title "Fan Board")
+		(date "2025-09-07")
+		(rev "ver1.0")
+		(company "阿南高専ロボット研究部")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 168.275 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203f875c-86dd-4c8a-9efa-9838a57fa137")
+	)
+	(junction
+		(at 169.545 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3afa52-7de8-4cce-8d7d-a5edd1e40f40")
+	)
+	(junction
+		(at 142.24 108.585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46829263-8da5-480a-8018-0b646bf380f5")
+	)
+	(junction
+		(at 143.51 94.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "864bdcb7-3fd2-4afd-877e-d44b816cf149")
+	)
+	(junction
+		(at 168.275 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f3abd5-d435-4f30-9af6-800db9da385f")
+	)
+	(junction
+		(at 142.24 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5102a15-f764-4b88-9177-111fef7dda68")
+	)
+	(junction
+		(at 169.545 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f563147d-b515-48b1-b961-a2d22318ebb1")
+	)
+	(no_connect
+		(at 161.925 92.075)
+		(uuid "ee584dc1-20f8-4f84-a9f2-69d7e5feb246")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.185) (xy 143.51 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1052198a-e55b-430e-9783-c58c9e3ff860")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 142.24 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1563d016-a7a2-4253-a0cd-4036b143d2b3")
+	)
+	(wire
+		(pts
+			(xy 168.275 97.155) (xy 168.275 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c679de-689f-45f3-92dc-b0f04167f200")
+	)
+	(wire
+		(pts
+			(xy 169.545 95.885) (xy 169.545 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2530d894-7318-4e50-b4f0-342e1520ad92")
+	)
+	(wire
+		(pts
+			(xy 168.275 93.345) (xy 170.815 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b563213-5cb8-4725-a9e2-b2518a618609")
+	)
+	(wire
+		(pts
+			(xy 137.795 102.235) (xy 142.24 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b8929e-5656-46fe-b8b6-104c6f7cebdc")
+	)
+	(wire
+		(pts
+			(xy 137.795 88.265) (xy 140.335 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e8d3f6-1396-45b6-afde-484252ae5224")
+	)
+	(wire
+		(pts
+			(xy 139.065 97.155) (xy 137.795 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721bb312-9c88-4c2b-af5f-30e181f34c0a")
+	)
+	(wire
+		(pts
+			(xy 170.815 89.535) (xy 169.545 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e4da3-362e-48f2-bddb-c1a75bf412e4")
+	)
+	(wire
+		(pts
+			(xy 168.275 86.995) (xy 168.275 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756a820b-aee6-463f-ba66-3e503b837186")
+	)
+	(wire
+		(pts
+			(xy 137.795 106.045) (xy 143.51 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fef044-32df-4185-9349-36c3e88ae37c")
+	)
+	(wire
+		(pts
+			(xy 137.795 83.185) (xy 143.51 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b62852-856a-43ea-afb8-b64c06986511")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.235) (xy 142.24 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c79831-f50c-4949-85c5-e634d0f4a3a1")
+	)
+	(wire
+		(pts
+			(xy 137.795 94.615) (xy 143.51 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22ac55a-35e3-43c9-9b45-5d8c90d3752d")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.805) (xy 142.24 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3321b74-c1e2-4218-a14f-d4328d91ee5b")
+	)
+	(wire
+		(pts
+			(xy 143.51 94.615) (xy 151.765 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe19411-cdcb-4723-ad12-535d74427da9")
+	)
+	(wire
+		(pts
+			(xy 137.795 90.805) (xy 142.24 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acec6d49-4380-47ef-b95c-6b33ea9cdf40")
+	)
+	(wire
+		(pts
+			(xy 161.925 97.155) (xy 168.275 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6e7a9d-86f4-4760-a6c9-f5209565c123")
+	)
+	(wire
+		(pts
+			(xy 140.335 99.695) (xy 137.795 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f81857-0c6a-4e15-901b-09df4a97832c")
+	)
+	(wire
+		(pts
+			(xy 170.815 99.695) (xy 168.275 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ca001f-3003-453e-af02-239c50ffb37c")
+	)
+	(wire
+		(pts
+			(xy 143.51 94.615) (xy 143.51 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1605b5-209d-4ce3-b88d-0b349b464a44")
+	)
+	(wire
+		(pts
+			(xy 140.335 88.265) (xy 140.335 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f82ead-4dcb-480b-82aa-9d4c827e531b")
+	)
+	(wire
+		(pts
+			(xy 170.815 86.995) (xy 168.275 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67f79d0-efc4-48de-a1f2-69a41a973ae8")
+	)
+	(wire
+		(pts
+			(xy 169.545 102.235) (xy 170.815 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebea2782-44f2-49c8-91c4-2d9195dd16f8")
+	)
+	(wire
+		(pts
+			(xy 169.545 95.885) (xy 170.815 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb8f0e8-57f1-4054-9ac4-a544687a1f1f")
+	)
+	(wire
+		(pts
+			(xy 142.24 108.585) (xy 137.795 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f275fee1-b99b-49a0-b31f-f3ebbc903bc0")
+	)
+	(wire
+		(pts
+			(xy 137.795 85.725) (xy 139.065 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4022be5-9d28-4dff-a5ee-252878e7e738")
+	)
+	(wire
+		(pts
+			(xy 169.545 89.535) (xy 169.545 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46d7147-39c2-4e2b-baba-26f4a5bda4e9")
+	)
+	(wire
+		(pts
+			(xy 168.275 99.695) (xy 168.275 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2924e9-2c39-424e-864f-4d26ce3d5697")
+	)
+	(wire
+		(pts
+			(xy 139.065 85.725) (xy 139.065 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6903bb-1fa4-478c-a8fb-04ac120b0b9d")
+	)
+	(label "5Vout"
+		(at 168.275 86.995 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "535e8ae1-1ee6-45dc-9c5d-0dd0a144913a")
+	)
+	(label "5Vin"
+		(at 143.51 83.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abc790d9-32a5-427d-b457-77f53842c411")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 132.715 97.155 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e8660e0-0afc-489b-9c6f-41a85a17ffb4")
+		(property "Reference" "J3"
+			(at 130.175 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN OUT"
+			(at 130.175 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(4ピンサイド型)"
+			(at 132.715 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.715 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.715 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40ac73f5-e99e-45d2-bbf1-73eaadf82a79")
+		)
+		(pin "4"
+			(uuid "1b78aa68-a720-4364-b4bd-f60c5784f27c")
+		)
+		(pin "3"
+			(uuid "227242e0-85e3-4610-ac91-7f65c1913d0a")
+		)
+		(pin "2"
+			(uuid "545b92a5-a5c2-4109-b710-9ccccc3ddb0f")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 165.735 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f69a1e-b27a-4be0-8b44-2476d4cc811e")
+		(property "Reference" "H4"
+			(at 168.275 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 168.275 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:Info_S"
+			(at 165.735 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.735 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 165.735 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 132.715 85.725 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a12c19-c68f-434f-9f9e-04d66119170e")
+		(property "Reference" "J1"
+			(at 130.175 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vin / CAN IN"
+			(at 130.175 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(4ピンサイド型)"
+			(at 132.715 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.715 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.715 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee1e25f-0839-47a8-ac1d-1ef4289a486d")
+		)
+		(pin "4"
+			(uuid "a84597a4-17b7-4830-bfd8-6f4aa3396e66")
+		)
+		(pin "3"
+			(uuid "46f8d35c-20d9-42de-9df3-c58ff864c9b4")
+		)
+		(pin "2"
+			(uuid "6cba08d1-4a33-4614-b397-f1e4ab7b6615")
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 175.895 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38704b9e-727f-49f3-bee2-06d8d7dd4df5")
+		(property "Reference" "J5"
+			(at 178.435 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT2"
+			(at 178.435 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(2ピンサイド型)"
+			(at 175.895 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.895 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.895 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba3cf90d-d4f5-4584-a5ec-2fa260d91312")
+		)
+		(pin "1"
+			(uuid "70db3dd6-71f2-4781-bfd5-28631cedb72c")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 175.895 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "392c66e4-c535-4142-b04f-677669eecaab")
+		(property "Reference" "J4"
+			(at 178.435 86.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT1"
+			(at 178.435 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(2ピンサイド型)"
+			(at 175.895 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.895 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.895 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "630f8acb-6fc1-4753-b2f8-163ada880146")
+		)
+		(pin "1"
+			(uuid "54e15ee6-0151-4b00-9083-68cd54399513")
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 130.175 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e69fc5c-5aea-47ca-b662-f771e50d54e1")
+		(property "Reference" "H1"
+			(at 139.7 127.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 130.1749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 137.16 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61fad820-5b0f-4c50-8fbf-9ede08349517")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 144.145 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ae9b28-3f28-447d-b65e-9ec43e14a78d")
+		(property "Reference" "#PWR04"
+			(at 137.16 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1653b0e8-6a03-44aa-8bdd-b8597f950eeb")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 165.735 128.905 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9667a721-0c45-4700-b61c-fd4e270ef8ce")
+		(property "Reference" "H3"
+			(at 168.275 127.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 168.275 130.1749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:Title"
+			(at 165.735 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.735 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 165.735 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 175.895 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98fad0d7-1351-4854-9598-0b618e430f27")
+		(property "Reference" "J6"
+			(at 178.435 99.6949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT3"
+			(at 178.435 102.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(2ピンサイド型)"
+			(at 175.895 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.895 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.895 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99290a55-803e-46cc-859e-a9bda69ee9fd")
+		)
+		(pin "1"
+			(uuid "9ea965bf-bcac-4cf0-939e-805c9259b06e")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 132.715 106.045 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a02b0bf7-e381-42a2-93b6-9e699a9dd0ca")
+		(property "Reference" "J2"
+			(at 130.175 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vin"
+			(at 130.175 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:PAコネクタ(2ピンサイド型)"
+			(at 132.715 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.715 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.715 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42227636-9d7f-47c6-9557-1bdcbe96cfec")
+		)
+		(pin "2"
+			(uuid "d44b94c0-7393-4bcd-a83d-b558e3c6fd1c")
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 156.845 94.615 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b038f640-2bf7-441b-8983-2b2a9585e77d")
+		(property "Reference" "SW1"
+			(at 156.845 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 156.845 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Anan-Robo_Footprint_Library:SS-12D00G3"
+			(at 156.845 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.845 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 156.845 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9121f661-0b78-4dbb-b84f-4ab6be2b67e4")
+		)
+		(pin "3"
+			(uuid "b4fe5044-c7af-4515-8a11-6b2af9b28c66")
+		)
+		(pin "2"
+			(uuid "aa24bbf0-aafc-40c4-bcae-39911120ec09")
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 169.545 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3041265-0dfd-45f1-a0e1-595184dbbd0c")
+		(property "Reference" "#PWR01"
+			(at 169.545 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.545 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 169.545 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b40f2c-b2d3-4849-9355-d1ca5ce247a4")
+		)
+		(instances
+			(project ""
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36053f6-9ff2-49ee-875e-a26eb19af742")
+		(property "Reference" "#PWR02"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fafc18da-bb81-49ff-979d-bf9f836f7c12")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0557ec3-86f6-4b7a-b678-56c6b6f5131e")
+		(property "Reference" "#PWR03"
+			(at 137.16 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b3badb-b2e1-4a8b-a71d-d1faf9d28628")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff3dcf12-f51a-4956-8ee4-9e452536a917")
+		(property "Reference" "H2"
+			(at 139.7 139.0649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 141.6049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 137.16 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "385ae135-6df6-48ce-a41a-31a0f26cd76b")
+		)
+		(instances
+			(project "FanBoard"
+				(path "/02971bde-8457-4a9d-9a15-5554fd1d0e87"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
