@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "XT60 Hub")
-		(date "2025-04-02")
-		(rev "ver1.0")
+		(date "2025-09-10")
+		(rev "ver1.1")
 		(company "阿南高専ロボット研究部")
 	)
 	(lib_symbols
