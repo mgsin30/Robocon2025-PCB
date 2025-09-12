@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "XT30 Hub")
-		(date "2025-04-01")
-		(rev "ver1.0")
+		(date "2025-09-10")
+		(rev "ver1.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
